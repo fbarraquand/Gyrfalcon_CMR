@@ -1,0 +1,114 @@
+---
+title: "Preliminary analysis of the Icelandic Gyrfalcon CMR dataset"
+author: "Frederic Barraquand, Olafur Nielsen"
+date: "November 6, 2017"
+output:
+  word_document: null
+  pdf_document: default
+  number_sections: yes
+header-includes:
+- \usepackage{setspace}
+- \doublespacing
+- \usepackage{lineno}
+- \linenumbers
+csl: ecology.csl
+bibliography: /home/frederic/Dropbox/database/total.bib
+---
+
+Here I attempt to explore the CMR dataset, before we go to inferential models to estimate survival and perhaps link this to an integrated pop. model. 
+
+## Basic statistics
+
+How many birds have been ringed? 
+
+```{r}
+dringed<-read.csv("Gyrs_ringed.csv")
+head(dringed) # What's in the data table
+length(unique(dringed$RingNo)) #How many unique bird IDs
+```
+
+OK, so we have a little more than 1700 unique IDs. Isn't this much compared to the total population? 
+
+Let's compare to how many gyrs have been recovered. 
+
+```{r}
+drecov<-read.csv("Gyrs_recovered.csv")
+length(unique(drecov$RingNo)) #How many unique bird IDs in Gyrs_recovered.csv
+```
+
+Let's now analyse the number of birds that have been ringed as a function of the year 
+
+```{r,echo=FALSE} 
+dringed$Year=format(as.Date(dringed$RingingDate, format="%d/%m/%Y"),"%Y")
+years_ringed=sort(unique(as.numeric(na.omit(dringed$Year))))
+ringed_birds_per_year=years_ringed # initializing
+for (k in 1:length(years_ringed)){
+  ringed_birds_per_year[k]=length(unique(dringed$RingNo[dringed$Year==years_ringed[k]]))
+}
+plot(years_ringed,ringed_birds_per_year,type="h",lwd=5,col="red")
+#ggplot(data=,aes(x=years_ringed, y=ringed_birds_per_year)) + geom_bar(stat="identity")
+```
+
+We now analyse the patterns of recovery (and resighting)
+
+```{r,echo=FALSE} 
+drecov$Year=format(as.Date(drecov$RecoveryDate, format="%d/%m/%Y"),"%Y")
+years_of_recovery=sort(unique(as.numeric(na.omit(drecov$Year))))
+birds_recovered_per_year=years_of_recovery# initializing
+for (k in 1:length(years_of_recovery)){
+  birds_recovered_per_year[k]=length(unique(drecov$RingNo[drecov$Year==years_of_recovery[k]]))
+}
+plot(years_of_recovery,birds_recovered_per_year,type="h",lwd=5,col="blue")
+```
+
+Now how many birds have been seen several times? We see below that very few birds have been recovered more than once (also this tends to be recent?). 
+
+----
+**Question: when did the change from recovery of dead birds to resighting of live birds occur?**
+----
+I can infer the earliest date at which a bird has been resighted a second time, but given few birds have been resighted, but it might be preferable to allow later for a change in protocol (in the CMR models) using a predefined time (we can use several if unsure). I have noted 2006 earlier but I am unsure. 
+
+$~$
+
+```{r,echo=FALSE} 
+bird_recovered_list=unique(drecov$RingNo)
+ntimes_recovered=rep(0,length(bird_recovered_list))
+for (k in 1:length(bird_recovered_list)){
+  ntimes_recovered[k]=sum(drecov$RingNo==bird_recovered_list[k])
+}
+plot(bird_recovered_list,ntimes_recovered,type="o",lwd=1,col="black",xlab="Bird ID",ylab= "Ntimes recovered")
+table(ntimes_recovered)
+```
+
+Thus for all practical purposes, we can consider that such data consists mainly of individual that are either recovered or not recovered/resighted. We'll now turn to whether the individuals have been found live or dead, and how this varies in time. 
+
+Also whether the recoveries of dead birds are of young vs. adult birds (which may provide quick and dirty estimates of survival rates, at least for the youngs...)
+
+```{r} 
+table(drecov$RecoveryCode) ## these are all the recovery codes that we have (top row), and how many of those we have in the dataset (bottom row). For instance, we can see 15 read colourmarks. We need to simplify this complexity to some extent by aggregating some values.  
+
+```
+
+*Now we need some more info on the codes, I'm attempting below to fill this gap but may need some help*
+
+
+| AGE Code      | Meaning                     | 
+|-------------- |:---------------------------:|
+| 100           | unfledged young             |
+| 101           | unfledged young at the nest |
+| 501           | adult at the nest           |  
+
+
+ 
+| RECOVERY Code    | Meaning                          | 
+|------------------|:--------------------------------:|
+| 100              | found dead                       |
+| 120              | found dead for a long time       |
+| 121              | found dead with one tag only?    |
+| 146              | found dead just outside the nest |
+| 5700             | read colourmark                  |
+| 981,996          | found injured and had to kill it |
+
+
+
+
