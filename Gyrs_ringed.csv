@@ -1,0 +1,1739 @@
+Program,RingNo,Species,ColourRing,RingerCode,Ringer,RingingDate,SiteID,AgeCode,Age,SEX,Notes
+REYK,14499,Fálki,,32,Finnur Guðmundsson,7/31/1954,3376,202,Eldisungi,0,"Tekinn úr hr. alinn til útflutnings á Ystafelli, S-Þing."
+REYK,2451,Fálki,,62,Helgi Þórarinsson (eldri),7/8/1940,703,101,Ófleygur ungi í hreiðri,0,
+REYK,2452,Fálki,,62,Helgi Þórarinsson (eldri),7/8/1940,703,101,Ófleygur ungi í hreiðri,0,
+REYK,2453,Fálki,,62,Helgi Þórarinsson (eldri),7/8/1940,703,101,Ófleygur ungi í hreiðri,0,
+REYK,32671,Fálki,,88,Hallgrímur Sæmundsson,9/28/1943,3437,460,Fullvaxinn (1. árs+),0,
+REYK,21602,Fálki,,97,Tryggvi Eyjólfsson,9/12/1958,1743,100,Ófleygur ungi,0,
+REYK,33202,Fálki,,139,Ragnar Víkingsson,12/14/1952,400,305,Fleygur ungi,0,
+REYK,36240,Fálki,,145,Tryggvi Stefánsson (1953),6/13/1958,1304,101,Ófleygur ungi í hreiðri,0,
+REYK,21739,Fálki,,148,Óskar J. Sigurðsson,10/31/1966,1914,410,Fullvaxinn (1. ár),0,
+REYK,21795,Fálki,,148,Óskar J. Sigurðsson,2/17/2001,1910,400,Fullvaxinn,0,Hv.F.í Brynjólfi ÁR 1.2.
+REYK,139401,Fálki,,148,Óskar J. Sigurðsson,10/11/2013,1914,410,Fullvaxinn (1. ár),0,
+REYK,35406,Fálki,,152,Tryggvi Sigtryggsson,6/21/1958,3323,101,Ófleygur ungi í hreiðri,0,"Systkini: 35407, 35408, 35409."
+REYK,35407,Fálki,,152,Tryggvi Sigtryggsson,6/21/1958,3323,101,Ófleygur ungi í hreiðri,0,"Systkini: 35406, 35408, 35409."
+REYK,35408,Fálki,,152,Tryggvi Sigtryggsson,6/21/1958,3323,101,Ófleygur ungi í hreiðri,0,"Systkini: 35406, 35407, 35409."
+REYK,35409,Fálki,,152,Tryggvi Sigtryggsson,6/21/1958,3323,101,Ófleygur ungi í hreiðri,0,"Systkini: 35406, 35407, 35408."
+REYK,22446,Fálki,,159,Sigurður Helgason,12/20/1961,1670,460,Fullvaxinn (1. árs+),M,
+REYK,18551,Fálki,,191,Ævar Petersen,4/23/1977,20,400,Fullvaxinn,0,
+REYK,17957,Fálki,,191,Ævar Petersen,5/23/1986,3502,400,Fullvaxinn,0,"Fannst við Ásgarð í Breiðdal, S-Múl. 7.5.1986, þveginn og sleppt 23.5."
+REYK,0457,Fálki,,214,Sigurgeir Sigurðsson,11/10/1973,1910,410,Fullvaxinn (1. ár),0,
+REYK,16202,Fálki,,214,Sigurgeir Sigurðsson,3/25/1989,1910,400,Fullvaxinn,0,
+REYK,17512,Fálki,,214,Sigurgeir Sigurðsson,3/22/1992,1910,492,"Fullvaxinn í haldi, sleppt annars staðar",0,"Fannst 1.3.1992 illa á sig kominn, horaður, gat ekki flogið."
+REYK,15551,Fálki,,216,Ólafur K. Nielsen,7/12/1975,3396,101,Ófleygur ungi í hreiðri,0,
+REYK,15552,Fálki,,216,Ólafur K. Nielsen,7/12/1975,3396,101,Ófleygur ungi í hreiðri,0,
+REYK,15553,Fálki,,216,Ólafur K. Nielsen,7/12/1975,3396,101,Ófleygur ungi í hreiðri,0,
+REYK,15554,Fálki,,216,Ólafur K. Nielsen,6/20/1976,1324,100,Ófleygur ungi,0,
+REYK,15555,Fálki,,216,Ólafur K. Nielsen,6/20/1976,1324,100,Ófleygur ungi,0,
+REYK,15556,Fálki,,216,Ólafur K. Nielsen,6/20/1976,1324,100,Ófleygur ungi,0,
+REYK,15557,Fálki,,216,Ólafur K. Nielsen,6/20/1976,1324,100,Ófleygur ungi,0,
+REYK,15558,Fálki,,216,Ólafur K. Nielsen,7/25/1976,2401,100,Ófleygur ungi,0,
+REYK,15559,Fálki,,216,Ólafur K. Nielsen,6/15/1978,1324,100,Ófleygur ungi,0,
+REYK,15560,Fálki,,216,Ólafur K. Nielsen,6/15/1978,1324,100,Ófleygur ungi,0,
+REYK,15561,Fálki,,216,Ólafur K. Nielsen,6/15/1978,1324,100,Ófleygur ungi,0,
+REYK,15562,Fálki,,216,Ólafur K. Nielsen,6/15/1978,1324,101,Ófleygur ungi í hreiðri,0,
+REYK,15563,Fálki,,216,Ólafur K. Nielsen,7/6/1978,1293,100,Ófleygur ungi,0,
+REYK,15564,Fálki,,216,Ólafur K. Nielsen,7/6/1978,1293,100,Ófleygur ungi,0,
+REYK,15565,Fálki,,216,Ólafur K. Nielsen,7/6/1978,1293,100,Ófleygur ungi,0,
+REYK,15566,Fálki,,216,Ólafur K. Nielsen,7/6/1978,1293,100,Ófleygur ungi,0,
+REYK,110153,Fálki,,216,Ólafur K. Nielsen,6/9/1981,1262,100,Ófleygur ungi,F,
+REYK,110154,Fálki,,216,Ólafur K. Nielsen,6/9/1981,1262,100,Ófleygur ungi,M,
+REYK,110155,Fálki,,216,Ólafur K. Nielsen,6/9/1981,1262,100,Ófleygur ungi,M,
+REYK,110156,Fálki,,216,Ólafur K. Nielsen,6/10/1981,1446,100,Ófleygur ungi,M,
+REYK,110157,Fálki,,216,Ólafur K. Nielsen,6/10/1981,1446,100,Ófleygur ungi,M,
+REYK,110158,Fálki,,216,Ólafur K. Nielsen,6/10/1981,1446,100,Ófleygur ungi,M,
+REYK,110159,Fálki,,216,Ólafur K. Nielsen,6/10/1981,1446,100,Ófleygur ungi,F,
+REYK,110168,Fálki,,216,Ólafur K. Nielsen,6/11/1981,1384,100,Ófleygur ungi,F,
+REYK,110169,Fálki,,216,Ólafur K. Nielsen,6/11/1981,1384,100,Ófleygur ungi,M,
+REYK,110170,Fálki,,216,Ólafur K. Nielsen,6/11/1981,1384,100,Ófleygur ungi,F,
+REYK,110160,Fálki,,216,Ólafur K. Nielsen,6/11/1981,1391,100,Ófleygur ungi,M,
+REYK,110163,Fálki,,216,Ólafur K. Nielsen,6/11/1981,1391,100,Ófleygur ungi,M,
+REYK,110164,Fálki,,216,Ólafur K. Nielsen,6/11/1981,1391,501,Fullorðinn með hreiður,F,
+REYK,110165,Fálki,,216,Ólafur K. Nielsen,6/11/1981,1229,100,Ófleygur ungi,F,
+REYK,110166,Fálki,,216,Ólafur K. Nielsen,6/11/1981,1229,100,Ófleygur ungi,M,
+REYK,110167,Fálki,,216,Ólafur K. Nielsen,6/11/1981,1229,100,Ófleygur ungi,F,
+REYK,110161,Fálki,,216,Ólafur K. Nielsen,6/11/1981,2318,100,Ófleygur ungi,F,
+REYK,110162,Fálki,,216,Ólafur K. Nielsen,6/11/1981,2318,100,Ófleygur ungi,M,
+REYK,110171,Fálki,,216,Ólafur K. Nielsen,6/13/1981,2356,100,Ófleygur ungi,M,
+REYK,110172,Fálki,,216,Ólafur K. Nielsen,6/13/1981,2356,100,Ófleygur ungi,M,
+REYK,110173,Fálki,,216,Ólafur K. Nielsen,6/13/1981,2356,100,Ófleygur ungi,F,
+REYK,110174,Fálki,,216,Ólafur K. Nielsen,6/13/1981,1330,100,Ófleygur ungi,F,
+REYK,110175,Fálki,,216,Ólafur K. Nielsen,6/13/1981,1330,100,Ófleygur ungi,F,
+REYK,110176,Fálki,,216,Ólafur K. Nielsen,6/13/1981,1330,100,Ófleygur ungi,M,
+REYK,110177,Fálki,,216,Ólafur K. Nielsen,6/16/1981,1273,100,Ófleygur ungi,M,
+REYK,110178,Fálki,,216,Ólafur K. Nielsen,6/16/1981,1273,100,Ófleygur ungi,F,
+REYK,110179,Fálki,,216,Ólafur K. Nielsen,6/16/1981,1273,100,Ófleygur ungi,M,
+REYK,110184,Fálki,,216,Ólafur K. Nielsen,6/17/1981,1488,100,Ófleygur ungi,F,
+REYK,110185,Fálki,,216,Ólafur K. Nielsen,6/17/1981,1488,100,Ófleygur ungi,F,
+REYK,110186,Fálki,,216,Ólafur K. Nielsen,6/22/1981,3317,100,Ófleygur ungi,F,
+REYK,110187,Fálki,,216,Ólafur K. Nielsen,6/22/1981,3317,100,Ófleygur ungi,F,
+REYK,110188,Fálki,,216,Ólafur K. Nielsen,6/22/1981,3317,100,Ófleygur ungi,F,
+REYK,110189,Fálki,,216,Ólafur K. Nielsen,6/24/1981,891,100,Ófleygur ungi,F,
+REYK,110190,Fálki,,216,Ólafur K. Nielsen,6/29/1981,1293,100,Ófleygur ungi,M,"Systkini: 110191, 110192"
+REYK,110191,Fálki,,216,Ólafur K. Nielsen,6/29/1981,1293,100,Ófleygur ungi,F,"Systkini: 110190, 110192"
+REYK,110192,Fálki,,216,Ólafur K. Nielsen,6/29/1981,1293,100,Ófleygur ungi,F,"Systkini: 110190, 110191"
+REYK,110193,Fálki,,216,Ólafur K. Nielsen,7/1/1981,2396,100,Ófleygur ungi,M,
+REYK,110194,Fálki,,216,Ólafur K. Nielsen,7/1/1981,2396,100,Ófleygur ungi,M,
+REYK,110195,Fálki,,216,Ólafur K. Nielsen,7/1/1981,2396,100,Ófleygur ungi,F,
+REYK,17551,Fálki,,216,Ólafur K. Nielsen,6/2/1982,1446,400,Fullvaxinn,F,
+REYK,17552,Fálki,,216,Ólafur K. Nielsen,6/8/1982,1384,400,Fullvaxinn,F,
+REYK,112501,Fálki,gulur 28,216,Ólafur K. Nielsen,6/8/1982,1384,101,Ófleygur ungi í hreiðri,F,
+REYK,112502,Fálki,gulur 30,216,Ólafur K. Nielsen,6/8/1982,1384,101,Ófleygur ungi í hreiðri,M,
+REYK,112503,Fálki,gulur 29,216,Ólafur K. Nielsen,6/8/1982,1384,101,Ófleygur ungi í hreiðri,F,
+REYK,112504,Fálki,,216,Ólafur K. Nielsen,6/8/1982,1384,101,Ófleygur ungi í hreiðri,M,
+REYK,17614,Fálki,,216,Ólafur K. Nielsen,6/9/1982,1936,100,Ófleygur ungi,M,
+REYK,17615,Fálki,,216,Ólafur K. Nielsen,6/9/1982,1936,100,Ófleygur ungi,M,
+REYK,112505,Fálki,gulur 33,216,Ólafur K. Nielsen,6/9/1982,1936,101,Ófleygur ungi í hreiðri,F,"Systkini: 17614, 17615"
+REYK,112506,Fálki,,216,Ólafur K. Nielsen,6/13/1982,2128,101,Ófleygur ungi í hreiðri,F,
+REYK,112507,Fálki,,216,Ólafur K. Nielsen,6/13/1982,2128,101,Ófleygur ungi í hreiðri,F,
+REYK,112508,Fálki,gulur 19,216,Ólafur K. Nielsen,6/13/1982,2128,101,Ófleygur ungi í hreiðri,F,
+REYK,112509,Fálki,,216,Ólafur K. Nielsen,6/13/1982,2128,101,Ófleygur ungi í hreiðri,F,
+REYK,17620,Fálki,,216,Ólafur K. Nielsen,6/14/1982,1259,100,Ófleygur ungi,M,
+REYK,17621,Fálki,,216,Ólafur K. Nielsen,6/14/1982,1259,100,Ófleygur ungi,M,
+REYK,112510,Fálki,gulur 20,216,Ólafur K. Nielsen,6/14/1982,1259,101,Ófleygur ungi í hreiðri,F,
+REYK,112511,Fálki,gulur 21,216,Ólafur K. Nielsen,6/14/1982,1259,101,Ófleygur ungi í hreiðri,F,
+REYK,112512,Fálki,gulur 27,216,Ólafur K. Nielsen,6/16/1982,1293,101,Ófleygur ungi í hreiðri,F,
+REYK,17622,Fálki,,216,Ólafur K. Nielsen,6/16/1982,1293,100,Ófleygur ungi,M,
+REYK,17623,Fálki,,216,Ólafur K. Nielsen,6/16/1982,1293,100,Ófleygur ungi,M,
+REYK,17624,Fálki,,216,Ólafur K. Nielsen,6/16/1982,1293,100,Ófleygur ungi,M,
+REYK,112513,Fálki,,216,Ólafur K. Nielsen,6/16/1982,2396,101,Ófleygur ungi í hreiðri,F,
+REYK,112514,Fálki,gulur 24,216,Ólafur K. Nielsen,6/16/1982,2396,101,Ófleygur ungi í hreiðri,F,
+REYK,17625,Fálki,,216,Ólafur K. Nielsen,6/16/1982,2396,100,Ófleygur ungi,M,
+REYK,17626,Fálki,,216,Ólafur K. Nielsen,6/16/1982,2396,100,Ófleygur ungi,M,
+REYK,17627,Fálki,,216,Ólafur K. Nielsen,6/17/1982,1306,100,Ófleygur ungi,M,
+REYK,17628,Fálki,,216,Ólafur K. Nielsen,6/17/1982,1306,100,Ófleygur ungi,M,
+REYK,112515,Fálki,gulur 1,216,Ólafur K. Nielsen,6/17/1982,1306,101,Ófleygur ungi í hreiðri,F,
+REYK,112516,Fálki,gulur 4,216,Ólafur K. Nielsen,6/17/1982,1306,101,Ófleygur ungi í hreiðri,F,
+REYK,17629,Fálki,,216,Ólafur K. Nielsen,6/17/1982,1446,100,Ófleygur ungi,M,
+REYK,112517,Fálki,gulur 5,216,Ólafur K. Nielsen,6/17/1982,1446,101,Ófleygur ungi í hreiðri,F,
+REYK,112518,Fálki,gulur 7,216,Ólafur K. Nielsen,6/17/1982,1446,100,Ófleygur ungi,F,
+REYK,112519,Fálki,gulur 8,216,Ólafur K. Nielsen,6/17/1982,1446,101,Ófleygur ungi í hreiðri,F,
+REYK,17632,Fálki,,216,Ólafur K. Nielsen,6/20/1982,891,100,Ófleygur ungi,M,
+REYK,112520,Fálki,gulur 10,216,Ólafur K. Nielsen,6/21/1982,1283,101,Ófleygur ungi í hreiðri,F,
+REYK,112521,Fálki,gulur 12,216,Ólafur K. Nielsen,6/21/1982,1283,101,Ófleygur ungi í hreiðri,F,
+REYK,17630,Fálki,,216,Ólafur K. Nielsen,6/21/1982,1283,100,Ófleygur ungi,M,
+REYK,112522,Fálki,gulur 13,216,Ólafur K. Nielsen,6/30/1982,2397,101,Ófleygur ungi í hreiðri,F,
+REYK,112523,Fálki,gulur 14,216,Ólafur K. Nielsen,6/30/1982,2397,101,Ófleygur ungi í hreiðri,F,
+REYK,112524,Fálki,,216,Ólafur K. Nielsen,7/1/1982,934,100,Ófleygur ungi,F,
+REYK,112525,Fálki,gulur 17,216,Ólafur K. Nielsen,7/1/1982,934,101,Ófleygur ungi í hreiðri,F,
+REYK,112526,Fálki,gulur 18,216,Ólafur K. Nielsen,7/1/1982,934,101,Ófleygur ungi í hreiðri,F,
+REYK,17631,Fálki,,216,Ólafur K. Nielsen,7/1/1982,934,100,Ófleygur ungi,M,
+REYK,112527,Fálki,gulur 34,216,Ólafur K. Nielsen,7/6/1982,1486,101,Ófleygur ungi í hreiðri,F,
+REYK,112528,Fálki,,216,Ólafur K. Nielsen,6/21/1983,1229,501,Fullorðinn með hreiður,F,
+REYK,112529,Fálki,HR,216,Ólafur K. Nielsen,6/30/1983,935,101,Ófleygur ungi í hreiðri,0,"Litmerki: R=rautt, H=hvítt, B=blátt, S=svart, G=gult"
+REYK,112530,Fálki,,216,Ólafur K. Nielsen,7/2/1983,914,101,Ófleygur ungi í hreiðri,F,
+REYK,112531,Fálki,SH,216,Ólafur K. Nielsen,7/4/1983,1363,101,Ófleygur ungi í hreiðri,F,"Litmerki: R=rautt, H=hvítt, B=blátt, S=svart, G=gult"
+REYK,17633,Fálki,,216,Ólafur K. Nielsen,7/4/1983,1363,100,Ófleygur ungi,M,
+REYK,112532,Fálki,RS,216,Ólafur K. Nielsen,7/4/1983,1936,101,Ófleygur ungi í hreiðri,F,"Litmerki: R=rautt, H=hvítt, B=blátt, S=svart, G=gult"
+REYK,17634,Fálki,,216,Ólafur K. Nielsen,7/4/1983,1936,100,Ófleygur ungi,M,
+REYK,112533,Fálki,SH,216,Ólafur K. Nielsen,7/5/1983,1486,101,Ófleygur ungi í hreiðri,F,"Litmerki: R=rautt, H=hvítt, B=blátt, S=svart, G=gult"
+REYK,112534,Fálki,HR,216,Ólafur K. Nielsen,7/5/1983,1486,101,Ófleygur ungi í hreiðri,F,"Litmerki: R=rautt, H=hvítt, B=blátt, S=svart, G=gult"
+REYK,17635,Fálki,,216,Ólafur K. Nielsen,7/5/1983,1486,100,Ófleygur ungi,M,
+REYK,112535,Fálki,HS,216,Ólafur K. Nielsen,7/8/1983,1295,101,Ófleygur ungi í hreiðri,F,"Litmerki: R=rautt, H=hvítt, B=blátt, S=svart, G=gult"
+REYK,112536,Fálki,SR,216,Ólafur K. Nielsen,7/8/1983,1295,101,Ófleygur ungi í hreiðri,F,"Litmerki: R=rautt, H=hvítt, B=blátt, S=svart, G=gult"
+REYK,17636,Fálki,,216,Ólafur K. Nielsen,7/8/1983,1295,100,Ófleygur ungi,M,
+REYK,17637,Fálki,,216,Ólafur K. Nielsen,7/16/1983,891,100,Ófleygur ungi,M,
+REYK,112537,Fálki,BR,216,Ólafur K. Nielsen,7/16/1983,891,101,Ófleygur ungi í hreiðri,F,
+REYK,112538,Fálki,BS,216,Ólafur K. Nielsen,7/16/1983,891,101,Ófleygur ungi í hreiðri,F,"Litmerki: R=rautt, H=hvítt, B=blátt, S=svart, G=gult"
+REYK,17638,Fálki,,216,Ólafur K. Nielsen,7/19/1983,1446,100,Ófleygur ungi,M,
+REYK,17639,Fálki,,216,Ólafur K. Nielsen,7/19/1983,1446,100,Ófleygur ungi,M,
+REYK,17640,Fálki,,216,Ólafur K. Nielsen,7/29/1983,1229,100,Ófleygur ungi,M,
+REYK,17641,Fálki,,216,Ólafur K. Nielsen,7/29/1983,1229,100,Ófleygur ungi,M,
+REYK,112540,Fálki,,216,Ólafur K. Nielsen,6/3/1984,1936,101,Ófleygur ungi í hreiðri,M,
+REYK,112541,Fálki,,216,Ólafur K. Nielsen,6/3/1984,1936,101,Ófleygur ungi í hreiðri,F,
+REYK,17929,Fálki,,216,Ólafur K. Nielsen,6/3/1984,1936,100,Ófleygur ungi,F,Syst. 112540-112541.
+REYK,112542,Fálki,,216,Ólafur K. Nielsen,6/7/1984,1323,101,Ófleygur ungi í hreiðri,F,
+REYK,112543,Fálki,,216,Ólafur K. Nielsen,6/7/1984,1323,101,Ófleygur ungi í hreiðri,F,
+REYK,17930,Fálki,,216,Ólafur K. Nielsen,6/7/1984,1322,100,Ófleygur ungi,M,Syst. 112542-112543.
+REYK,112544,Fálki,,216,Ólafur K. Nielsen,6/8/1984,1446,101,Ófleygur ungi í hreiðri,F,
+REYK,17931,Fálki,,216,Ólafur K. Nielsen,6/8/1984,1446,101,Ófleygur ungi í hreiðri,M,"Syst. 17931-17932, 112544."
+REYK,17932,Fálki,,216,Ólafur K. Nielsen,6/8/1984,1446,100,Ófleygur ungi,F,"Syst. 17931-17932, 112544."
+REYK,112545,Fálki,,216,Ólafur K. Nielsen,6/9/1984,1254,101,Ófleygur ungi í hreiðri,F,
+REYK,112546,Fálki,,216,Ólafur K. Nielsen,6/9/1984,1254,101,Ófleygur ungi í hreiðri,F,
+REYK,112547,Fálki,,216,Ólafur K. Nielsen,6/9/1984,1254,101,Ófleygur ungi í hreiðri,M,
+REYK,17933,Fálki,,216,Ólafur K. Nielsen,6/9/1984,1254,101,Ófleygur ungi í hreiðri,M,Syst. 112545-112547.
+REYK,112548,Fálki,,216,Ólafur K. Nielsen,6/14/1984,970,101,Ófleygur ungi í hreiðri,F,
+REYK,112549,Fálki,,216,Ólafur K. Nielsen,6/14/1984,970,101,Ófleygur ungi í hreiðri,M,"Systkini: 112548, 17936"
+REYK,17936,Fálki,,216,Ólafur K. Nielsen,6/14/1984,970,101,Ófleygur ungi í hreiðri,M,"Syst.: 17936, 112548, 112549."
+REYK,17937,Fálki,,216,Ólafur K. Nielsen,6/16/1984,3478,101,Ófleygur ungi í hreiðri,M,"Syst.: 17937, 17938."
+REYK,17938,Fálki,,216,Ólafur K. Nielsen,6/16/1984,3478,101,Ófleygur ungi í hreiðri,M,"Syst.: 17937, 17938."
+REYK,112550,Fálki,,216,Ólafur K. Nielsen,6/18/1984,891,101,Ófleygur ungi í hreiðri,F,
+REYK,17939,Fálki,,216,Ólafur K. Nielsen,6/18/1984,891,101,Ófleygur ungi í hreiðri,M,"Syst.: 17939, 112550."
+REYK,110108,Fálki,,216,Ólafur K. Nielsen,6/19/1984,914,100,Ófleygur ungi,F,
+REYK,110107,Fálki,,216,Ólafur K. Nielsen,6/19/1984,905,100,Ófleygur ungi,F,
+REYK,17942,Fálki,,216,Ólafur K. Nielsen,6/19/1984,914,101,Ófleygur ungi í hreiðri,M,"Syst.: 17942-17944, 110108."
+REYK,17943,Fálki,,216,Ólafur K. Nielsen,6/19/1984,914,101,Ófleygur ungi í hreiðri,M,"Syst.: 17942-17944, 110108."
+REYK,17944,Fálki,,216,Ólafur K. Nielsen,6/19/1984,914,101,Ófleygur ungi í hreiðri,M,"Syst.: 17942-17944, 110108."
+REYK,17940,Fálki,,216,Ólafur K. Nielsen,6/19/1984,931,101,Ófleygur ungi í hreiðri,M,"Syst.: 17940, 110107."
+REYK,110109,Fálki,,216,Ólafur K. Nielsen,6/21/1984,934,100,Ófleygur ungi,F,
+REYK,17946,Fálki,,216,Ólafur K. Nielsen,6/21/1984,934,100,Ófleygur ungi,M,
+REYK,17947,Fálki,,216,Ólafur K. Nielsen,6/21/1984,3390,101,Ófleygur ungi í hreiðri,M,"Syst.: 17945-17947, 110109."
+REYK,17945,Fálki,,216,Ólafur K. Nielsen,6/21/1984,3390,101,Ófleygur ungi í hreiðri,M,"Syst.: 17945-17947, 110109."
+REYK,17948,Fálki,,216,Ólafur K. Nielsen,6/22/1984,934,100,Ófleygur ungi,M,"Syst.: 17948, 110110, 110111."
+REYK,110110,Fálki,,216,Ólafur K. Nielsen,6/22/1984,934,100,Ófleygur ungi,F,
+REYK,110111,Fálki,,216,Ólafur K. Nielsen,6/22/1984,934,100,Ófleygur ungi,F,
+REYK,17645,Fálki,,216,Ólafur K. Nielsen,6/25/1984,978,101,Ófleygur ungi í hreiðri,M,
+REYK,17646,Fálki,,216,Ólafur K. Nielsen,6/25/1984,978,101,Ófleygur ungi í hreiðri,M,
+REYK,17647,Fálki,,216,Ólafur K. Nielsen,6/25/1984,978,101,Ófleygur ungi í hreiðri,M,
+REYK,110112,Fálki,,216,Ólafur K. Nielsen,6/26/1984,1375,100,Ófleygur ungi,F,
+REYK,110113,Fálki,,216,Ólafur K. Nielsen,7/1/1984,1369,100,Ófleygur ungi,F,
+REYK,17648,Fálki,,216,Ólafur K. Nielsen,7/1/1984,1439,101,Ófleygur ungi í hreiðri,M,
+REYK,17649,Fálki,,216,Ólafur K. Nielsen,7/6/1984,1441,101,Ófleygur ungi í hreiðri,M,
+REYK,17650,Fálki,,216,Ólafur K. Nielsen,7/6/1984,1441,101,Ófleygur ungi í hreiðri,M,
+REYK,110114,Fálki,,216,Ólafur K. Nielsen,7/11/1984,1283,100,Ófleygur ungi,F,
+REYK,17802,Fálki,,216,Ólafur K. Nielsen,7/12/1984,1295,100,Ófleygur ungi,M,Syst.: Reykjavík 110116.
+REYK,110116,Fálki,,216,Ólafur K. Nielsen,7/12/1984,1295,100,Ófleygur ungi,F,
+REYK,17801,Fálki,,216,Ólafur K. Nielsen,7/12/1984,1478,100,Ófleygur ungi,M,Syst.: Reykjavík 110115.
+REYK,110115,Fálki,,216,Ólafur K. Nielsen,7/12/1984,1478,100,Ófleygur ungi,F,
+REYK,17803,Fálki,,216,Ólafur K. Nielsen,7/30/1984,1283,100,Ófleygur ungi,0,Syst.: Reykjavík 110114.
+REYK,17808,Fálki,,216,Ólafur K. Nielsen,5/11/1985,1322,470,Fullvaxinn (2. ára+),M,
+REYK,110117,Fálki,,216,Ólafur K. Nielsen,5/13/1985,1297,501,Fullorðinn með hreiður,F,
+REYK,110118,Fálki,,216,Ólafur K. Nielsen,5/14/1985,894,501,Fullorðinn með hreiður,F,
+REYK,110119,Fálki,,216,Ólafur K. Nielsen,5/16/1985,1478,501,Fullorðinn með hreiður,F,
+REYK,17814,Fálki,,216,Ólafur K. Nielsen,6/8/1985,1936,100,Ófleygur ungi,M,
+REYK,110120,Fálki,,216,Ólafur K. Nielsen,6/8/1985,1936,100,Ófleygur ungi,F,
+REYK,110121,Fálki,,216,Ólafur K. Nielsen,6/8/1985,1936,100,Ófleygur ungi,F,
+REYK,17816,Fálki,,216,Ólafur K. Nielsen,6/9/1985,1384,100,Ófleygur ungi,M,
+REYK,17817,Fálki,,216,Ólafur K. Nielsen,6/9/1985,1384,100,Ófleygur ungi,M,
+REYK,110126,Fálki,,216,Ólafur K. Nielsen,6/9/1985,1384,100,Ófleygur ungi,F,
+REYK,110127,Fálki,,216,Ólafur K. Nielsen,6/9/1985,1384,100,Ófleygur ungi,F,
+REYK,110124,Fálki,,216,Ólafur K. Nielsen,6/9/1985,1308,100,Ófleygur ungi,M,
+REYK,110125,Fálki,,216,Ólafur K. Nielsen,6/9/1985,1308,100,Ófleygur ungi,M,
+REYK,110122,Fálki,,216,Ólafur K. Nielsen,6/9/1985,1283,100,Ófleygur ungi,F,
+REYK,110123,Fálki,,216,Ólafur K. Nielsen,6/9/1985,1283,100,Ófleygur ungi,M,
+REYK,17815,Fálki,,216,Ólafur K. Nielsen,6/9/1985,1308,100,Ófleygur ungi,F,
+REYK,17818,Fálki,,216,Ólafur K. Nielsen,6/10/1985,1446,100,Ófleygur ungi,M,
+REYK,110128,Fálki,,216,Ólafur K. Nielsen,6/10/1985,1446,100,Ófleygur ungi,F,
+REYK,110129,Fálki,,216,Ólafur K. Nielsen,6/10/1985,1446,100,Ófleygur ungi,M,
+REYK,112551,Fálki,,216,Ólafur K. Nielsen,6/11/1985,1262,101,Ófleygur ungi í hreiðri,F,
+REYK,110130,Fálki,,216,Ólafur K. Nielsen,6/11/1985,1262,100,Ófleygur ungi,F,
+REYK,17819,Fálki,,216,Ólafur K. Nielsen,6/11/1985,1262,100,Ófleygur ungi,M,
+REYK,17820,Fálki,,216,Ólafur K. Nielsen,6/11/1985,1262,100,Ófleygur ungi,M,
+REYK,17821,Fálki,,216,Ólafur K. Nielsen,6/13/1985,1486,100,Ófleygur ungi,M,
+REYK,17822,Fálki,,216,Ólafur K. Nielsen,6/13/1985,1486,100,Ófleygur ungi,M,
+REYK,17823,Fálki,,216,Ólafur K. Nielsen,6/13/1985,1486,101,Ófleygur ungi í hreiðri,M,
+REYK,112552,Fálki,,216,Ólafur K. Nielsen,6/13/1985,1486,101,Ófleygur ungi í hreiðri,F,
+REYK,17826,Fálki,,216,Ólafur K. Nielsen,6/15/1985,3083,100,Ófleygur ungi,M,
+REYK,17824,Fálki,,216,Ólafur K. Nielsen,6/15/1985,934,100,Ófleygur ungi,F,
+REYK,17825,Fálki,,216,Ólafur K. Nielsen,6/15/1985,934,100,Ófleygur ungi,M,
+REYK,112553,Fálki,,216,Ólafur K. Nielsen,6/15/1985,934,101,Ófleygur ungi í hreiðri,F,
+REYK,112554,Fálki,,216,Ólafur K. Nielsen,6/15/1985,934,101,Ófleygur ungi í hreiðri,F,
+REYK,112555,Fálki,,216,Ólafur K. Nielsen,6/17/1985,905,101,Ófleygur ungi í hreiðri,F,
+REYK,17827,Fálki,,216,Ólafur K. Nielsen,6/17/1985,905,100,Ófleygur ungi,M,
+REYK,17828,Fálki,,216,Ólafur K. Nielsen,6/17/1985,905,100,Ófleygur ungi,M,
+REYK,112558,Fálki,,216,Ólafur K. Nielsen,6/18/1985,913,101,Ófleygur ungi í hreiðri,M,
+REYK,112559,Fálki,,216,Ólafur K. Nielsen,6/18/1985,913,101,Ófleygur ungi í hreiðri,M,
+REYK,17831,Fálki,,216,Ólafur K. Nielsen,6/18/1985,913,100,Ófleygur ungi,M,
+REYK,112556,Fálki,,216,Ólafur K. Nielsen,6/18/1985,971,101,Ófleygur ungi í hreiðri,0,
+REYK,112557,Fálki,,216,Ólafur K. Nielsen,6/18/1985,971,101,Ófleygur ungi í hreiðri,F,
+REYK,17829,Fálki,,216,Ólafur K. Nielsen,6/18/1985,971,100,Ófleygur ungi,0,
+REYK,17830,Fálki,,216,Ólafur K. Nielsen,6/18/1985,971,100,Ófleygur ungi,0,
+REYK,17832,Fálki,,216,Ólafur K. Nielsen,6/20/1985,1278,100,Ófleygur ungi,M,
+REYK,15665,Fálki,,216,Ólafur K. Nielsen,6/22/1985,3474,100,Ófleygur ungi,0,
+REYK,17833,Fálki,,216,Ólafur K. Nielsen,6/22/1985,3477,100,Ófleygur ungi,M,
+REYK,112563,Fálki,,216,Ólafur K. Nielsen,6/24/1985,1263,101,Ófleygur ungi í hreiðri,F,
+REYK,112564,Fálki,,216,Ólafur K. Nielsen,6/24/1985,1263,101,Ófleygur ungi í hreiðri,F,
+REYK,17838,Fálki,,216,Ólafur K. Nielsen,6/24/1985,1263,100,Ófleygur ungi,M,
+REYK,112562,Fálki,,216,Ólafur K. Nielsen,6/24/1985,1371,101,Ófleygur ungi í hreiðri,F,
+REYK,17836,Fálki,,216,Ólafur K. Nielsen,6/24/1985,1371,100,Ófleygur ungi,M,
+REYK,17837,Fálki,,216,Ólafur K. Nielsen,6/24/1985,1371,100,Ófleygur ungi,M,
+REYK,112560,Fálki,,216,Ólafur K. Nielsen,6/24/1985,1295,100,Ófleygur ungi,0,
+REYK,112561,Fálki,,216,Ólafur K. Nielsen,6/24/1985,1295,101,Ófleygur ungi í hreiðri,0,
+REYK,17834,Fálki,,216,Ólafur K. Nielsen,6/24/1985,1295,100,Ófleygur ungi,0,
+REYK,17835,Fálki,,216,Ólafur K. Nielsen,6/24/1985,1295,100,Ófleygur ungi,0,
+REYK,17839,Fálki,,216,Ólafur K. Nielsen,6/25/1985,1330,100,Ófleygur ungi,M,
+REYK,112565,Fálki,,216,Ólafur K. Nielsen,6/25/1985,1330,101,Ófleygur ungi í hreiðri,F,
+REYK,112566,Fálki,,216,Ólafur K. Nielsen,6/25/1985,1330,101,Ófleygur ungi í hreiðri,F,
+REYK,17840,Fálki,,216,Ólafur K. Nielsen,6/25/1985,1369,100,Ófleygur ungi,M,
+REYK,112567,Fálki,,216,Ólafur K. Nielsen,6/25/1985,1369,101,Ófleygur ungi í hreiðri,F,
+REYK,112568,Fálki,,216,Ólafur K. Nielsen,6/25/1985,1369,101,Ófleygur ungi í hreiðri,F,
+REYK,112569,Fálki,,216,Ólafur K. Nielsen,6/25/1985,1369,101,Ófleygur ungi í hreiðri,F,
+REYK,17841,Fálki,,216,Ólafur K. Nielsen,6/26/1985,1448,100,Ófleygur ungi,M,
+REYK,17842,Fálki,,216,Ólafur K. Nielsen,6/26/1985,1448,100,Ófleygur ungi,M,
+REYK,112570,Fálki,,216,Ólafur K. Nielsen,6/26/1985,1448,101,Ófleygur ungi í hreiðri,F,
+REYK,112571,Fálki,,216,Ólafur K. Nielsen,6/26/1985,1448,101,Ófleygur ungi í hreiðri,F,
+REYK,112572,Fálki,,216,Ólafur K. Nielsen,6/27/1985,1388,101,Ófleygur ungi í hreiðri,0,
+REYK,112573,Fálki,,216,Ólafur K. Nielsen,6/27/1985,1388,101,Ófleygur ungi í hreiðri,0,
+REYK,17843,Fálki,,216,Ólafur K. Nielsen,6/27/1985,1388,101,Ófleygur ungi í hreiðri,0,
+REYK,112577,Fálki,,216,Ólafur K. Nielsen,6/29/1985,1485,101,Ófleygur ungi í hreiðri,F,
+REYK,112575,Fálki,,216,Ólafur K. Nielsen,6/29/1985,1342,101,Ófleygur ungi í hreiðri,0,
+REYK,112576,Fálki,,216,Ólafur K. Nielsen,6/29/1985,1342,101,Ófleygur ungi í hreiðri,0,
+REYK,17846,Fálki,,216,Ólafur K. Nielsen,6/29/1985,905,100,Ófleygur ungi,M,
+REYK,17847,Fálki,,216,Ólafur K. Nielsen,6/29/1985,905,100,Ófleygur ungi,M,
+REYK,17848,Fálki,,216,Ólafur K. Nielsen,6/29/1985,905,100,Ófleygur ungi,M,
+REYK,17845,Fálki,,216,Ólafur K. Nielsen,6/29/1985,884,100,Ófleygur ungi,M,
+REYK,17844,Fálki,,216,Ólafur K. Nielsen,6/29/1985,1485,100,Ófleygur ungi,M,
+REYK,17849,Fálki,,216,Ólafur K. Nielsen,7/1/1985,894,100,Ófleygur ungi,M,
+REYK,112574,Fálki,,216,Ólafur K. Nielsen,7/2/1985,977,101,Ófleygur ungi í hreiðri,0,
+REYK,17850,Fálki,,216,Ólafur K. Nielsen,7/2/1985,977,100,Ófleygur ungi,0,
+REYK,17851,Fálki,,216,Ólafur K. Nielsen,7/2/1985,977,100,Ófleygur ungi,0,
+REYK,17853,Fálki,,216,Ólafur K. Nielsen,7/2/1985,1322,100,Ófleygur ungi,0,
+REYK,112578,Fálki,,216,Ólafur K. Nielsen,7/2/1985,2398,101,Ófleygur ungi í hreiðri,F,
+REYK,112579,Fálki,,216,Ólafur K. Nielsen,7/2/1985,2399,101,Ófleygur ungi í hreiðri,F,
+REYK,17852,Fálki,,216,Ólafur K. Nielsen,7/2/1985,3478,100,Ófleygur ungi,M,
+REYK,112581,Fálki,,216,Ólafur K. Nielsen,7/7/1985,1363,101,Ófleygur ungi í hreiðri,F,
+REYK,112582,Fálki,,216,Ólafur K. Nielsen,7/8/1985,1322,101,Ófleygur ungi í hreiðri,F,
+REYK,112583,Fálki,,216,Ólafur K. Nielsen,7/8/1985,1322,101,Ófleygur ungi í hreiðri,0,
+REYK,112584,Fálki,,216,Ólafur K. Nielsen,7/8/1985,1322,101,Ófleygur ungi í hreiðri,0,
+REYK,112580,Fálki,,216,Ólafur K. Nielsen,7/8/1985,1324,101,Ófleygur ungi í hreiðri,F,
+REYK,112585,Fálki,,216,Ólafur K. Nielsen,6/10/1986,1718,101,Ófleygur ungi í hreiðri,0,
+REYK,112586,Fálki,,216,Ólafur K. Nielsen,6/10/1986,1718,101,Ófleygur ungi í hreiðri,0,
+REYK,112587,Fálki,,216,Ólafur K. Nielsen,6/10/1986,1718,101,Ófleygur ungi í hreiðri,0,
+REYK,112588,Fálki,,216,Ólafur K. Nielsen,6/10/1986,1718,101,Ófleygur ungi í hreiðri,0,
+REYK,112589,Fálki,,216,Ólafur K. Nielsen,6/12/1986,2400,101,Ófleygur ungi í hreiðri,0,
+REYK,112590,Fálki,,216,Ólafur K. Nielsen,6/12/1986,2400,101,Ófleygur ungi í hreiðri,0,
+REYK,112591,Fálki,,216,Ólafur K. Nielsen,6/12/1986,2400,101,Ófleygur ungi í hreiðri,0,
+REYK,112594,Fálki,,216,Ólafur K. Nielsen,6/13/1986,2401,101,Ófleygur ungi í hreiðri,0,
+REYK,112596,Fálki,,216,Ólafur K. Nielsen,6/13/1986,2401,101,Ófleygur ungi í hreiðri,0,
+REYK,17854,Fálki,,216,Ólafur K. Nielsen,6/13/1986,2401,100,Ófleygur ungi,0,"Syst.: 112594, 112596."
+REYK,112595,Fálki,,216,Ólafur K. Nielsen,6/13/1986,2402,101,Ófleygur ungi í hreiðri,0,
+REYK,112592,Fálki,,216,Ólafur K. Nielsen,6/13/1986,1695,101,Ófleygur ungi í hreiðri,0,
+REYK,112593,Fálki,,216,Ólafur K. Nielsen,6/13/1986,1695,101,Ófleygur ungi í hreiðri,0,
+REYK,112597,Fálki,,216,Ólafur K. Nielsen,6/14/1986,2403,101,Ófleygur ungi í hreiðri,0,
+REYK,112598,Fálki,,216,Ólafur K. Nielsen,6/14/1986,2403,101,Ófleygur ungi í hreiðri,0,
+REYK,112599,Fálki,,216,Ólafur K. Nielsen,6/14/1986,2403,101,Ófleygur ungi í hreiðri,0,
+REYK,112600,Fálki,,216,Ólafur K. Nielsen,6/14/1986,2403,101,Ófleygur ungi í hreiðri,0,
+REYK,17855,Fálki,,216,Ólafur K. Nielsen,6/21/1986,3438,100,Ófleygur ungi,M,
+REYK,113471,Fálki,,216,Ólafur K. Nielsen,6/23/1986,2409,101,Ófleygur ungi í hreiðri,M,
+REYK,113472,Fálki,,216,Ólafur K. Nielsen,6/23/1986,2409,101,Ófleygur ungi í hreiðri,F,
+REYK,113473,Fálki,,216,Ólafur K. Nielsen,6/23/1986,2409,101,Ófleygur ungi í hreiðri,M,
+REYK,113474,Fálki,,216,Ólafur K. Nielsen,6/23/1986,2409,101,Ófleygur ungi í hreiðri,F,
+REYK,113475,Fálki,,216,Ólafur K. Nielsen,6/24/1986,307,101,Ófleygur ungi í hreiðri,F,
+REYK,113476,Fálki,,216,Ólafur K. Nielsen,6/24/1986,307,101,Ófleygur ungi í hreiðri,M,
+REYK,113477,Fálki,,216,Ólafur K. Nielsen,6/24/1986,307,101,Ófleygur ungi í hreiðri,M,
+REYK,113478,Fálki,,216,Ólafur K. Nielsen,6/27/1986,2410,101,Ófleygur ungi í hreiðri,0,
+REYK,113479,Fálki,,216,Ólafur K. Nielsen,6/27/1986,2410,101,Ófleygur ungi í hreiðri,0,
+REYK,113480,Fálki,,216,Ólafur K. Nielsen,7/3/1986,2411,101,Ófleygur ungi í hreiðri,F,
+REYK,113481,Fálki,,216,Ólafur K. Nielsen,7/3/1986,2411,101,Ófleygur ungi í hreiðri,F,
+REYK,113482,Fálki,,216,Ólafur K. Nielsen,7/3/1986,2411,101,Ófleygur ungi í hreiðri,M,
+REYK,113483,Fálki,,216,Ólafur K. Nielsen,5/5/1987,926,501,Fullorðinn með hreiður,F,
+REYK,17856,Fálki,,216,Ólafur K. Nielsen,5/10/1987,1295,470,Fullvaxinn (2. ára+),M,
+REYK,17857,Fálki,,216,Ólafur K. Nielsen,5/11/1987,3475,470,Fullvaxinn (2. ára+),M,
+REYK,113484,Fálki,,216,Ólafur K. Nielsen,5/12/1987,1322,501,Fullorðinn með hreiður,F,
+REYK,113485,Fálki,,216,Ólafur K. Nielsen,5/14/1987,1441,501,Fullorðinn með hreiður,F,
+REYK,113486,Fálki,,216,Ólafur K. Nielsen,5/15/1987,1267,501,Fullorðinn með hreiður,F,
+REYK,113487,Fálki,,216,Ólafur K. Nielsen,5/16/1987,1250,501,Fullorðinn með hreiður,F,
+REYK,113488,Fálki,,216,Ólafur K. Nielsen,5/18/1987,1295,501,Fullorðinn með hreiður,F,
+REYK,113489,Fálki,,216,Ólafur K. Nielsen,5/19/1987,1479,501,Fullorðinn með hreiður,F,
+REYK,113490,Fálki,,216,Ólafur K. Nielsen,5/20/1987,931,501,Fullorðinn með hreiður,F,
+REYK,17858,Fálki,,216,Ólafur K. Nielsen,5/22/1987,3479,470,Fullvaxinn (2. ára+),M,
+REYK,113651,Fálki,,216,Ólafur K. Nielsen,5/23/1987,971,501,Fullorðinn með hreiður,F,
+REYK,17859,Fálki,,216,Ólafur K. Nielsen,6/10/1987,3480,100,Ófleygur ungi,0,
+REYK,17860,Fálki,,216,Ólafur K. Nielsen,6/11/1987,3481,100,Ófleygur ungi,0,Syst.: 113652-113654.
+REYK,113652,Fálki,,216,Ólafur K. Nielsen,6/11/1987,2416,102,Ófleygur ungi úr hreiðri,0,
+REYK,113653,Fálki,,216,Ólafur K. Nielsen,6/11/1987,2416,102,Ófleygur ungi úr hreiðri,0,
+REYK,113654,Fálki,,216,Ólafur K. Nielsen,6/11/1987,2416,102,Ófleygur ungi úr hreiðri,0,
+REYK,17863,Fálki,,216,Ólafur K. Nielsen,6/14/1987,1322,100,Ófleygur ungi,0,"Syst.: 17864, 113658-113659."
+REYK,17864,Fálki,,216,Ólafur K. Nielsen,6/14/1987,1322,100,Ófleygur ungi,0,"Syst.: 17863, 113658-113659."
+REYK,17865,Fálki,,216,Ólafur K. Nielsen,6/14/1987,1322,100,Ófleygur ungi,0,"Syst.: 17866, 113660."
+REYK,17866,Fálki,,216,Ólafur K. Nielsen,6/14/1987,1322,100,Ófleygur ungi,0,"Syst.: 17865, 113660."
+REYK,113658,Fálki,,216,Ólafur K. Nielsen,6/14/1987,1322,102,Ófleygur ungi úr hreiðri,0,
+REYK,113659,Fálki,,216,Ólafur K. Nielsen,6/14/1987,1322,102,Ófleygur ungi úr hreiðri,0,
+REYK,113660,Fálki,,216,Ólafur K. Nielsen,6/14/1987,1322,100,Ófleygur ungi,0,
+REYK,17861,Fálki,,216,Ólafur K. Nielsen,6/14/1987,1446,100,Ófleygur ungi,0,Syst.: 113655.
+REYK,113655,Fálki,,216,Ólafur K. Nielsen,6/14/1987,1446,102,Ófleygur ungi úr hreiðri,0,
+REYK,113656,Fálki,,216,Ólafur K. Nielsen,6/14/1987,1384,102,Ófleygur ungi úr hreiðri,0,
+REYK,113657,Fálki,,216,Ólafur K. Nielsen,6/14/1987,1384,102,Ófleygur ungi úr hreiðri,0,
+REYK,17862,Fálki,,216,Ólafur K. Nielsen,6/14/1987,1384,100,Ófleygur ungi,0,Syst.: 113656-113657.
+REYK,113666,Fálki,,216,Ólafur K. Nielsen,6/15/1987,1373,101,Ófleygur ungi í hreiðri,0,
+REYK,113667,Fálki,,216,Ólafur K. Nielsen,6/15/1987,1373,101,Ófleygur ungi í hreiðri,0,
+REYK,17867,Fálki,,216,Ólafur K. Nielsen,6/15/1987,1441,100,Ófleygur ungi,0,Syst.: 113664-113665.
+REYK,113664,Fálki,,216,Ólafur K. Nielsen,6/15/1987,1441,102,Ófleygur ungi úr hreiðri,0,
+REYK,113665,Fálki,,216,Ólafur K. Nielsen,6/15/1987,1441,101,Ófleygur ungi í hreiðri,0,
+REYK,113661,Fálki,,216,Ólafur K. Nielsen,6/15/1987,1283,100,Ófleygur ungi,0,
+REYK,113662,Fálki,,216,Ólafur K. Nielsen,6/15/1987,1283,100,Ófleygur ungi,0,
+REYK,113663,Fálki,,216,Ólafur K. Nielsen,6/15/1987,1283,102,Ófleygur ungi úr hreiðri,0,
+REYK,17868,Fálki,,216,Ólafur K. Nielsen,6/16/1987,905,100,Ófleygur ungi,0,
+REYK,113671,Fálki,,216,Ólafur K. Nielsen,6/16/1987,905,101,Ófleygur ungi í hreiðri,0,
+REYK,113668,Fálki,,216,Ólafur K. Nielsen,6/16/1987,913,101,Ófleygur ungi í hreiðri,0,
+REYK,113669,Fálki,,216,Ólafur K. Nielsen,6/16/1987,913,101,Ófleygur ungi í hreiðri,0,
+REYK,113670,Fálki,,216,Ólafur K. Nielsen,6/16/1987,913,101,Ófleygur ungi í hreiðri,0,
+REYK,113672,Fálki,,216,Ólafur K. Nielsen,6/17/1987,905,101,Ófleygur ungi í hreiðri,0,
+REYK,113673,Fálki,,216,Ólafur K. Nielsen,6/17/1987,905,101,Ófleygur ungi í hreiðri,0,
+REYK,17869,Fálki,,216,Ólafur K. Nielsen,6/17/1987,905,100,Ófleygur ungi,0,"Syst.: 17870, 113672-113673."
+REYK,17870,Fálki,,216,Ólafur K. Nielsen,6/17/1987,905,100,Ófleygur ungi,0,"Syst.: 17869, 113672-113673."
+REYK,113674,Fálki,,216,Ólafur K. Nielsen,6/17/1987,971,101,Ófleygur ungi í hreiðri,0,
+REYK,113675,Fálki,,216,Ólafur K. Nielsen,6/17/1987,971,101,Ófleygur ungi í hreiðri,0,
+REYK,17871,Fálki,,216,Ólafur K. Nielsen,6/17/1987,971,100,Ófleygur ungi,0,"Syst.: 17872, 113674-113675."
+REYK,17872,Fálki,,216,Ólafur K. Nielsen,6/17/1987,971,101,Ófleygur ungi í hreiðri,0,"Syst.: 17871, 113674-113675."
+REYK,113676,Fálki,,216,Ólafur K. Nielsen,6/17/1987,2398,100,Ófleygur ungi,0,
+REYK,113677,Fálki,,216,Ólafur K. Nielsen,6/17/1987,2398,101,Ófleygur ungi í hreiðri,0,
+REYK,17873,Fálki,,216,Ólafur K. Nielsen,6/17/1987,3479,101,Ófleygur ungi í hreiðri,0,Syst.: 17874.
+REYK,17874,Fálki,,216,Ólafur K. Nielsen,6/17/1987,3479,101,Ófleygur ungi í hreiðri,0,Syst.: 17873.
+REYK,113678,Fálki,,216,Ólafur K. Nielsen,6/18/1987,2417,101,Ófleygur ungi í hreiðri,0,
+REYK,17875,Fálki,,216,Ólafur K. Nielsen,6/18/1987,2417,101,Ófleygur ungi í hreiðri,0,"Syst.: 17876-17877, 113678."
+REYK,17876,Fálki,,216,Ólafur K. Nielsen,6/18/1987,2417,101,Ófleygur ungi í hreiðri,0,"Syst.: 17875, 17877, 113678."
+REYK,17877,Fálki,,216,Ólafur K. Nielsen,6/18/1987,2417,101,Ófleygur ungi í hreiðri,0,"Syst.: 17876-17877, 113678."
+REYK,17878,Fálki,,216,Ólafur K. Nielsen,6/18/1987,894,101,Ófleygur ungi í hreiðri,0,Syst.: 113679.
+REYK,113679,Fálki,,216,Ólafur K. Nielsen,6/18/1987,894,101,Ófleygur ungi í hreiðri,0,
+REYK,113681,Fálki,,216,Ólafur K. Nielsen,6/19/1987,978,101,Ófleygur ungi í hreiðri,0,
+REYK,113682,Fálki,,216,Ólafur K. Nielsen,6/19/1987,978,101,Ófleygur ungi í hreiðri,0,
+REYK,17881,Fálki,,216,Ólafur K. Nielsen,6/19/1987,978,101,Ófleygur ungi í hreiðri,0,"Syst.: 17882, 113681-113682."
+REYK,17882,Fálki,,216,Ólafur K. Nielsen,6/19/1987,978,101,Ófleygur ungi í hreiðri,0,"Syst.: 17881, 113681-113682."
+REYK,17879,Fálki,,216,Ólafur K. Nielsen,6/19/1987,2397,101,Ófleygur ungi í hreiðri,0,"Syst.: 17880, 113680."
+REYK,17880,Fálki,,216,Ólafur K. Nielsen,6/19/1987,2397,101,Ófleygur ungi í hreiðri,0,"Syst.: 17879, 113680."
+REYK,113680,Fálki,,216,Ólafur K. Nielsen,6/19/1987,2397,101,Ófleygur ungi í hreiðri,0,
+REYK,17883,Fálki,,216,Ólafur K. Nielsen,6/20/1987,970,101,Ófleygur ungi í hreiðri,0,Syst.: 113683.
+REYK,113683,Fálki,,216,Ólafur K. Nielsen,6/20/1987,970,101,Ófleygur ungi í hreiðri,0,
+REYK,113684,Fálki,,216,Ólafur K. Nielsen,6/21/1987,1295,101,Ófleygur ungi í hreiðri,0,
+REYK,113685,Fálki,,216,Ólafur K. Nielsen,6/21/1987,1295,101,Ófleygur ungi í hreiðri,0,
+REYK,17884,Fálki,,216,Ólafur K. Nielsen,6/21/1987,1295,101,Ófleygur ungi í hreiðri,0,Syst.: 113684-113685.
+REYK,17886,Fálki,,216,Ólafur K. Nielsen,6/21/1987,1442,101,Ófleygur ungi í hreiðri,0,Syst.: 113689-113691.
+REYK,113689,Fálki,,216,Ólafur K. Nielsen,6/21/1987,1442,101,Ófleygur ungi í hreiðri,0,
+REYK,113690,Fálki,,216,Ólafur K. Nielsen,6/21/1987,1442,101,Ófleygur ungi í hreiðri,0,
+REYK,113691,Fálki,,216,Ólafur K. Nielsen,6/21/1987,1442,101,Ófleygur ungi í hreiðri,0,
+REYK,17885,Fálki,,216,Ólafur K. Nielsen,6/21/1987,1371,101,Ófleygur ungi í hreiðri,0,Syst.: 113686-113688.
+REYK,113686,Fálki,,216,Ólafur K. Nielsen,6/21/1987,1371,101,Ófleygur ungi í hreiðri,0,
+REYK,113687,Fálki,,216,Ólafur K. Nielsen,6/21/1987,1371,101,Ófleygur ungi í hreiðri,0,
+REYK,113688,Fálki,,216,Ólafur K. Nielsen,6/21/1987,1371,101,Ófleygur ungi í hreiðri,0,
+REYK,113694,Fálki,,216,Ólafur K. Nielsen,6/22/1987,1479,101,Ófleygur ungi í hreiðri,0,
+REYK,113692,Fálki,,216,Ólafur K. Nielsen,6/22/1987,1262,101,Ófleygur ungi í hreiðri,0,
+REYK,113693,Fálki,,216,Ólafur K. Nielsen,6/22/1987,1262,101,Ófleygur ungi í hreiðri,0,
+REYK,17887,Fálki,,216,Ólafur K. Nielsen,6/22/1987,1262,101,Ófleygur ungi í hreiðri,0,Syst.: 113692-113693.
+REYK,17888,Fálki,,216,Ólafur K. Nielsen,6/22/1987,3475,101,Ófleygur ungi í hreiðri,0,Syst.: 113694.
+REYK,113695,Fálki,,216,Ólafur K. Nielsen,6/23/1987,1478,101,Ófleygur ungi í hreiðri,0,
+REYK,17889,Fálki,,216,Ólafur K. Nielsen,6/23/1987,1478,101,Ófleygur ungi í hreiðri,0,Syst.: 113695.
+REYK,17890,Fálki,,216,Ólafur K. Nielsen,6/23/1987,1369,101,Ófleygur ungi í hreiðri,0,Syst.: 113696-113697.
+REYK,113696,Fálki,,216,Ólafur K. Nielsen,6/23/1987,1369,101,Ófleygur ungi í hreiðri,0,
+REYK,113697,Fálki,,216,Ólafur K. Nielsen,6/23/1987,1369,101,Ófleygur ungi í hreiðri,0,
+REYK,113698,Fálki,,216,Ólafur K. Nielsen,6/24/1987,1267,101,Ófleygur ungi í hreiðri,0,
+REYK,113699,Fálki,,216,Ólafur K. Nielsen,6/24/1987,1267,101,Ófleygur ungi í hreiðri,0,
+REYK,17891,Fálki,,216,Ólafur K. Nielsen,6/24/1987,1267,101,Ófleygur ungi í hreiðri,0,Syst.: 113698-113699.
+REYK,17894,Fálki,,216,Ólafur K. Nielsen,6/25/1987,890,101,Ófleygur ungi í hreiðri,0,Syst.: 113254-113255.
+REYK,113254,Fálki,,216,Ólafur K. Nielsen,6/25/1987,890,101,Ófleygur ungi í hreiðri,0,
+REYK,113255,Fálki,,216,Ólafur K. Nielsen,6/25/1987,890,101,Ófleygur ungi í hreiðri,0,
+REYK,113253,Fálki,,216,Ólafur K. Nielsen,6/25/1987,1486,101,Ófleygur ungi í hreiðri,0,
+REYK,17892,Fálki,,216,Ólafur K. Nielsen,6/25/1987,1486,101,Ófleygur ungi í hreiðri,0,"Syst.: 17893, 113700, 113253."
+REYK,17893,Fálki,,216,Ólafur K. Nielsen,6/25/1987,1486,100,Ófleygur ungi,0,
+REYK,113700,Fálki,,216,Ólafur K. Nielsen,6/25/1987,1486,101,Ófleygur ungi í hreiðri,0,
+REYK,17895,Fálki,,216,Ólafur K. Nielsen,7/14/1987,1475,101,Ófleygur ungi í hreiðri,0,
+REYK,113256,Fálki,,216,Ólafur K. Nielsen,5/2/1988,2356,501,Fullorðinn með hreiður,F,
+REYK,113257,Fálki,,216,Ólafur K. Nielsen,5/11/1988,1371,501,Fullorðinn með hreiður,F,
+REYK,113258,Fálki,,216,Ólafur K. Nielsen,5/13/1988,1442,501,Fullorðinn með hreiður,F,
+REYK,113259,Fálki,,216,Ólafur K. Nielsen,5/21/1988,934,501,Fullorðinn með hreiður,F,
+REYK,113262,Fálki,,216,Ólafur K. Nielsen,6/16/1988,1263,101,Ófleygur ungi í hreiðri,0,
+REYK,113263,Fálki,,216,Ólafur K. Nielsen,6/16/1988,1263,101,Ófleygur ungi í hreiðri,0,
+REYK,17896,Fálki,,216,Ólafur K. Nielsen,6/16/1988,1478,100,Ófleygur ungi,M,
+REYK,113260,Fálki,,216,Ólafur K. Nielsen,6/16/1988,1478,101,Ófleygur ungi í hreiðri,0,
+REYK,113261,Fálki,,216,Ólafur K. Nielsen,6/16/1988,1478,101,Ófleygur ungi í hreiðri,0,
+REYK,113264,Fálki,,216,Ólafur K. Nielsen,6/17/1988,1442,101,Ófleygur ungi í hreiðri,0,
+REYK,113265,Fálki,,216,Ólafur K. Nielsen,6/17/1988,1442,101,Ófleygur ungi í hreiðri,0,
+REYK,17897,Fálki,,216,Ólafur K. Nielsen,6/17/1988,1442,100,Ófleygur ungi,M,
+REYK,113270,Fálki,,216,Ólafur K. Nielsen,6/20/1988,970,101,Ófleygur ungi í hreiðri,F,
+REYK,113268,Fálki,,216,Ólafur K. Nielsen,6/20/1988,980,101,Ófleygur ungi í hreiðri,0,
+REYK,113269,Fálki,,216,Ólafur K. Nielsen,6/20/1988,980,101,Ófleygur ungi í hreiðri,0,
+REYK,113266,Fálki,,216,Ólafur K. Nielsen,6/20/1988,977,101,Ófleygur ungi í hreiðri,0,
+REYK,113267,Fálki,,216,Ólafur K. Nielsen,6/20/1988,977,101,Ófleygur ungi í hreiðri,0,
+REYK,113272,Fálki,,216,Ólafur K. Nielsen,6/21/1988,891,101,Ófleygur ungi í hreiðri,F,
+REYK,15952,Fálki,,216,Ólafur K. Nielsen,6/21/1988,891,100,Ófleygur ungi,M,
+REYK,113271,Fálki,,216,Ólafur K. Nielsen,6/21/1988,2408,101,Ófleygur ungi í hreiðri,F,
+REYK,17898,Fálki,,216,Ólafur K. Nielsen,6/21/1988,3482,100,Ófleygur ungi,M,
+REYK,17899,Fálki,,216,Ólafur K. Nielsen,6/21/1988,3482,100,Ófleygur ungi,M,
+REYK,17900,Fálki,,216,Ólafur K. Nielsen,6/21/1988,3482,100,Ófleygur ungi,M,
+REYK,113273,Fálki,,216,Ólafur K. Nielsen,6/22/1988,1278,101,Ófleygur ungi í hreiðri,F,
+REYK,113274,Fálki,,216,Ólafur K. Nielsen,6/22/1988,1278,101,Ófleygur ungi í hreiðri,F,
+REYK,113275,Fálki,,216,Ólafur K. Nielsen,6/22/1988,1278,101,Ófleygur ungi í hreiðri,F,
+REYK,15953,Fálki,,216,Ólafur K. Nielsen,6/22/1988,1278,100,Ófleygur ungi,M,
+REYK,113276,Fálki,,216,Ólafur K. Nielsen,6/22/1988,1363,101,Ófleygur ungi í hreiðri,F,
+REYK,113277,Fálki,,216,Ólafur K. Nielsen,6/22/1988,1363,101,Ófleygur ungi í hreiðri,F,
+REYK,113278,Fálki,,216,Ólafur K. Nielsen,6/22/1988,1363,101,Ófleygur ungi í hreiðri,F,
+REYK,15954,Fálki,,216,Ólafur K. Nielsen,6/22/1988,1363,100,Ófleygur ungi,M,
+REYK,15955,Fálki,,216,Ólafur K. Nielsen,6/23/1988,1412,100,Ófleygur ungi,M,
+REYK,15956,Fálki,,216,Ólafur K. Nielsen,6/23/1988,1486,100,Ófleygur ungi,F,
+REYK,15957,Fálki,,216,Ólafur K. Nielsen,6/23/1988,1486,100,Ófleygur ungi,M,
+REYK,113279,Fálki,,216,Ólafur K. Nielsen,6/23/1988,1486,101,Ófleygur ungi í hreiðri,F,
+REYK,113280,Fálki,,216,Ólafur K. Nielsen,6/23/1988,1486,101,Ófleygur ungi í hreiðri,F,
+REYK,113281,Fálki,,216,Ólafur K. Nielsen,6/24/1988,2356,101,Ófleygur ungi í hreiðri,0,
+REYK,113282,Fálki,,216,Ólafur K. Nielsen,6/24/1988,2356,101,Ófleygur ungi í hreiðri,0,
+REYK,15958,Fálki,,216,Ólafur K. Nielsen,6/24/1988,1456,100,Ófleygur ungi,M,
+REYK,113283,Fálki,,216,Ólafur K. Nielsen,6/25/1988,1398,101,Ófleygur ungi í hreiðri,F,
+REYK,15959,Fálki,,216,Ólafur K. Nielsen,6/25/1988,1388,100,Ófleygur ungi,M,
+REYK,15960,Fálki,,216,Ólafur K. Nielsen,6/25/1988,1388,100,Ófleygur ungi,M,
+REYK,15961,Fálki,,216,Ólafur K. Nielsen,6/25/1988,1388,100,Ófleygur ungi,M,
+REYK,113284,Fálki,,216,Ólafur K. Nielsen,6/25/1988,1265,101,Ófleygur ungi í hreiðri,0,
+REYK,113285,Fálki,,216,Ólafur K. Nielsen,6/25/1988,1265,101,Ófleygur ungi í hreiðri,0,
+REYK,113286,Fálki,,216,Ólafur K. Nielsen,6/25/1988,1265,101,Ófleygur ungi í hreiðri,0,
+REYK,113288,Fálki,,216,Ólafur K. Nielsen,7/9/1988,1373,101,Ófleygur ungi í hreiðri,F,
+REYK,113289,Fálki,,216,Ólafur K. Nielsen,7/9/1988,1373,101,Ófleygur ungi í hreiðri,F,
+REYK,15964,Fálki,,216,Ólafur K. Nielsen,7/9/1988,1373,100,Ófleygur ungi,M,
+REYK,113287,Fálki,,216,Ólafur K. Nielsen,7/9/1988,1464,101,Ófleygur ungi í hreiðri,F,
+REYK,15962,Fálki,,216,Ólafur K. Nielsen,7/9/1988,1566,100,Ófleygur ungi,M,
+REYK,15963,Fálki,,216,Ólafur K. Nielsen,7/9/1988,1566,101,Ófleygur ungi í hreiðri,M,
+REYK,15965,Fálki,,216,Ólafur K. Nielsen,7/10/1988,934,101,Ófleygur ungi í hreiðri,M,
+REYK,15966,Fálki,,216,Ólafur K. Nielsen,7/10/1988,895,101,Ófleygur ungi í hreiðri,M,
+REYK,113290,Fálki,,216,Ólafur K. Nielsen,7/10/1988,934,101,Ófleygur ungi í hreiðri,F,
+REYK,113291,Fálki,,216,Ólafur K. Nielsen,7/10/1988,934,101,Ófleygur ungi í hreiðri,F,
+REYK,15967,Fálki,,216,Ólafur K. Nielsen,7/11/1988,895,101,Ófleygur ungi í hreiðri,M,
+REYK,15968,Fálki,,216,Ólafur K. Nielsen,7/11/1988,895,101,Ófleygur ungi í hreiðri,M,
+REYK,113292,Fálki,,216,Ólafur K. Nielsen,7/11/1988,895,101,Ófleygur ungi í hreiðri,F,
+REYK,113293,Fálki,,216,Ólafur K. Nielsen,7/14/1988,1262,101,Ófleygur ungi í hreiðri,F,
+REYK,15969,Fálki,,216,Ólafur K. Nielsen,7/14/1988,1262,101,Ófleygur ungi í hreiðri,M,
+REYK,113295,Fálki,,216,Ólafur K. Nielsen,6/23/1989,488,101,Ófleygur ungi í hreiðri,F,
+REYK,113296,Fálki,,216,Ólafur K. Nielsen,6/23/1989,488,101,Ófleygur ungi í hreiðri,0,
+REYK,113297,Fálki,,216,Ólafur K. Nielsen,6/23/1989,488,101,Ófleygur ungi í hreiðri,0,
+REYK,15970,Fálki,,216,Ólafur K. Nielsen,6/23/1989,488,101,Ófleygur ungi í hreiðri,M,
+REYK,114401,Fálki,,216,Ólafur K. Nielsen,6/24/1989,1278,101,Ófleygur ungi í hreiðri,F,Systk.: 15974-75
+REYK,15974,Fálki,,216,Ólafur K. Nielsen,6/24/1989,1278,101,Ófleygur ungi í hreiðri,M,
+REYK,15975,Fálki,,216,Ólafur K. Nielsen,6/24/1989,1278,101,Ófleygur ungi í hreiðri,M,
+REYK,15976,Fálki,,216,Ólafur K. Nielsen,6/24/1989,1446,101,Ófleygur ungi í hreiðri,M,
+REYK,114402,Fálki,,216,Ólafur K. Nielsen,6/24/1989,1446,101,Ófleygur ungi í hreiðri,F,Systk.:15976
+REYK,15971,Fálki,,216,Ólafur K. Nielsen,6/24/1989,1363,101,Ófleygur ungi í hreiðri,M,
+REYK,15972,Fálki,,216,Ólafur K. Nielsen,6/24/1989,1363,101,Ófleygur ungi í hreiðri,M,
+REYK,113298,Fálki,,216,Ólafur K. Nielsen,6/24/1989,1486,101,Ófleygur ungi í hreiðri,0,
+REYK,113299,Fálki,,216,Ólafur K. Nielsen,6/24/1989,1486,101,Ófleygur ungi í hreiðri,0,
+REYK,113300,Fálki,,216,Ólafur K. Nielsen,6/24/1989,1486,101,Ófleygur ungi í hreiðri,0,
+REYK,15973,Fálki,,216,Ólafur K. Nielsen,6/24/1989,3317,101,Ófleygur ungi í hreiðri,M,
+REYK,15979,Fálki,,216,Ólafur K. Nielsen,6/25/1989,2878,101,Ófleygur ungi í hreiðri,M,
+REYK,15980,Fálki,,216,Ólafur K. Nielsen,6/25/1989,2878,101,Ófleygur ungi í hreiðri,M,
+REYK,15977,Fálki,,216,Ólafur K. Nielsen,6/25/1989,1478,101,Ófleygur ungi í hreiðri,M,
+REYK,15978,Fálki,,216,Ólafur K. Nielsen,6/25/1989,1478,101,Ófleygur ungi í hreiðri,M,
+REYK,114403,Fálki,,216,Ólafur K. Nielsen,6/25/1989,1478,100,Ófleygur ungi,F,"Systk.: 114404, 15977-78"
+REYK,114404,Fálki,,216,Ólafur K. Nielsen,6/25/1989,1478,101,Ófleygur ungi í hreiðri,F,"Systk.: 114403, 15977-78"
+REYK,114407,Fálki,,216,Ólafur K. Nielsen,6/25/1989,1371,101,Ófleygur ungi í hreiðri,F,Systk.:15981
+REYK,15981,Fálki,,216,Ólafur K. Nielsen,6/25/1989,1371,101,Ófleygur ungi í hreiðri,M,
+REYK,114405,Fálki,,216,Ólafur K. Nielsen,6/25/1989,1259,101,Ófleygur ungi í hreiðri,F,"Systk.: 114406, 15979-80"
+REYK,114406,Fálki,,216,Ólafur K. Nielsen,6/25/1989,1259,101,Ófleygur ungi í hreiðri,F,"Systk.: 114405, 15979-80"
+REYK,15985,Fálki,,216,Ólafur K. Nielsen,6/26/1989,1373,101,Ófleygur ungi í hreiðri,M,
+REYK,15986,Fálki,,216,Ólafur K. Nielsen,6/26/1989,1373,101,Ófleygur ungi í hreiðri,M,
+REYK,114413,Fálki,,216,Ólafur K. Nielsen,6/26/1989,1373,101,Ófleygur ungi í hreiðri,F,"Systk.: 114414, 15985-86"
+REYK,114414,Fálki,,216,Ólafur K. Nielsen,6/26/1989,1373,101,Ófleygur ungi í hreiðri,F,"Systk.: 114413, 15985-86"
+REYK,15984,Fálki,,216,Ólafur K. Nielsen,6/26/1989,1405,101,Ófleygur ungi í hreiðri,M,
+REYK,114410,Fálki,,216,Ólafur K. Nielsen,6/26/1989,1405,101,Ófleygur ungi í hreiðri,F,"Systk.: 114411-12, 15984"
+REYK,114411,Fálki,,216,Ólafur K. Nielsen,6/26/1989,1405,101,Ófleygur ungi í hreiðri,F,"Systk.: 114410,12, 15984"
+REYK,114412,Fálki,,216,Ólafur K. Nielsen,6/26/1989,1441,101,Ófleygur ungi í hreiðri,F,"Systk.: 114410-11, 15984"
+REYK,114408,Fálki,,216,Ólafur K. Nielsen,6/26/1989,1322,101,Ófleygur ungi í hreiðri,F,"Systk.: 114409, 15982-83"
+REYK,114409,Fálki,,216,Ólafur K. Nielsen,6/26/1989,1322,101,Ófleygur ungi í hreiðri,F,"Systk.: 114408, 15982-83"
+REYK,15982,Fálki,,216,Ólafur K. Nielsen,6/26/1989,1322,101,Ófleygur ungi í hreiðri,M,
+REYK,15983,Fálki,,216,Ólafur K. Nielsen,6/26/1989,1322,101,Ófleygur ungi í hreiðri,M,
+REYK,15991,Fálki,,216,Ólafur K. Nielsen,6/27/1989,934,101,Ófleygur ungi í hreiðri,M,
+REYK,15987,Fálki,,216,Ólafur K. Nielsen,6/27/1989,901,101,Ófleygur ungi í hreiðri,M,
+REYK,114415,Fálki,,216,Ólafur K. Nielsen,6/27/1989,901,101,Ófleygur ungi í hreiðri,F,"Systk.: 114416-17, 15987"
+REYK,114416,Fálki,,216,Ólafur K. Nielsen,6/27/1989,901,101,Ófleygur ungi í hreiðri,F,"Systk.: 114415, 17, 15987"
+REYK,114417,Fálki,,216,Ólafur K. Nielsen,6/27/1989,901,101,Ófleygur ungi í hreiðri,F,"Systk.: 114415-16, 15987"
+REYK,114419,Fálki,,216,Ólafur K. Nielsen,6/27/1989,930,101,Ófleygur ungi í hreiðri,F,Systk.: 15991
+REYK,114418,Fálki,,216,Ólafur K. Nielsen,6/27/1989,924,101,Ófleygur ungi í hreiðri,F,"Systk.: 15988, 15990"
+REYK,15988,Fálki,,216,Ólafur K. Nielsen,6/27/1989,924,101,Ófleygur ungi í hreiðri,M,
+REYK,15989,Fálki,,216,Ólafur K. Nielsen,6/27/1989,924,101,Ófleygur ungi í hreiðri,M,
+REYK,15990,Fálki,,216,Ólafur K. Nielsen,6/27/1989,924,101,Ófleygur ungi í hreiðri,M,
+REYK,114422,Fálki,,216,Ólafur K. Nielsen,6/29/1989,1340,101,Ófleygur ungi í hreiðri,F,"Systk.:114423, 15994"
+REYK,114423,Fálki,,216,Ólafur K. Nielsen,6/29/1989,1340,101,Ófleygur ungi í hreiðri,F,"Systk.:114422, 15994"
+REYK,15994,Fálki,,216,Ólafur K. Nielsen,6/29/1989,1340,101,Ófleygur ungi í hreiðri,M,
+REYK,15992,Fálki,,216,Ólafur K. Nielsen,6/29/1989,2420,101,Ófleygur ungi í hreiðri,M,
+REYK,15993,Fálki,,216,Ólafur K. Nielsen,6/29/1989,2420,101,Ófleygur ungi í hreiðri,M,
+REYK,114420,Fálki,,216,Ólafur K. Nielsen,6/29/1989,2420,101,Ófleygur ungi í hreiðri,F,"Systk.:114421, 15992-93"
+REYK,114421,Fálki,,216,Ólafur K. Nielsen,6/29/1989,2420,101,Ófleygur ungi í hreiðri,F,"Systk.:114420, 15992-93"
+REYK,114424,Fálki,,216,Ólafur K. Nielsen,7/2/1989,1413,101,Ófleygur ungi í hreiðri,F,Systk.: 15995
+REYK,15995,Fálki,,216,Ólafur K. Nielsen,7/2/1989,1413,101,Ófleygur ungi í hreiðri,M,
+REYK,113294,Fálki,,216,Ólafur K. Nielsen,8/5/1989,1342,400,Fullvaxinn,F,
+REYK,15996,Fálki,,216,Ólafur K. Nielsen,6/15/1990,488,101,Ófleygur ungi í hreiðri,M,
+REYK,114425,Fálki,,216,Ólafur K. Nielsen,6/15/1990,488,101,Ófleygur ungi í hreiðri,0,
+REYK,114426,Fálki,,216,Ólafur K. Nielsen,6/15/1990,488,101,Ófleygur ungi í hreiðri,0,
+REYK,114427,Fálki,,216,Ólafur K. Nielsen,6/15/1990,488,101,Ófleygur ungi í hreiðri,F,
+REYK,114428,Fálki,,216,Ólafur K. Nielsen,6/16/1990,1246,101,Ófleygur ungi í hreiðri,0,
+REYK,15997,Fálki,,216,Ólafur K. Nielsen,6/16/1990,1456,101,Ófleygur ungi í hreiðri,M,
+REYK,114429,Fálki,,216,Ólafur K. Nielsen,6/16/1990,2356,101,Ófleygur ungi í hreiðri,0,
+REYK,15998,Fálki,,216,Ólafur K. Nielsen,6/18/1990,1413,101,Ófleygur ungi í hreiðri,M,
+REYK,114430,Fálki,,216,Ólafur K. Nielsen,6/18/1990,1368,101,Ófleygur ungi í hreiðri,0,
+REYK,18001,Fálki,,216,Ólafur K. Nielsen,6/20/1990,943,101,Ófleygur ungi í hreiðri,M,"Syst.: 18001, 18002."
+REYK,18002,Fálki,,216,Ólafur K. Nielsen,6/20/1990,943,101,Ófleygur ungi í hreiðri,M,"Syst.: 18001, 18002."
+REYK,15999,Fálki,,216,Ólafur K. Nielsen,6/20/1990,943,101,Ófleygur ungi í hreiðri,M,
+REYK,16000,Fálki,,216,Ólafur K. Nielsen,6/20/1990,943,101,Ófleygur ungi í hreiðri,M,
+REYK,114431,Fálki,,216,Ólafur K. Nielsen,6/21/1990,971,101,Ófleygur ungi í hreiðri,F,
+REYK,114432,Fálki,,216,Ólafur K. Nielsen,6/21/1990,971,101,Ófleygur ungi í hreiðri,F,
+REYK,114433,Fálki,,216,Ólafur K. Nielsen,6/21/1990,2408,101,Ófleygur ungi í hreiðri,F,
+REYK,18005,Fálki,,216,Ólafur K. Nielsen,6/21/1990,3482,100,Ófleygur ungi,M,
+REYK,18003,Fálki,,216,Ólafur K. Nielsen,6/21/1990,3505,100,Ófleygur ungi,0,
+REYK,18004,Fálki,,216,Ólafur K. Nielsen,6/21/1990,3505,100,Ófleygur ungi,0,
+REYK,114434,Fálki,,216,Ólafur K. Nielsen,6/22/1990,965,101,Ófleygur ungi í hreiðri,0,
+REYK,114435,Fálki,,216,Ólafur K. Nielsen,6/22/1990,965,101,Ófleygur ungi í hreiðri,0,
+REYK,114436,Fálki,,216,Ólafur K. Nielsen,6/22/1990,965,101,Ófleygur ungi í hreiðri,0,
+REYK,114437,Fálki,,216,Ólafur K. Nielsen,6/22/1990,965,101,Ófleygur ungi í hreiðri,0,
+REYK,18006,Fálki,,216,Ólafur K. Nielsen,6/22/1990,891,100,Ófleygur ungi,0,
+REYK,114438,Fálki,,216,Ólafur K. Nielsen,6/22/1990,891,101,Ófleygur ungi í hreiðri,0,
+REYK,114440,Fálki,,216,Ólafur K. Nielsen,6/22/1990,891,101,Ófleygur ungi í hreiðri,0,
+REYK,114439,Fálki,,216,Ólafur K. Nielsen,6/25/1990,2418,101,Ófleygur ungi í hreiðri,F,
+REYK,114441,Fálki,,216,Ólafur K. Nielsen,6/25/1990,2418,101,Ófleygur ungi í hreiðri,F,
+REYK,18007,Fálki,,216,Ólafur K. Nielsen,6/26/1990,1384,100,Ófleygur ungi,0,
+REYK,18008,Fálki,,216,Ólafur K. Nielsen,6/26/1990,1384,100,Ófleygur ungi,0,
+REYK,18009,Fálki,,216,Ólafur K. Nielsen,6/26/1990,1322,100,Ófleygur ungi,0,
+REYK,18010,Fálki,,216,Ólafur K. Nielsen,6/26/1990,1322,100,Ófleygur ungi,0,
+REYK,18011,Fálki,,216,Ólafur K. Nielsen,6/27/1990,1283,100,Ófleygur ungi,0,
+REYK,18012,Fálki,,216,Ólafur K. Nielsen,6/27/1990,1283,101,Ófleygur ungi í hreiðri,0,
+REYK,114442,Fálki,,216,Ólafur K. Nielsen,6/27/1990,1259,101,Ófleygur ungi í hreiðri,0,
+REYK,114443,Fálki,,216,Ólafur K. Nielsen,6/27/1990,1259,101,Ófleygur ungi í hreiðri,0,
+REYK,113701,Fálki,,216,Ólafur K. Nielsen,7/15/1990,1360,101,Ófleygur ungi í hreiðri,F,
+REYK,17701,Fálki,,216,Ólafur K. Nielsen,7/15/1990,3391,100,Ófleygur ungi,M,
+REYK,113702,Fálki,,216,Ólafur K. Nielsen,7/21/1990,1293,101,Ófleygur ungi í hreiðri,F,
+REYK,17702,Fálki,,216,Ólafur K. Nielsen,7/21/1990,1293,100,Ófleygur ungi,M,
+REYK,17703,Fálki,,216,Ólafur K. Nielsen,7/21/1990,1293,100,Ófleygur ungi,M,
+REYK,17704,Fálki,,216,Ólafur K. Nielsen,6/21/1991,1967,101,Ófleygur ungi í hreiðri,0,
+REYK,114444,Fálki,,216,Ólafur K. Nielsen,6/22/1991,1486,101,Ófleygur ungi í hreiðri,0,
+REYK,114445,Fálki,,216,Ólafur K. Nielsen,6/22/1991,1486,101,Ófleygur ungi í hreiðri,0,
+REYK,114446,Fálki,,216,Ólafur K. Nielsen,6/22/1991,1405,101,Ófleygur ungi í hreiðri,0,
+REYK,114447,Fálki,,216,Ólafur K. Nielsen,6/22/1991,1405,101,Ófleygur ungi í hreiðri,0,
+REYK,114448,Fálki,,216,Ólafur K. Nielsen,6/22/1991,1405,101,Ófleygur ungi í hreiðri,0,
+REYK,17705,Fálki,,216,Ólafur K. Nielsen,6/22/1991,1405,101,Ófleygur ungi í hreiðri,0,
+REYK,114449,Fálki,,216,Ólafur K. Nielsen,6/23/1991,1415,101,Ófleygur ungi í hreiðri,0,
+REYK,114450,Fálki,,216,Ólafur K. Nielsen,6/23/1991,1431,101,Ófleygur ungi í hreiðri,0,
+REYK,17706,Fálki,,216,Ólafur K. Nielsen,6/23/1991,1962,101,Ófleygur ungi í hreiðri,0,"Syst. 17707-17708, 114450."
+REYK,17707,Fálki,,216,Ólafur K. Nielsen,6/23/1991,1962,101,Ófleygur ungi í hreiðri,0,"Syst. 17706, 17708, 114450."
+REYK,17708,Fálki,,216,Ólafur K. Nielsen,6/23/1991,1962,101,Ófleygur ungi í hreiðri,0,"Syst. 17706-17707, 114450."
+REYK,113705,Fálki,,216,Ólafur K. Nielsen,6/24/1991,2418,101,Ófleygur ungi í hreiðri,0,
+REYK,17709,Fálki,,216,Ólafur K. Nielsen,6/24/1991,3469,101,Ófleygur ungi í hreiðri,0,
+REYK,17710,Fálki,,216,Ólafur K. Nielsen,6/24/1991,3470,101,Ófleygur ungi í hreiðri,0,"Syst. 17711, 113705."
+REYK,17711,Fálki,,216,Ólafur K. Nielsen,6/24/1991,3470,101,Ófleygur ungi í hreiðri,0,"Syst. 17710, 113705."
+REYK,17712,Fálki,,216,Ólafur K. Nielsen,6/24/1991,1371,101,Ófleygur ungi í hreiðri,0,"Syst. 17713, 113703."
+REYK,17713,Fálki,,216,Ólafur K. Nielsen,6/24/1991,1371,101,Ófleygur ungi í hreiðri,0,"Syst. 17712, 113703."
+REYK,113703,Fálki,,216,Ólafur K. Nielsen,6/24/1991,1371,101,Ófleygur ungi í hreiðri,0,
+REYK,17714,Fálki,,216,Ólafur K. Nielsen,6/26/1991,3083,101,Ófleygur ungi í hreiðri,0,
+REYK,17715,Fálki,,216,Ólafur K. Nielsen,6/28/1991,931,101,Ófleygur ungi í hreiðri,0,"Syst. 17716, 113704."
+REYK,17716,Fálki,,216,Ólafur K. Nielsen,6/28/1991,931,100,Ófleygur ungi,0,"Syst. 17715, 113704."
+REYK,113704,Fálki,,216,Ólafur K. Nielsen,6/28/1991,931,101,Ófleygur ungi í hreiðri,0,
+REYK,113706,Fálki,,216,Ólafur K. Nielsen,6/29/1991,891,101,Ófleygur ungi í hreiðri,0,
+REYK,113707,Fálki,,216,Ólafur K. Nielsen,6/29/1991,891,101,Ófleygur ungi í hreiðri,0,
+REYK,17719,Fálki,,216,Ólafur K. Nielsen,6/29/1991,891,100,Ófleygur ungi,0,"Syst. 17720, 113706-113707."
+REYK,17720,Fálki,,216,Ólafur K. Nielsen,6/29/1991,891,100,Ófleygur ungi,0,"Syst. 17720, 113706-113707."
+REYK,17717,Fálki,,216,Ólafur K. Nielsen,6/29/1991,958,101,Ófleygur ungi í hreiðri,0,
+REYK,17718,Fálki,,216,Ólafur K. Nielsen,6/29/1991,958,101,Ófleygur ungi í hreiðri,0,
+REYK,18017,Fálki,,216,Ólafur K. Nielsen,6/26/1992,1456,100,Ófleygur ungi,0,
+REYK,18018,Fálki,,216,Ólafur K. Nielsen,6/26/1992,1456,100,Ófleygur ungi,0,
+REYK,113714,Fálki,,216,Ólafur K. Nielsen,6/26/1992,1360,101,Ófleygur ungi í hreiðri,0,
+REYK,18013,Fálki,,216,Ólafur K. Nielsen,6/26/1992,1363,101,Ófleygur ungi í hreiðri,0,
+REYK,18014,Fálki,,216,Ólafur K. Nielsen,6/26/1992,1363,100,Ófleygur ungi,0,
+REYK,18015,Fálki,,216,Ólafur K. Nielsen,6/26/1992,1363,100,Ófleygur ungi,0,
+REYK,18016,Fálki,,216,Ólafur K. Nielsen,6/26/1992,1363,100,Ófleygur ungi,0,
+REYK,113711,Fálki,,216,Ólafur K. Nielsen,6/26/1992,1363,101,Ófleygur ungi í hreiðri,0,
+REYK,113712,Fálki,,216,Ólafur K. Nielsen,6/26/1992,1363,101,Ófleygur ungi í hreiðri,0,
+REYK,113713,Fálki,,216,Ólafur K. Nielsen,6/26/1992,1363,101,Ófleygur ungi í hreiðri,0,
+REYK,113715,Fálki,,216,Ólafur K. Nielsen,6/26/1992,2356,101,Ófleygur ungi í hreiðri,0,
+REYK,18019,Fálki,,216,Ólafur K. Nielsen,6/27/1992,1324,100,Ófleygur ungi,0,
+REYK,18020,Fálki,,216,Ólafur K. Nielsen,6/27/1992,1325,100,Ófleygur ungi,0,
+REYK,113716,Fálki,,216,Ólafur K. Nielsen,6/27/1992,1325,101,Ófleygur ungi í hreiðri,0,
+REYK,113717,Fálki,,216,Ólafur K. Nielsen,6/27/1992,1325,100,Ófleygur ungi,0,
+REYK,18021,Fálki,,216,Ólafur K. Nielsen,6/30/1992,3057,100,Ófleygur ungi,0,
+REYK,18022,Fálki,,216,Ólafur K. Nielsen,7/1/1992,1322,100,Ófleygur ungi,0,
+REYK,18023,Fálki,,216,Ólafur K. Nielsen,7/1/1992,1322,100,Ófleygur ungi,0,
+REYK,113718,Fálki,,216,Ólafur K. Nielsen,7/1/1992,1322,101,Ófleygur ungi í hreiðri,0,
+REYK,113719,Fálki,,216,Ólafur K. Nielsen,7/1/1992,1322,101,Ófleygur ungi í hreiðri,0,
+REYK,113720,Fálki,,216,Ólafur K. Nielsen,7/1/1992,1322,101,Ófleygur ungi í hreiðri,0,
+REYK,18026,Fálki,,216,Ólafur K. Nielsen,7/2/1992,958,100,Ófleygur ungi,0,
+REYK,113721,Fálki,,216,Ólafur K. Nielsen,7/2/1992,1486,101,Ófleygur ungi í hreiðri,0,
+REYK,113722,Fálki,,216,Ólafur K. Nielsen,7/2/1992,1486,101,Ófleygur ungi í hreiðri,0,
+REYK,18024,Fálki,,216,Ólafur K. Nielsen,7/2/1992,1486,101,Ófleygur ungi í hreiðri,0,
+REYK,18025,Fálki,,216,Ólafur K. Nielsen,7/2/1992,1486,100,Ófleygur ungi,0,
+REYK,113723,Fálki,,216,Ólafur K. Nielsen,7/3/1992,935,101,Ófleygur ungi í hreiðri,0,
+REYK,113724,Fálki,,216,Ólafur K. Nielsen,7/3/1992,935,101,Ófleygur ungi í hreiðri,0,
+REYK,113725,Fálki,,216,Ólafur K. Nielsen,7/7/1992,935,100,Ófleygur ungi,0,
+REYK,18027,Fálki,,216,Ólafur K. Nielsen,7/7/1992,935,100,Ófleygur ungi,0,
+REYK,18028,Fálki,,216,Ólafur K. Nielsen,7/7/1992,935,100,Ófleygur ungi,0,
+REYK,18029,Fálki,,216,Ólafur K. Nielsen,6/18/1994,1486,100,Ófleygur ungi,0,"Syst.: 18029, 114709-114711."
+REYK,114709,Fálki,,216,Ólafur K. Nielsen,6/18/1994,1486,101,Ófleygur ungi í hreiðri,0,
+REYK,114710,Fálki,,216,Ólafur K. Nielsen,6/18/1994,1486,101,Ófleygur ungi í hreiðri,0,
+REYK,114711,Fálki,,216,Ólafur K. Nielsen,6/18/1994,1486,101,Ófleygur ungi í hreiðri,0,
+REYK,18030,Fálki,,216,Ólafur K. Nielsen,6/19/1994,3057,100,Ófleygur ungi,0,"Syst.: 18030-18031, 114712-114713."
+REYK,18031,Fálki,,216,Ólafur K. Nielsen,6/19/1994,3057,100,Ófleygur ungi,0,"Syst.: 18030-18031, 114712-114713."
+REYK,114712,Fálki,,216,Ólafur K. Nielsen,6/19/1994,1446,101,Ófleygur ungi í hreiðri,0,
+REYK,114713,Fálki,,216,Ólafur K. Nielsen,6/19/1994,1446,101,Ófleygur ungi í hreiðri,0,
+REYK,18032,Fálki,,216,Ólafur K. Nielsen,6/21/1994,934,100,Ófleygur ungi,0,"Syst.: 18032-18033, 114714."
+REYK,18033,Fálki,,216,Ólafur K. Nielsen,6/21/1994,934,100,Ófleygur ungi,0,"Syst.: 18032-18033, 114714."
+REYK,114714,Fálki,,216,Ólafur K. Nielsen,6/21/1994,934,101,Ófleygur ungi í hreiðri,0,
+REYK,114715,Fálki,,216,Ólafur K. Nielsen,6/21/1994,934,101,Ófleygur ungi í hreiðri,0,
+REYK,114716,Fálki,,216,Ólafur K. Nielsen,6/21/1994,934,101,Ófleygur ungi í hreiðri,0,
+REYK,114717,Fálki,,216,Ólafur K. Nielsen,6/21/1994,934,101,Ófleygur ungi í hreiðri,0,
+REYK,114718,Fálki,,216,Ólafur K. Nielsen,6/21/1994,934,101,Ófleygur ungi í hreiðri,0,
+REYK,18034,Fálki,,216,Ólafur K. Nielsen,6/21/1994,3083,100,Ófleygur ungi,0,"Syst.: 18034, 114715."
+REYK,18035,Fálki,,216,Ólafur K. Nielsen,6/27/1994,1415,100,Ófleygur ungi,0,"Syst.: 18035, 114719-114720."
+REYK,114719,Fálki,,216,Ólafur K. Nielsen,6/27/1994,1415,101,Ófleygur ungi í hreiðri,0,
+REYK,114720,Fálki,,216,Ólafur K. Nielsen,6/27/1994,1415,100,Ófleygur ungi,0,
+REYK,18036,Fálki,,216,Ólafur K. Nielsen,6/28/1994,1324,100,Ófleygur ungi,0,"Syst.: 18036, 114721."
+REYK,114721,Fálki,,216,Ólafur K. Nielsen,6/28/1994,1324,101,Ófleygur ungi í hreiðri,0,
+REYK,114722,Fálki,,216,Ólafur K. Nielsen,7/7/1994,1330,101,Ófleygur ungi í hreiðri,0,
+REYK,18037,Fálki,,216,Ólafur K. Nielsen,7/7/1994,1330,100,Ófleygur ungi,0,"Syst.: 18037, 114722."
+REYK,18038,Fálki,,216,Ólafur K. Nielsen,7/7/1994,1369,100,Ófleygur ungi,0,"Syst.: 18038, 114723."
+REYK,114723,Fálki,,216,Ólafur K. Nielsen,7/7/1994,1369,101,Ófleygur ungi í hreiðri,0,
+REYK,18039,Fálki,,216,Ólafur K. Nielsen,7/8/1994,1456,100,Ófleygur ungi,0,"Syst.: 18039-18040, 114724."
+REYK,18040,Fálki,,216,Ólafur K. Nielsen,7/8/1994,1456,100,Ófleygur ungi,0,"Syst.: 18039-18040, 114724."
+REYK,114724,Fálki,,216,Ólafur K. Nielsen,7/8/1994,2356,101,Ófleygur ungi í hreiðri,0,
+REYK,18041,Fálki,,216,Ólafur K. Nielsen,7/11/1994,891,100,Ófleygur ungi,0,"Syst.: 18041-18042, 114725."
+REYK,18042,Fálki,,216,Ólafur K. Nielsen,7/11/1994,891,100,Ófleygur ungi,0,"Syst.: 18041-18042, 114725."
+REYK,114725,Fálki,,216,Ólafur K. Nielsen,7/11/1994,891,101,Ófleygur ungi í hreiðri,0,
+REYK,114726,Fálki,,216,Ólafur K. Nielsen,7/12/1994,1322,101,Ófleygur ungi í hreiðri,0,
+REYK,18043,Fálki,,216,Ólafur K. Nielsen,7/12/1994,1322,100,Ófleygur ungi,0,"Syst.: 18043, 114726."
+REYK,18045,Fálki,,216,Ólafur K. Nielsen,6/21/1995,1442,100,Ófleygur ungi,0,"Syst.: 18045, 114971-114972."
+REYK,114971,Fálki,,216,Ólafur K. Nielsen,6/21/1995,1442,101,Ófleygur ungi í hreiðri,0,
+REYK,114972,Fálki,,216,Ólafur K. Nielsen,6/21/1995,1442,101,Ófleygur ungi í hreiðri,0,
+REYK,18046,Fálki,,216,Ólafur K. Nielsen,6/21/1995,2878,100,Ófleygur ungi,0,
+REYK,114973,Fálki,,216,Ólafur K. Nielsen,6/22/1995,1324,101,Ófleygur ungi í hreiðri,0,
+REYK,114974,Fálki,,216,Ólafur K. Nielsen,6/22/1995,1324,101,Ófleygur ungi í hreiðri,0,
+REYK,18047,Fálki,,216,Ólafur K. Nielsen,6/22/1995,1324,100,Ófleygur ungi,0,"Syst.: 18047-18048, 114973-114974."
+REYK,18048,Fálki,,216,Ólafur K. Nielsen,6/22/1995,1324,100,Ófleygur ungi,0,"Syst.: 18047-18048, 114973-114974."
+REYK,17721,Fálki,,216,Ólafur K. Nielsen,6/23/1995,1278,100,Ófleygur ungi,0,Syst.: Reykjavík 18049-18050.
+REYK,18049,Fálki,,216,Ólafur K. Nielsen,6/23/1995,1278,100,Ófleygur ungi,0,"Syst.: 18049-18050, 11721."
+REYK,18050,Fálki,,216,Ólafur K. Nielsen,6/23/1995,1278,100,Ófleygur ungi,0,"Syst.: 18049-18050, 11721."
+REYK,114975,Fálki,,216,Ólafur K. Nielsen,6/23/1995,1273,101,Ófleygur ungi í hreiðri,0,
+REYK,17722,Fálki,,216,Ólafur K. Nielsen,6/23/1995,1273,100,Ófleygur ungi,0,Syst.: Reykjavík 114975.
+REYK,17723,Fálki,,216,Ólafur K. Nielsen,6/27/1995,1262,100,Ófleygur ungi,0,Syst.: Reykjavík 114978-114979.
+REYK,114978,Fálki,,216,Ólafur K. Nielsen,6/27/1995,1262,101,Ófleygur ungi í hreiðri,0,
+REYK,114979,Fálki,,216,Ólafur K. Nielsen,6/27/1995,1262,101,Ófleygur ungi í hreiðri,0,
+REYK,114976,Fálki,,216,Ólafur K. Nielsen,6/27/1995,1446,101,Ófleygur ungi í hreiðri,0,
+REYK,114977,Fálki,,216,Ólafur K. Nielsen,6/27/1995,1446,101,Ófleygur ungi í hreiðri,0,
+REYK,17724,Fálki,,216,Ólafur K. Nielsen,6/27/1995,1446,100,Ófleygur ungi,0,Syst.: Reykjavík 114976-114977.
+REYK,17725,Fálki,,216,Ólafur K. Nielsen,6/28/1995,958,100,Ófleygur ungi,0,Syst.: Reykjavík 17726.
+REYK,17726,Fálki,,216,Ólafur K. Nielsen,6/28/1995,958,100,Ófleygur ungi,0,Syst.: Reykjavík 17725.
+REYK,17729,Fálki,,216,Ólafur K. Nielsen,6/29/1995,913,100,Ófleygur ungi,0,Syst.: Reykjavík 114982.
+REYK,114982,Fálki,,216,Ólafur K. Nielsen,6/29/1995,913,101,Ófleygur ungi í hreiðri,0,
+REYK,114980,Fálki,,216,Ólafur K. Nielsen,6/29/1995,3882,101,Ófleygur ungi í hreiðri,0,
+REYK,114981,Fálki,,216,Ólafur K. Nielsen,6/29/1995,3882,101,Ófleygur ungi í hreiðri,0,
+REYK,17727,Fálki,,216,Ólafur K. Nielsen,6/29/1995,3882,100,Ófleygur ungi,0,"Syst.: Reykjavík 17727, 114980-114981."
+REYK,17728,Fálki,,216,Ólafur K. Nielsen,6/29/1995,3882,100,Ófleygur ungi,0,"Syst.: Reykjavík 17727, 114980-114981."
+REYK,114983,Fálki,,216,Ólafur K. Nielsen,7/2/1995,934,101,Ófleygur ungi í hreiðri,0,
+REYK,114984,Fálki,,216,Ólafur K. Nielsen,7/2/1995,934,101,Ófleygur ungi í hreiðri,0,
+REYK,17730,Fálki,,216,Ólafur K. Nielsen,7/2/1995,934,100,Ófleygur ungi,0,Syst.: Reykjavík 114983-114984.
+REYK,17731,Fálki,,216,Ólafur K. Nielsen,7/3/1995,1322,100,Ófleygur ungi,0,"Syst.: Reykjavík 17732, 114985-114986."
+REYK,17732,Fálki,,216,Ólafur K. Nielsen,7/3/1995,1322,100,Ófleygur ungi,0,"Syst.: Reykjavík 17731, 114985-114986."
+REYK,114985,Fálki,,216,Ólafur K. Nielsen,7/3/1995,1322,101,Ófleygur ungi í hreiðri,0,
+REYK,114986,Fálki,,216,Ólafur K. Nielsen,7/3/1995,1322,101,Ófleygur ungi í hreiðri,0,
+REYK,17733,Fálki,,216,Ólafur K. Nielsen,7/3/1995,1293,100,Ófleygur ungi,0,"Syst.: Reykjavík 17734-17735, 114987."
+REYK,17734,Fálki,,216,Ólafur K. Nielsen,7/3/1995,1293,100,Ófleygur ungi,0,"Syst.: Reykjavík 17733, 17735, 114987."
+REYK,17735,Fálki,,216,Ólafur K. Nielsen,7/3/1995,1293,101,Ófleygur ungi í hreiðri,0,"Syst.: Reykjavík 17733-17734, 114987."
+REYK,114987,Fálki,,216,Ólafur K. Nielsen,7/3/1995,1293,101,Ófleygur ungi í hreiðri,0,
+REYK,114989,Fálki,,216,Ólafur K. Nielsen,7/5/1995,1369,101,Ófleygur ungi í hreiðri,0,
+REYK,114990,Fálki,,216,Ólafur K. Nielsen,7/5/1995,1369,100,Ófleygur ungi,0,
+REYK,17738,Fálki,,216,Ólafur K. Nielsen,7/5/1995,1369,101,Ófleygur ungi í hreiðri,0,"Syst.: Reykjavík 17739, 114989-114990."
+REYK,17739,Fálki,,216,Ólafur K. Nielsen,7/5/1995,1369,101,Ófleygur ungi í hreiðri,0,"Syst.: Reykjavík 17738, 114989-114990."
+REYK,114988,Fálki,,216,Ólafur K. Nielsen,7/5/1995,2356,101,Ófleygur ungi í hreiðri,0,
+REYK,17736,Fálki,,216,Ólafur K. Nielsen,7/5/1995,2356,101,Ófleygur ungi í hreiðri,0,"Syst.: Reykjavík 17737, 114988."
+REYK,17737,Fálki,,216,Ólafur K. Nielsen,7/5/1995,2356,101,Ófleygur ungi í hreiðri,0,"Syst.: Reykjavík 17736, 114988."
+REYK,17743,Fálki,,216,Ólafur K. Nielsen,6/22/1996,1372,100,Ófleygur ungi,M,
+REYK,114999,Fálki,,216,Ólafur K. Nielsen,6/22/1996,1372,101,Ófleygur ungi í hreiðri,F,
+REYK,115000,Fálki,,216,Ólafur K. Nielsen,6/22/1996,1372,101,Ófleygur ungi í hreiðri,F,
+REYK,17741,Fálki,,216,Ólafur K. Nielsen,6/22/1996,1446,100,Ófleygur ungi,M,
+REYK,17742,Fálki,,216,Ólafur K. Nielsen,6/22/1996,1446,100,Ófleygur ungi,M,
+REYK,114997,Fálki,,216,Ólafur K. Nielsen,6/22/1996,1446,101,Ófleygur ungi í hreiðri,F,
+REYK,114998,Fálki,,216,Ólafur K. Nielsen,6/22/1996,1446,101,Ófleygur ungi í hreiðri,F,
+REYK,114995,Fálki,,216,Ólafur K. Nielsen,6/22/1996,1324,101,Ófleygur ungi í hreiðri,F,
+REYK,114996,Fálki,,216,Ólafur K. Nielsen,6/22/1996,1324,101,Ófleygur ungi í hreiðri,F,
+REYK,17740,Fálki,,216,Ólafur K. Nielsen,6/22/1996,1324,100,Ófleygur ungi,M,
+REYK,17750,Fálki,,216,Ólafur K. Nielsen,6/22/1996,1324,100,Ófleygur ungi,M,
+REYK,113461,Fálki,,216,Ólafur K. Nielsen,6/23/1996,1283,101,Ófleygur ungi í hreiðri,F,
+REYK,113462,Fálki,,216,Ólafur K. Nielsen,6/23/1996,1283,101,Ófleygur ungi í hreiðri,F,
+REYK,17747,Fálki,,216,Ólafur K. Nielsen,6/24/1996,913,101,Ófleygur ungi í hreiðri,0,
+REYK,17748,Fálki,,216,Ólafur K. Nielsen,6/24/1996,913,100,Ófleygur ungi,M,
+REYK,113465,Fálki,,216,Ólafur K. Nielsen,6/24/1996,913,101,Ófleygur ungi í hreiðri,F,
+REYK,113466,Fálki,,216,Ólafur K. Nielsen,6/24/1996,913,101,Ófleygur ungi í hreiðri,F,
+REYK,17744,Fálki,,216,Ólafur K. Nielsen,6/24/1996,891,100,Ófleygur ungi,M,
+REYK,17745,Fálki,,216,Ólafur K. Nielsen,6/24/1996,891,100,Ófleygur ungi,M,
+REYK,113463,Fálki,,216,Ólafur K. Nielsen,6/24/1996,891,101,Ófleygur ungi í hreiðri,F,
+REYK,113464,Fálki,,216,Ólafur K. Nielsen,6/24/1996,958,101,Ófleygur ungi í hreiðri,F,
+REYK,17746,Fálki,,216,Ólafur K. Nielsen,6/24/1996,958,100,Ófleygur ungi,M,
+REYK,17749,Fálki,,216,Ólafur K. Nielsen,6/24/1996,978,100,Ófleygur ungi,M,
+REYK,113469,Fálki,,216,Ólafur K. Nielsen,6/24/1996,978,101,Ófleygur ungi í hreiðri,F,
+REYK,118951,Fálki,,216,Ólafur K. Nielsen,6/24/1996,978,101,Ófleygur ungi í hreiðri,M,
+REYK,113467,Fálki,,216,Ólafur K. Nielsen,6/26/1996,1293,101,Ófleygur ungi í hreiðri,F,
+REYK,118952,Fálki,,216,Ólafur K. Nielsen,6/26/1996,1293,101,Ófleygur ungi í hreiðri,M,
+REYK,118953,Fálki,,216,Ólafur K. Nielsen,6/26/1996,1293,101,Ófleygur ungi í hreiðri,M,
+REYK,118954,Fálki,,216,Ólafur K. Nielsen,6/26/1996,1293,101,Ófleygur ungi í hreiðri,M,
+REYK,113470,Fálki,,216,Ólafur K. Nielsen,6/27/1996,1330,101,Ófleygur ungi í hreiðri,F,
+REYK,113468,Fálki,,216,Ólafur K. Nielsen,6/27/1996,1330,101,Ófleygur ungi í hreiðri,F,
+REYK,118955,Fálki,,216,Ólafur K. Nielsen,6/27/1996,1330,101,Ófleygur ungi í hreiðri,M,
+REYK,118956,Fálki,,216,Ólafur K. Nielsen,6/27/1996,1369,101,Ófleygur ungi í hreiðri,M,
+REYK,115201,Fálki,,216,Ólafur K. Nielsen,6/27/1996,1369,101,Ófleygur ungi í hreiðri,F,
+REYK,118957,Fálki,,216,Ólafur K. Nielsen,6/28/1996,1485,101,Ófleygur ungi í hreiðri,M,
+REYK,118958,Fálki,,216,Ólafur K. Nielsen,6/28/1996,1485,101,Ófleygur ungi í hreiðri,M,
+REYK,115202,Fálki,,216,Ólafur K. Nielsen,6/28/1996,1485,101,Ófleygur ungi í hreiðri,F,
+REYK,115203,Fálki,,216,Ólafur K. Nielsen,6/28/1996,1485,101,Ófleygur ungi í hreiðri,F,
+REYK,118959,Fálki,,216,Ólafur K. Nielsen,6/11/1997,1324,101,Ófleygur ungi í hreiðri,0,
+REYK,115204,Fálki,,216,Ólafur K. Nielsen,6/11/1997,1324,101,Ófleygur ungi í hreiðri,0,
+REYK,115205,Fálki,,216,Ólafur K. Nielsen,6/11/1997,1324,101,Ófleygur ungi í hreiðri,0,
+REYK,115209,Fálki,,216,Ólafur K. Nielsen,6/20/1997,1322,101,Ófleygur ungi í hreiðri,0,
+REYK,115210,Fálki,,216,Ólafur K. Nielsen,6/20/1997,1322,101,Ófleygur ungi í hreiðri,0,
+REYK,115211,Fálki,,216,Ólafur K. Nielsen,6/20/1997,1322,101,Ófleygur ungi í hreiðri,0,
+REYK,118964,Fálki,,216,Ólafur K. Nielsen,6/20/1997,1322,101,Ófleygur ungi í hreiðri,0,
+REYK,118960,Fálki,,216,Ólafur K. Nielsen,6/20/1997,1446,101,Ófleygur ungi í hreiðri,0,
+REYK,118961,Fálki,,216,Ólafur K. Nielsen,6/20/1997,1446,101,Ófleygur ungi í hreiðri,0,
+REYK,118962,Fálki,,216,Ólafur K. Nielsen,6/20/1997,1446,101,Ófleygur ungi í hreiðri,0,
+REYK,118963,Fálki,,216,Ólafur K. Nielsen,6/20/1997,1446,101,Ófleygur ungi í hreiðri,0,
+REYK,115206,Fálki,,216,Ólafur K. Nielsen,6/20/1997,1372,101,Ófleygur ungi í hreiðri,0,
+REYK,115207,Fálki,,216,Ólafur K. Nielsen,6/20/1997,1372,101,Ófleygur ungi í hreiðri,0,
+REYK,115208,Fálki,,216,Ólafur K. Nielsen,6/20/1997,1372,101,Ófleygur ungi í hreiðri,0,
+REYK,115212,Fálki,,216,Ólafur K. Nielsen,6/21/1997,1278,100,Ófleygur ungi,0,
+REYK,115213,Fálki,,216,Ólafur K. Nielsen,6/21/1997,1278,101,Ófleygur ungi í hreiðri,0,
+REYK,115214,Fálki,,216,Ólafur K. Nielsen,6/21/1997,1278,101,Ófleygur ungi í hreiðri,0,
+REYK,118965,Fálki,,216,Ólafur K. Nielsen,6/21/1997,1278,101,Ófleygur ungi í hreiðri,0,
+REYK,118966,Fálki,,216,Ólafur K. Nielsen,6/21/1997,1486,101,Ófleygur ungi í hreiðri,0,
+REYK,115215,Fálki,,216,Ólafur K. Nielsen,6/21/1997,1486,101,Ófleygur ungi í hreiðri,0,
+REYK,115216,Fálki,,216,Ólafur K. Nielsen,6/21/1997,1486,101,Ófleygur ungi í hreiðri,0,
+REYK,115217,Fálki,,216,Ólafur K. Nielsen,6/21/1997,1486,101,Ófleygur ungi í hreiðri,0,
+REYK,118970,Fálki,,216,Ólafur K. Nielsen,6/22/1997,1485,101,Ófleygur ungi í hreiðri,0,
+REYK,118971,Fálki,,216,Ólafur K. Nielsen,6/22/1997,1485,101,Ófleygur ungi í hreiðri,0,
+REYK,118967,Fálki,,216,Ólafur K. Nielsen,6/22/1997,958,101,Ófleygur ungi í hreiðri,0,
+REYK,118968,Fálki,,216,Ólafur K. Nielsen,6/22/1997,891,101,Ófleygur ungi í hreiðri,0,
+REYK,118969,Fálki,,216,Ólafur K. Nielsen,6/22/1997,891,101,Ófleygur ungi í hreiðri,0,
+REYK,115218,Fálki,,216,Ólafur K. Nielsen,6/22/1997,1485,101,Ófleygur ungi í hreiðri,0,
+REYK,115219,Fálki,,216,Ólafur K. Nielsen,6/22/1997,1485,101,Ófleygur ungi í hreiðri,0,
+REYK,115221,Fálki,,216,Ólafur K. Nielsen,6/23/1997,934,101,Ófleygur ungi í hreiðri,0,
+REYK,118972,Fálki,,216,Ólafur K. Nielsen,6/23/1997,943,101,Ófleygur ungi í hreiðri,0,
+REYK,118973,Fálki,,216,Ólafur K. Nielsen,6/23/1997,943,101,Ófleygur ungi í hreiðri,0,
+REYK,118974,Fálki,,216,Ólafur K. Nielsen,6/23/1997,943,101,Ófleygur ungi í hreiðri,0,
+REYK,115220,Fálki,,216,Ólafur K. Nielsen,6/23/1997,943,101,Ófleygur ungi í hreiðri,0,
+REYK,115222,Fálki,,216,Ólafur K. Nielsen,6/23/1997,2422,101,Ófleygur ungi í hreiðri,0,
+REYK,115223,Fálki,,216,Ólafur K. Nielsen,6/23/1997,2422,101,Ófleygur ungi í hreiðri,0,
+REYK,118975,Fálki,,216,Ólafur K. Nielsen,6/24/1997,1262,100,Ófleygur ungi,0,
+REYK,118976,Fálki,,216,Ólafur K. Nielsen,6/24/1997,1262,101,Ófleygur ungi í hreiðri,0,
+REYK,115224,Fálki,,216,Ólafur K. Nielsen,6/24/1997,1262,101,Ófleygur ungi í hreiðri,0,
+REYK,115225,Fálki,,216,Ólafur K. Nielsen,6/24/1997,1262,101,Ófleygur ungi í hreiðri,0,
+REYK,115226,Fálki,,216,Ólafur K. Nielsen,6/25/1997,1293,101,Ófleygur ungi í hreiðri,0,
+REYK,115227,Fálki,,216,Ólafur K. Nielsen,6/25/1997,1293,101,Ófleygur ungi í hreiðri,0,
+REYK,118977,Fálki,,216,Ólafur K. Nielsen,6/25/1997,1293,101,Ófleygur ungi í hreiðri,0,
+REYK,115228,Fálki,,216,Ólafur K. Nielsen,6/25/1997,1295,101,Ófleygur ungi í hreiðri,0,
+REYK,118978,Fálki,,216,Ólafur K. Nielsen,6/25/1997,1295,101,Ófleygur ungi í hreiðri,0,
+REYK,118979,Fálki,,216,Ólafur K. Nielsen,6/25/1997,1295,101,Ófleygur ungi í hreiðri,0,
+REYK,115232,Fálki,,216,Ólafur K. Nielsen,6/26/1997,1369,101,Ófleygur ungi í hreiðri,0,
+REYK,115233,Fálki,,216,Ólafur K. Nielsen,6/26/1997,1369,101,Ófleygur ungi í hreiðri,0,
+REYK,115234,Fálki,,216,Ólafur K. Nielsen,6/26/1997,1369,101,Ófleygur ungi í hreiðri,0,
+REYK,115229,Fálki,,216,Ólafur K. Nielsen,6/26/1997,2418,100,Ófleygur ungi,0,
+REYK,115230,Fálki,,216,Ólafur K. Nielsen,6/26/1997,2418,101,Ófleygur ungi í hreiðri,0,
+REYK,115231,Fálki,,216,Ólafur K. Nielsen,6/26/1997,2418,101,Ófleygur ungi í hreiðri,0,
+REYK,118980,Fálki,,216,Ólafur K. Nielsen,6/26/1997,3470,101,Ófleygur ungi í hreiðri,0,
+REYK,115235,Fálki,,216,Ólafur K. Nielsen,6/27/1997,1398,100,Ófleygur ungi,0,
+REYK,115236,Fálki,,216,Ólafur K. Nielsen,6/27/1997,1398,101,Ófleygur ungi í hreiðri,0,
+REYK,115237,Fálki,,216,Ólafur K. Nielsen,6/27/1997,1398,101,Ófleygur ungi í hreiðri,0,
+REYK,115239,Fálki,,216,Ólafur K. Nielsen,6/27/1997,1308,101,Ófleygur ungi í hreiðri,0,
+REYK,118983,Fálki,,216,Ólafur K. Nielsen,6/27/1997,1308,100,Ófleygur ungi,0,
+REYK,118981,Fálki,,216,Ólafur K. Nielsen,6/27/1997,1360,101,Ófleygur ungi í hreiðri,0,
+REYK,118982,Fálki,,216,Ólafur K. Nielsen,6/27/1997,1360,101,Ófleygur ungi í hreiðri,0,
+REYK,115238,Fálki,,216,Ólafur K. Nielsen,6/27/1997,1360,101,Ófleygur ungi í hreiðri,0,
+REYK,118984,Fálki,,216,Ólafur K. Nielsen,6/28/1997,1283,101,Ófleygur ungi í hreiðri,0,
+REYK,118985,Fálki,,216,Ólafur K. Nielsen,6/28/1997,1283,100,Ófleygur ungi,0,
+REYK,115242,Fálki,,216,Ólafur K. Nielsen,6/7/1998,1324,101,Ófleygur ungi í hreiðri,0,
+REYK,118987,Fálki,,216,Ólafur K. Nielsen,6/7/1998,1324,101,Ófleygur ungi í hreiðri,0,
+REYK,118988,Fálki,,216,Ólafur K. Nielsen,6/7/1998,1324,101,Ófleygur ungi í hreiðri,0,
+REYK,118989,Fálki,,216,Ólafur K. Nielsen,6/7/1998,1324,101,Ófleygur ungi í hreiðri,0,
+REYK,118986,Fálki,,216,Ólafur K. Nielsen,6/7/1998,1446,101,Ófleygur ungi í hreiðri,0,
+REYK,115240,Fálki,,216,Ólafur K. Nielsen,6/7/1998,1446,101,Ófleygur ungi í hreiðri,0,
+REYK,115241,Fálki,,216,Ólafur K. Nielsen,6/7/1998,1446,101,Ófleygur ungi í hreiðri,0,
+REYK,118990,Fálki,,216,Ólafur K. Nielsen,6/8/1998,1322,101,Ófleygur ungi í hreiðri,0,
+REYK,118991,Fálki,,216,Ólafur K. Nielsen,6/8/1998,1322,101,Ófleygur ungi í hreiðri,0,
+REYK,115243,Fálki,,216,Ólafur K. Nielsen,6/8/1998,1322,101,Ófleygur ungi í hreiðri,0,
+REYK,115244,Fálki,,216,Ólafur K. Nielsen,6/8/1998,1322,101,Ófleygur ungi í hreiðri,0,
+REYK,115245,Fálki,,216,Ólafur K. Nielsen,6/22/1998,1363,101,Ófleygur ungi í hreiðri,F,
+REYK,115246,Fálki,,216,Ólafur K. Nielsen,6/22/1998,1363,101,Ófleygur ungi í hreiðri,F,
+REYK,118992,Fálki,,216,Ólafur K. Nielsen,6/22/1998,1363,101,Ófleygur ungi í hreiðri,M,
+REYK,118993,Fálki,,216,Ólafur K. Nielsen,6/22/1998,1486,101,Ófleygur ungi í hreiðri,M,
+REYK,118994,Fálki,,216,Ólafur K. Nielsen,6/22/1998,1486,101,Ófleygur ungi í hreiðri,M,
+REYK,115247,Fálki,,216,Ólafur K. Nielsen,6/22/1998,1486,101,Ófleygur ungi í hreiðri,F,
+REYK,115248,Fálki,,216,Ólafur K. Nielsen,6/22/1998,1486,101,Ófleygur ungi í hreiðri,F,
+REYK,118995,Fálki,,216,Ólafur K. Nielsen,6/23/1998,1293,101,Ófleygur ungi í hreiðri,M,
+REYK,118996,Fálki,,216,Ólafur K. Nielsen,6/23/1998,1293,101,Ófleygur ungi í hreiðri,M,
+REYK,115249,Fálki,,216,Ólafur K. Nielsen,6/23/1998,1293,101,Ófleygur ungi í hreiðri,F,
+REYK,115250,Fálki,,216,Ólafur K. Nielsen,6/24/1998,1330,101,Ófleygur ungi í hreiðri,F,
+REYK,118997,Fálki,,216,Ólafur K. Nielsen,6/24/1998,1330,101,Ófleygur ungi í hreiðri,M,
+REYK,117821,Fálki,,216,Ólafur K. Nielsen,6/25/1998,1405,101,Ófleygur ungi í hreiðri,F,
+REYK,118998,Fálki,,216,Ólafur K. Nielsen,6/25/1998,1405,101,Ófleygur ungi í hreiðri,M,
+REYK,118999,Fálki,,216,Ólafur K. Nielsen,6/25/1998,958,101,Ófleygur ungi í hreiðri,M,
+REYK,119000,Fálki,,216,Ólafur K. Nielsen,6/25/1998,958,101,Ófleygur ungi í hreiðri,M,
+REYK,117822,Fálki,,216,Ólafur K. Nielsen,6/25/1998,958,101,Ófleygur ungi í hreiðri,F,
+REYK,17563,Fálki,,216,Ólafur K. Nielsen,6/26/1998,931,100,Ófleygur ungi,M,
+REYK,17564,Fálki,,216,Ólafur K. Nielsen,6/26/1998,931,100,Ófleygur ungi,M,
+REYK,117826,Fálki,,216,Ólafur K. Nielsen,6/26/1998,905,101,Ófleygur ungi í hreiðri,F,
+REYK,117823,Fálki,,216,Ólafur K. Nielsen,6/26/1998,1485,101,Ófleygur ungi í hreiðri,F,
+REYK,17561,Fálki,,216,Ólafur K. Nielsen,6/26/1998,1485,100,Ófleygur ungi,M,
+REYK,17562,Fálki,,216,Ólafur K. Nielsen,6/26/1998,1485,100,Ófleygur ungi,M,
+REYK,17568,Fálki,,216,Ólafur K. Nielsen,6/27/1998,2422,100,Ófleygur ungi,M,
+REYK,17566,Fálki,,216,Ólafur K. Nielsen,6/27/1998,2422,100,Ófleygur ungi,M,
+REYK,117827,Fálki,,216,Ólafur K. Nielsen,6/27/1998,934,101,Ófleygur ungi í hreiðri,F,
+REYK,117828,Fálki,,216,Ólafur K. Nielsen,6/27/1998,934,101,Ófleygur ungi í hreiðri,0,
+REYK,117829,Fálki,,216,Ólafur K. Nielsen,6/27/1998,934,101,Ófleygur ungi í hreiðri,F,
+REYK,117830,Fálki,,216,Ólafur K. Nielsen,6/27/1998,934,101,Ófleygur ungi í hreiðri,M,
+REYK,117831,Fálki,,216,Ólafur K. Nielsen,6/27/1998,934,101,Ófleygur ungi í hreiðri,F,
+REYK,117832,Fálki,,216,Ólafur K. Nielsen,6/27/1998,934,101,Ófleygur ungi í hreiðri,M,
+REYK,117824,Fálki,,216,Ólafur K. Nielsen,6/27/1998,934,101,Ófleygur ungi í hreiðri,F,
+REYK,117825,Fálki,,216,Ólafur K. Nielsen,6/27/1998,934,101,Ófleygur ungi í hreiðri,F,
+REYK,117833,Fálki,,216,Ólafur K. Nielsen,6/27/1998,943,101,Ófleygur ungi í hreiðri,M,
+REYK,117834,Fálki,,216,Ólafur K. Nielsen,6/27/1998,943,101,Ófleygur ungi í hreiðri,M,
+REYK,117835,Fálki,,216,Ólafur K. Nielsen,6/27/1998,943,101,Ófleygur ungi í hreiðri,M,
+REYK,17565,Fálki,,216,Ólafur K. Nielsen,6/27/1998,934,100,Ófleygur ungi,M,
+REYK,17567,Fálki,,216,Ólafur K. Nielsen,6/28/1998,3882,100,Ófleygur ungi,M,
+REYK,17569,Fálki,,216,Ólafur K. Nielsen,6/28/1998,3882,100,Ófleygur ungi,M,
+REYK,17570,Fálki,,216,Ólafur K. Nielsen,6/29/1998,1283,100,Ófleygur ungi,M,
+REYK,17571,Fálki,,216,Ólafur K. Nielsen,6/29/1998,1283,100,Ófleygur ungi,M,
+REYK,117836,Fálki,,216,Ólafur K. Nielsen,4/23/1999,2553,420,Fullvaxinn (2. ár),F,Upphaflega Skagaströnd í mars 1999
+REYK,17574,Fálki,,216,Ólafur K. Nielsen,6/19/1999,3057,100,Ófleygur ungi,M,
+REYK,117837,Fálki,,216,Ólafur K. Nielsen,6/19/1999,1293,100,Ófleygur ungi,F,
+REYK,17572,Fálki,,216,Ólafur K. Nielsen,6/19/1999,1293,100,Ófleygur ungi,M,
+REYK,17573,Fálki,,216,Ólafur K. Nielsen,6/19/1999,1293,100,Ófleygur ungi,M,
+REYK,117840,Fálki,,216,Ólafur K. Nielsen,6/19/1999,1446,100,Ófleygur ungi,F,
+REYK,117838,Fálki,,216,Ólafur K. Nielsen,6/19/1999,1446,100,Ófleygur ungi,F,
+REYK,17575,Fálki,,216,Ólafur K. Nielsen,6/21/1999,3391,100,Ófleygur ungi,M,
+REYK,17576,Fálki,,216,Ólafur K. Nielsen,6/21/1999,1486,100,Ófleygur ungi,M,
+REYK,117839,Fálki,,216,Ólafur K. Nielsen,6/21/1999,1486,100,Ófleygur ungi,F,
+REYK,117841,Fálki,,216,Ólafur K. Nielsen,6/22/1999,1445,100,Ófleygur ungi,F,
+REYK,17577,Fálki,,216,Ólafur K. Nielsen,6/22/1999,1304,100,Ófleygur ungi,M,
+REYK,17578,Fálki,,216,Ólafur K. Nielsen,6/23/1999,943,100,Ófleygur ungi,M,
+REYK,17579,Fálki,,216,Ólafur K. Nielsen,6/23/1999,943,100,Ófleygur ungi,M,
+REYK,17580,Fálki,,216,Ólafur K. Nielsen,6/23/1999,943,100,Ófleygur ungi,M,
+REYK,17581,Fálki,,216,Ólafur K. Nielsen,6/23/1999,943,100,Ófleygur ungi,M,
+REYK,117842,Fálki,,216,Ólafur K. Nielsen,6/24/1999,934,100,Ófleygur ungi,F,
+REYK,117843,Fálki,,216,Ólafur K. Nielsen,6/24/1999,2422,100,Ófleygur ungi,F,
+REYK,117844,Fálki,,216,Ólafur K. Nielsen,6/24/1999,2422,100,Ófleygur ungi,F,
+REYK,17585,Fálki,,216,Ólafur K. Nielsen,6/24/1999,2422,100,Ófleygur ungi,M,
+REYK,17582,Fálki,,216,Ólafur K. Nielsen,6/24/1999,3390,100,Ófleygur ungi,M,
+REYK,17583,Fálki,,216,Ólafur K. Nielsen,6/24/1999,3390,100,Ófleygur ungi,M,
+REYK,17584,Fálki,,216,Ólafur K. Nielsen,6/24/1999,3390,100,Ófleygur ungi,M,
+REYK,117845,Fálki,,216,Ólafur K. Nielsen,6/25/1999,931,100,Ófleygur ungi,F,
+REYK,117846,Fálki,,216,Ólafur K. Nielsen,6/25/1999,931,100,Ófleygur ungi,F,
+REYK,17586,Fálki,,216,Ólafur K. Nielsen,6/25/1999,931,100,Ófleygur ungi,M,
+REYK,17587,Fálki,,216,Ólafur K. Nielsen,6/25/1999,931,100,Ófleygur ungi,M,
+REYK,117847,Fálki,,216,Ólafur K. Nielsen,6/26/1999,1259,100,Ófleygur ungi,F,
+REYK,117848,Fálki,,216,Ólafur K. Nielsen,6/26/1999,1259,100,Ófleygur ungi,F,
+REYK,117849,Fálki,,216,Ólafur K. Nielsen,6/26/1999,1262,100,Ófleygur ungi,F,
+REYK,17588,Fálki,,216,Ólafur K. Nielsen,6/26/1999,1259,100,Ófleygur ungi,M,
+REYK,17589,Fálki,,216,Ólafur K. Nielsen,6/26/1999,1262,100,Ófleygur ungi,M,
+REYK,17590,Fálki,,216,Ólafur K. Nielsen,6/26/1999,1262,100,Ófleygur ungi,M,
+REYK,117850,Fálki,,216,Ólafur K. Nielsen,6/27/1999,1363,100,Ófleygur ungi,F,
+REYK,17591,Fálki,,216,Ólafur K. Nielsen,6/27/1999,1363,100,Ófleygur ungi,M,
+REYK,17592,Fálki,,216,Ólafur K. Nielsen,6/27/1999,1363,100,Ófleygur ungi,M,
+REYK,17593,Fálki,,216,Ólafur K. Nielsen,12/14/1999,607,410,Fullvaxinn (1. ár),M,"Náðist upphaflega á Skógarströnd, Snæf."
+REYK,117912,Fálki,,216,Ólafur K. Nielsen,6/19/2000,1446,101,Ófleygur ungi í hreiðri,F,
+REYK,17595,Fálki,,216,Ólafur K. Nielsen,6/19/2000,1446,100,Ófleygur ungi,M,
+REYK,17594,Fálki,,216,Ólafur K. Nielsen,6/19/2000,1324,100,Ófleygur ungi,M,
+REYK,117911,Fálki,,216,Ólafur K. Nielsen,6/19/2000,1324,101,Ófleygur ungi í hreiðri,F,
+REYK,117901,Fálki,,216,Ólafur K. Nielsen,6/19/2000,2318,101,Ófleygur ungi í hreiðri,F,
+REYK,117902,Fálki,,216,Ólafur K. Nielsen,6/19/2000,2318,101,Ófleygur ungi í hreiðri,F,
+REYK,17596,Fálki,,216,Ólafur K. Nielsen,6/20/2000,2356,100,Ófleygur ungi,M,
+REYK,117913,Fálki,,216,Ólafur K. Nielsen,6/20/2000,1456,101,Ófleygur ungi í hreiðri,F,
+REYK,117914,Fálki,,216,Ólafur K. Nielsen,6/20/2000,1246,101,Ófleygur ungi í hreiðri,F,
+REYK,117915,Fálki,,216,Ólafur K. Nielsen,6/20/2000,1246,101,Ófleygur ungi í hreiðri,F,
+REYK,117916,Fálki,,216,Ólafur K. Nielsen,6/21/2000,1486,101,Ófleygur ungi í hreiðri,F,
+REYK,117917,Fálki,,216,Ólafur K. Nielsen,6/21/2000,1486,101,Ófleygur ungi í hreiðri,F,
+REYK,17597,Fálki,,216,Ólafur K. Nielsen,6/21/2000,1486,100,Ófleygur ungi,M,
+REYK,117903,Fálki,,216,Ólafur K. Nielsen,6/23/2000,1363,101,Ófleygur ungi í hreiðri,0,
+REYK,117904,Fálki,,216,Ólafur K. Nielsen,6/23/2000,1363,101,Ófleygur ungi í hreiðri,0,
+REYK,117905,Fálki,,216,Ólafur K. Nielsen,6/23/2000,1363,101,Ófleygur ungi í hreiðri,0,
+REYK,17598,Fálki,,216,Ólafur K. Nielsen,6/24/2000,943,100,Ófleygur ungi,M,
+REYK,117906,Fálki,,216,Ólafur K. Nielsen,6/24/2000,943,101,Ófleygur ungi í hreiðri,F,
+REYK,117907,Fálki,,216,Ólafur K. Nielsen,6/24/2000,943,101,Ófleygur ungi í hreiðri,F,
+REYK,17599,Fálki,,216,Ólafur K. Nielsen,6/24/2000,934,100,Ófleygur ungi,M,
+REYK,17600,Fálki,,216,Ólafur K. Nielsen,6/24/2000,934,100,Ófleygur ungi,M,
+REYK,117908,Fálki,,216,Ólafur K. Nielsen,6/24/2000,934,101,Ófleygur ungi í hreiðri,F,
+REYK,117909,Fálki,,216,Ólafur K. Nielsen,6/24/2000,934,101,Ófleygur ungi í hreiðri,F,
+REYK,123501,Fálki,,216,Ólafur K. Nielsen,6/24/2000,934,101,Ófleygur ungi í hreiðri,M,
+REYK,123502,Fálki,,216,Ólafur K. Nielsen,6/25/2000,934,101,Ófleygur ungi í hreiðri,M,
+REYK,117918,Fálki,,216,Ólafur K. Nielsen,6/25/2000,895,101,Ófleygur ungi í hreiðri,0,
+REYK,117919,Fálki,,216,Ólafur K. Nielsen,6/25/2000,895,101,Ófleygur ungi í hreiðri,0,
+REYK,117920,Fálki,,216,Ólafur K. Nielsen,6/25/2000,895,101,Ófleygur ungi í hreiðri,0,
+REYK,117921,Fálki,,216,Ólafur K. Nielsen,6/25/2000,895,101,Ófleygur ungi í hreiðri,0,
+REYK,117922,Fálki,,216,Ólafur K. Nielsen,6/25/2000,978,101,Ófleygur ungi í hreiðri,F,
+REYK,117923,Fálki,,216,Ólafur K. Nielsen,6/25/2000,978,101,Ófleygur ungi í hreiðri,F,
+REYK,123503,Fálki,,216,Ólafur K. Nielsen,6/25/2000,978,101,Ófleygur ungi í hreiðri,F,Vitlaust kyngreint sem ungi: kk en er í raun kvk.
+REYK,123504,Fálki,,216,Ólafur K. Nielsen,6/25/2000,978,101,Ófleygur ungi í hreiðri,M,
+REYK,117910,Fálki,,216,Ólafur K. Nielsen,6/25/2000,2422,101,Ófleygur ungi í hreiðri,F,
+REYK,117924,Fálki,,216,Ólafur K. Nielsen,6/26/2000,931,101,Ófleygur ungi í hreiðri,0,
+REYK,117925,Fálki,,216,Ólafur K. Nielsen,6/26/2000,931,101,Ófleygur ungi í hreiðri,0,
+REYK,117926,Fálki,,216,Ólafur K. Nielsen,6/26/2000,931,101,Ófleygur ungi í hreiðri,0,
+REYK,117929,Fálki,,216,Ólafur K. Nielsen,6/28/2000,1293,101,Ófleygur ungi í hreiðri,0,
+REYK,123505,Fálki,,216,Ólafur K. Nielsen,6/28/2000,1293,101,Ófleygur ungi í hreiðri,0,
+REYK,117930,Fálki,,216,Ólafur K. Nielsen,6/28/2000,1371,101,Ófleygur ungi í hreiðri,0,
+REYK,117931,Fálki,,216,Ólafur K. Nielsen,6/28/2000,1371,101,Ófleygur ungi í hreiðri,0,
+REYK,117927,Fálki,,216,Ólafur K. Nielsen,6/28/2000,1391,101,Ófleygur ungi í hreiðri,0,
+REYK,117928,Fálki,,216,Ólafur K. Nielsen,6/28/2000,1391,101,Ófleygur ungi í hreiðri,0,
+REYK,123506,Fálki,,216,Ólafur K. Nielsen,6/29/2000,891,101,Ófleygur ungi í hreiðri,M,
+REYK,123507,Fálki,,216,Ólafur K. Nielsen,6/29/2000,891,101,Ófleygur ungi í hreiðri,M,
+REYK,117932,Fálki,,216,Ólafur K. Nielsen,6/29/2000,891,101,Ófleygur ungi í hreiðri,F,
+REYK,117933,Fálki,,216,Ólafur K. Nielsen,6/29/2000,891,101,Ófleygur ungi í hreiðri,F,
+REYK,117935,Fálki,,216,Ólafur K. Nielsen,6/19/2001,1391,101,Ófleygur ungi í hreiðri,F,
+REYK,117936,Fálki,,216,Ólafur K. Nielsen,6/19/2001,1391,101,Ófleygur ungi í hreiðri,F,
+REYK,117937,Fálki,,216,Ólafur K. Nielsen,6/19/2001,1446,101,Ófleygur ungi í hreiðri,F,
+REYK,123509,Fálki,,216,Ólafur K. Nielsen,6/19/2001,1446,101,Ófleygur ungi í hreiðri,M,
+REYK,123508,Fálki,,216,Ólafur K. Nielsen,6/19/2001,1391,101,Ófleygur ungi í hreiðri,M,
+REYK,123510,Fálki,,216,Ólafur K. Nielsen,6/20/2001,2878,101,Ófleygur ungi í hreiðri,0,
+REYK,123511,Fálki,,216,Ólafur K. Nielsen,6/20/2001,2878,101,Ófleygur ungi í hreiðri,0,
+REYK,123512,Fálki,,216,Ólafur K. Nielsen,6/22/2001,1486,101,Ófleygur ungi í hreiðri,M,
+REYK,117938,Fálki,,216,Ólafur K. Nielsen,6/22/2001,1486,101,Ófleygur ungi í hreiðri,F,
+REYK,117939,Fálki,,216,Ólafur K. Nielsen,6/25/2001,894,101,Ófleygur ungi í hreiðri,F,
+REYK,117940,Fálki,,216,Ólafur K. Nielsen,6/25/2001,894,101,Ófleygur ungi í hreiðri,F,
+REYK,117941,Fálki,,216,Ólafur K. Nielsen,6/25/2001,934,101,Ófleygur ungi í hreiðri,F,
+REYK,117942,Fálki,,216,Ólafur K. Nielsen,6/25/2001,934,101,Ófleygur ungi í hreiðri,F,
+REYK,123514,Fálki,,216,Ólafur K. Nielsen,6/25/2001,934,101,Ófleygur ungi í hreiðri,M,
+REYK,123513,Fálki,,216,Ólafur K. Nielsen,6/25/2001,940,101,Ófleygur ungi í hreiðri,M,
+REYK,123515,Fálki,,216,Ólafur K. Nielsen,6/26/2001,958,101,Ófleygur ungi í hreiðri,M,
+REYK,117943,Fálki,,216,Ólafur K. Nielsen,6/26/2001,891,101,Ófleygur ungi í hreiðri,F,
+REYK,123516,Fálki,,216,Ólafur K. Nielsen,6/26/2001,891,101,Ófleygur ungi í hreiðri,M,
+REYK,123517,Fálki,,216,Ólafur K. Nielsen,6/26/2001,891,101,Ófleygur ungi í hreiðri,M,
+REYK,117944,Fálki,,216,Ólafur K. Nielsen,6/26/2001,1485,101,Ófleygur ungi í hreiðri,F,
+REYK,123518,Fálki,,216,Ólafur K. Nielsen,6/26/2001,1485,101,Ófleygur ungi í hreiðri,M,
+REYK,123519,Fálki,,216,Ólafur K. Nielsen,6/26/2001,1485,101,Ófleygur ungi í hreiðri,M,
+REYK,123520,Fálki,,216,Ólafur K. Nielsen,6/27/2001,1293,101,Ófleygur ungi í hreiðri,M,
+REYK,123521,Fálki,,216,Ólafur K. Nielsen,6/27/2001,1293,101,Ófleygur ungi í hreiðri,M,
+REYK,117945,Fálki,,216,Ólafur K. Nielsen,6/28/2001,1330,101,Ófleygur ungi í hreiðri,F,
+REYK,117946,Fálki,,216,Ólafur K. Nielsen,6/28/2001,1330,101,Ófleygur ungi í hreiðri,F,
+REYK,123522,Fálki,,216,Ólafur K. Nielsen,6/28/2001,1330,101,Ófleygur ungi í hreiðri,M,
+REYK,123523,Fálki,,216,Ólafur K. Nielsen,6/20/2002,1259,101,Ófleygur ungi í hreiðri,M,
+REYK,123524,Fálki,,216,Ólafur K. Nielsen,6/20/2002,1259,101,Ófleygur ungi í hreiðri,M,
+REYK,117947,Fálki,,216,Ólafur K. Nielsen,6/21/2002,2396,101,Ófleygur ungi í hreiðri,F,
+REYK,117948,Fálki,,216,Ólafur K. Nielsen,6/21/2002,2396,101,Ófleygur ungi í hreiðri,F,
+REYK,123525,Fálki,,216,Ólafur K. Nielsen,6/21/2002,2396,101,Ófleygur ungi í hreiðri,M,
+REYK,123526,Fálki,,216,Ólafur K. Nielsen,6/21/2002,2396,101,Ófleygur ungi í hreiðri,M,
+REYK,123527,Fálki,,216,Ólafur K. Nielsen,6/23/2002,1486,101,Ófleygur ungi í hreiðri,M,
+REYK,123528,Fálki,,216,Ólafur K. Nielsen,6/23/2002,1486,101,Ófleygur ungi í hreiðri,M,
+REYK,117949,Fálki,,216,Ólafur K. Nielsen,6/23/2002,1486,101,Ófleygur ungi í hreiðri,F,
+REYK,123529,Fálki,,216,Ólafur K. Nielsen,6/24/2002,2318,101,Ófleygur ungi í hreiðri,M,
+REYK,117950,Fálki,,216,Ólafur K. Nielsen,6/24/2002,1322,101,Ófleygur ungi í hreiðri,F,
+REYK,132301,Fálki,,216,Ólafur K. Nielsen,6/25/2002,1456,101,Ófleygur ungi í hreiðri,F,
+REYK,132302,Fálki,,216,Ólafur K. Nielsen,6/25/2002,1456,101,Ófleygur ungi í hreiðri,F,
+REYK,123530,Fálki,,216,Ólafur K. Nielsen,6/26/2002,930,101,Ófleygur ungi í hreiðri,M,
+REYK,123531,Fálki,,216,Ólafur K. Nielsen,6/26/2002,930,101,Ófleygur ungi í hreiðri,M,
+REYK,123532,Fálki,,216,Ólafur K. Nielsen,6/26/2002,930,101,Ófleygur ungi í hreiðri,M,
+REYK,123533,Fálki,,216,Ólafur K. Nielsen,6/26/2002,930,101,Ófleygur ungi í hreiðri,M,
+REYK,123534,Fálki,,216,Ólafur K. Nielsen,6/27/2002,895,101,Ófleygur ungi í hreiðri,M,
+REYK,132303,Fálki,,216,Ólafur K. Nielsen,6/27/2002,895,101,Ófleygur ungi í hreiðri,F,
+REYK,132304,Fálki,,216,Ólafur K. Nielsen,6/27/2002,895,101,Ófleygur ungi í hreiðri,F,
+REYK,123535,Fálki,,216,Ólafur K. Nielsen,6/28/2002,891,101,Ófleygur ungi í hreiðri,M,
+REYK,123536,Fálki,,216,Ólafur K. Nielsen,6/28/2002,891,101,Ófleygur ungi í hreiðri,M,
+REYK,132305,Fálki,,216,Ólafur K. Nielsen,6/28/2002,891,101,Ófleygur ungi í hreiðri,F,
+REYK,123537,Fálki,,216,Ólafur K. Nielsen,7/4/2002,1263,101,Ófleygur ungi í hreiðri,M,
+REYK,123538,Fálki,,216,Ólafur K. Nielsen,7/4/2002,1263,101,Ófleygur ungi í hreiðri,M,
+REYK,132306,Fálki,,216,Ólafur K. Nielsen,6/20/2003,3321,101,Ófleygur ungi í hreiðri,0,
+REYK,132307,Fálki,,216,Ólafur K. Nielsen,6/20/2003,3321,101,Ófleygur ungi í hreiðri,0,
+REYK,123539,Fálki,,216,Ólafur K. Nielsen,6/22/2003,1446,101,Ófleygur ungi í hreiðri,0,
+REYK,123540,Fálki,,216,Ólafur K. Nielsen,6/22/2003,1446,101,Ófleygur ungi í hreiðri,0,
+REYK,123541,Fálki,,216,Ólafur K. Nielsen,6/22/2003,1446,101,Ófleygur ungi í hreiðri,0,
+REYK,132311,Fálki,,216,Ólafur K. Nielsen,6/23/2003,1263,101,Ófleygur ungi í hreiðri,F,
+REYK,132312,Fálki,,216,Ólafur K. Nielsen,6/23/2003,1263,101,Ófleygur ungi í hreiðri,F,
+REYK,123543,Fálki,,216,Ólafur K. Nielsen,6/23/2003,1263,101,Ófleygur ungi í hreiðri,M,
+REYK,123544,Fálki,,216,Ólafur K. Nielsen,6/23/2003,1263,101,Ófleygur ungi í hreiðri,M,
+REYK,132308,Fálki,,216,Ólafur K. Nielsen,6/23/2003,1254,101,Ófleygur ungi í hreiðri,F,
+REYK,123542,Fálki,,216,Ólafur K. Nielsen,6/23/2003,1254,101,Ófleygur ungi í hreiðri,M,
+REYK,132313,Fálki,,216,Ólafur K. Nielsen,6/24/2003,1278,101,Ófleygur ungi í hreiðri,F,
+REYK,132309,Fálki,,216,Ólafur K. Nielsen,6/24/2003,1278,101,Ófleygur ungi í hreiðri,F,
+REYK,132310,Fálki,,216,Ólafur K. Nielsen,6/24/2003,1278,101,Ófleygur ungi í hreiðri,F,
+REYK,123549,Fálki,,216,Ólafur K. Nielsen,6/24/2003,1278,101,Ófleygur ungi í hreiðri,M,
+REYK,123550,Fálki,,216,Ólafur K. Nielsen,6/24/2003,1322,101,Ófleygur ungi í hreiðri,M,
+REYK,132314,Fálki,,216,Ólafur K. Nielsen,6/24/2003,1322,101,Ófleygur ungi í hreiðri,F,
+REYK,123545,Fálki,,216,Ólafur K. Nielsen,6/24/2003,1283,101,Ófleygur ungi í hreiðri,M,
+REYK,123546,Fálki,,216,Ólafur K. Nielsen,6/24/2003,1283,101,Ófleygur ungi í hreiðri,M,
+REYK,123547,Fálki,,216,Ólafur K. Nielsen,6/24/2003,1283,101,Ófleygur ungi í hreiðri,M,
+REYK,123548,Fálki,,216,Ólafur K. Nielsen,6/24/2003,1283,101,Ófleygur ungi í hreiðri,M,
+REYK,132317,Fálki,,216,Ólafur K. Nielsen,6/25/2003,1466,101,Ófleygur ungi í hreiðri,F,
+REYK,132318,Fálki,,216,Ólafur K. Nielsen,6/25/2003,1466,101,Ófleygur ungi í hreiðri,F,
+REYK,132319,Fálki,,216,Ólafur K. Nielsen,6/25/2003,1466,101,Ófleygur ungi í hreiðri,F,
+REYK,132315,Fálki,,216,Ólafur K. Nielsen,6/25/2003,1242,101,Ófleygur ungi í hreiðri,F,
+REYK,132316,Fálki,,216,Ólafur K. Nielsen,6/25/2003,1242,101,Ófleygur ungi í hreiðri,F,
+REYK,119351,Fálki,,216,Ólafur K. Nielsen,6/25/2003,3391,100,Ófleygur ungi,M,
+REYK,119352,Fálki,,216,Ólafur K. Nielsen,6/25/2003,3391,100,Ófleygur ungi,M,
+REYK,119353,Fálki,,216,Ólafur K. Nielsen,6/25/2003,3391,100,Ófleygur ungi,M,
+REYK,119354,Fálki,,216,Ólafur K. Nielsen,6/26/2003,2878,100,Ófleygur ungi,M,
+REYK,119355,Fálki,,216,Ólafur K. Nielsen,6/26/2003,2878,100,Ófleygur ungi,M,
+REYK,119356,Fálki,,216,Ólafur K. Nielsen,6/26/2003,2878,100,Ófleygur ungi,M,
+REYK,132321,Fálki,,216,Ólafur K. Nielsen,6/27/2003,1431,101,Ófleygur ungi í hreiðri,F,
+REYK,132322,Fálki,,216,Ólafur K. Nielsen,6/27/2003,1431,101,Ófleygur ungi í hreiðri,F,
+REYK,119357,Fálki,,216,Ólafur K. Nielsen,6/27/2003,1431,100,Ófleygur ungi,M,
+REYK,119358,Fálki,,216,Ólafur K. Nielsen,6/27/2003,1431,100,Ófleygur ungi,M,
+REYK,119359,Fálki,,216,Ólafur K. Nielsen,6/27/2003,1295,100,Ófleygur ungi,M,
+REYK,119360,Fálki,,216,Ólafur K. Nielsen,6/27/2003,1295,100,Ófleygur ungi,M,
+REYK,132320,Fálki,,216,Ólafur K. Nielsen,6/30/2003,918,101,Ófleygur ungi í hreiðri,F,
+REYK,132325,Fálki,,216,Ólafur K. Nielsen,6/30/2003,918,101,Ófleygur ungi í hreiðri,F,
+REYK,132323,Fálki,,216,Ólafur K. Nielsen,6/30/2003,918,101,Ófleygur ungi í hreiðri,F,
+REYK,119362,Fálki,,216,Ólafur K. Nielsen,6/30/2003,934,100,Ófleygur ungi,M,
+REYK,119363,Fálki,,216,Ólafur K. Nielsen,6/30/2003,934,100,Ófleygur ungi,M,
+REYK,119364,Fálki,,216,Ólafur K. Nielsen,6/30/2003,934,100,Ófleygur ungi,M,
+REYK,119361,Fálki,,216,Ólafur K. Nielsen,6/30/2003,3070,100,Ófleygur ungi,M,
+REYK,119365,Fálki,,216,Ólafur K. Nielsen,7/1/2003,894,100,Ófleygur ungi,M,
+REYK,119366,Fálki,,216,Ólafur K. Nielsen,7/1/2003,894,100,Ófleygur ungi,M,
+REYK,119367,Fálki,,216,Ólafur K. Nielsen,7/2/2003,2420,100,Ófleygur ungi,M,
+REYK,119368,Fálki,,216,Ólafur K. Nielsen,7/2/2003,2420,100,Ófleygur ungi,M,
+REYK,119369,Fálki,,216,Ólafur K. Nielsen,7/2/2003,2420,100,Ófleygur ungi,F,
+REYK,119370,Fálki,,216,Ólafur K. Nielsen,10/15/2003,1111,410,Fullvaxinn (1. ár),M,"Náð 11.10.2003 í Reyðarfjarðardýpi (6450N,1155V)."
+REYK,132324,Fálki,,216,Ólafur K. Nielsen,11/12/2003,1118,410,Fullvaxinn (1. ár),F,Náð í Kópavogi 10.11.2003. Þveginn.
+REYK,119378,Fálki,,216,Ólafur K. Nielsen,6/19/2004,1283,100,Ófleygur ungi,M,
+REYK,119379,Fálki,,216,Ólafur K. Nielsen,6/19/2004,1283,100,Ófleygur ungi,M,
+REYK,119380,Fálki,,216,Ólafur K. Nielsen,6/19/2004,1283,100,Ófleygur ungi,M,
+REYK,119374,Fálki,,216,Ólafur K. Nielsen,6/19/2004,1322,100,Ófleygur ungi,M,
+REYK,119375,Fálki,,216,Ólafur K. Nielsen,6/19/2004,1322,100,Ófleygur ungi,M,
+REYK,132327,Fálki,,216,Ólafur K. Nielsen,6/19/2004,1324,100,Ófleygur ungi,F,
+REYK,132328,Fálki,,216,Ólafur K. Nielsen,6/19/2004,1324,100,Ófleygur ungi,F,
+REYK,132329,Fálki,,216,Ólafur K. Nielsen,6/19/2004,1324,100,Ófleygur ungi,F,
+REYK,119371,Fálki,,216,Ólafur K. Nielsen,6/19/2004,1324,100,Ófleygur ungi,M,
+REYK,119372,Fálki,,216,Ólafur K. Nielsen,6/19/2004,1324,100,Ófleygur ungi,M,
+REYK,119373,Fálki,,216,Ólafur K. Nielsen,6/19/2004,1324,100,Ófleygur ungi,M,
+REYK,132330,Fálki,,216,Ólafur K. Nielsen,6/19/2004,1384,100,Ófleygur ungi,F,
+REYK,119376,Fálki,,216,Ólafur K. Nielsen,6/19/2004,1384,100,Ófleygur ungi,M,
+REYK,119377,Fálki,,216,Ólafur K. Nielsen,6/19/2004,1384,100,Ófleygur ungi,M,
+REYK,119386,Fálki,,216,Ólafur K. Nielsen,6/20/2004,1293,100,Ófleygur ungi,M,
+REYK,132331,Fálki,,216,Ólafur K. Nielsen,6/20/2004,2396,100,Ófleygur ungi,F,
+REYK,119383,Fálki,,216,Ólafur K. Nielsen,6/20/2004,2396,100,Ófleygur ungi,M,
+REYK,119384,Fálki,,216,Ólafur K. Nielsen,6/20/2004,2396,100,Ófleygur ungi,M,
+REYK,119385,Fálki,,216,Ólafur K. Nielsen,6/20/2004,2396,100,Ófleygur ungi,M,
+REYK,119381,Fálki,,216,Ólafur K. Nielsen,6/20/2004,3470,100,Ófleygur ungi,M,
+REYK,119382,Fálki,,216,Ólafur K. Nielsen,6/20/2004,3470,100,Ófleygur ungi,M,
+REYK,132332,Fálki,,216,Ólafur K. Nielsen,6/21/2004,924,100,Ófleygur ungi,F,
+REYK,132333,Fálki,,216,Ólafur K. Nielsen,6/21/2004,924,100,Ófleygur ungi,F,
+REYK,119387,Fálki,,216,Ólafur K. Nielsen,6/21/2004,930,100,Ófleygur ungi,M,
+REYK,119388,Fálki,,216,Ólafur K. Nielsen,6/21/2004,930,100,Ófleygur ungi,M,
+REYK,119389,Fálki,,216,Ólafur K. Nielsen,6/21/2004,930,100,Ófleygur ungi,M,
+REYK,119390,Fálki,,216,Ólafur K. Nielsen,6/22/2004,894,100,Ófleygur ungi,M,
+REYK,132335,Fálki,,216,Ólafur K. Nielsen,6/22/2004,895,100,Ófleygur ungi,F,
+REYK,132336,Fálki,,216,Ólafur K. Nielsen,6/22/2004,895,100,Ófleygur ungi,F,
+REYK,132334,Fálki,,216,Ólafur K. Nielsen,6/22/2004,3083,100,Ófleygur ungi,F,
+REYK,119391,Fálki,,216,Ólafur K. Nielsen,6/23/2004,1431,100,Ófleygur ungi,M,
+REYK,119392,Fálki,,216,Ólafur K. Nielsen,6/23/2004,1431,100,Ófleygur ungi,M,
+REYK,132337,Fálki,,216,Ólafur K. Nielsen,6/23/2004,1431,100,Ófleygur ungi,F,
+REYK,132338,Fálki,,216,Ólafur K. Nielsen,6/24/2004,1373,100,Ófleygur ungi,F,
+REYK,119393,Fálki,,216,Ólafur K. Nielsen,6/24/2004,1373,100,Ófleygur ungi,M,
+REYK,119394,Fálki,,216,Ólafur K. Nielsen,6/24/2004,1373,100,Ófleygur ungi,M,
+REYK,119395,Fálki,,216,Ólafur K. Nielsen,6/24/2004,1967,100,Ófleygur ungi,M,
+REYK,119396,Fálki,,216,Ólafur K. Nielsen,6/24/2004,1967,100,Ófleygur ungi,M,
+REYK,132339,Fálki,,216,Ólafur K. Nielsen,6/24/2004,1967,100,Ófleygur ungi,F,
+REYK,132340,Fálki,,216,Ólafur K. Nielsen,6/24/2004,1967,100,Ófleygur ungi,F,
+REYK,119398,Fálki,,216,Ólafur K. Nielsen,6/25/2004,1295,100,Ófleygur ungi,M,
+REYK,132343,Fálki,,216,Ólafur K. Nielsen,6/25/2004,1295,100,Ófleygur ungi,F,
+REYK,132344,Fálki,,216,Ólafur K. Nielsen,6/25/2004,1295,100,Ófleygur ungi,F,
+REYK,132341,Fálki,,216,Ólafur K. Nielsen,6/25/2004,1262,100,Ófleygur ungi,F,
+REYK,132342,Fálki,,216,Ólafur K. Nielsen,6/25/2004,1262,100,Ófleygur ungi,F,
+REYK,119397,Fálki,,216,Ólafur K. Nielsen,6/25/2004,1262,100,Ófleygur ungi,M,
+REYK,132345,Fálki,,216,Ólafur K. Nielsen,6/26/2004,1242,100,Ófleygur ungi,F,
+REYK,132346,Fálki,,216,Ólafur K. Nielsen,6/26/2004,1242,100,Ófleygur ungi,F,
+REYK,119399,Fálki,,216,Ólafur K. Nielsen,6/26/2004,1388,100,Ófleygur ungi,M,
+REYK,119400,Fálki,,216,Ólafur K. Nielsen,6/26/2004,1388,100,Ófleygur ungi,M,
+REYK,132347,Fálki,,216,Ólafur K. Nielsen,6/27/2004,1450,100,Ófleygur ungi,F,
+REYK,17961,Fálki,,216,Ólafur K. Nielsen,6/27/2004,1450,100,Ófleygur ungi,M,
+REYK,17962,Fálki,,216,Ólafur K. Nielsen,1/21/2005,1118,420,Fullvaxinn (2. ár),M,"Náðist upphaflega 23.9.2004 á Hólmavík, Strand."
+REYK,132348,Fálki,,216,Ólafur K. Nielsen,2/2/2005,1113,430,Fullvaxinn (3. ár),F,Náð 2.6.2004 á Langanesi.
+REYK,132349,Fálki,,216,Ólafur K. Nielsen,4/21/2005,1113,420,Fullvaxinn (2. ár),F,Náð 27.11.2004 við Álfsnes.
+REYK,123951,Fálki,,216,Ólafur K. Nielsen,6/7/2005,1113,420,Fullvaxinn (2. ár),M,"Fannst illa haldinn í Hveragerði 7.4.2005. Þveginn, í haldi."
+REYK,132460,Fálki,,216,Ólafur K. Nielsen,6/21/2005,1446,100,Ófleygur ungi,0,
+REYK,17965,Fálki,,216,Ólafur K. Nielsen,6/21/2005,1446,100,Ófleygur ungi,0,
+REYK,132451,Fálki,,216,Ólafur K. Nielsen,6/21/2005,1446,100,Ófleygur ungi,0,
+REYK,17966,Fálki,,216,Ólafur K. Nielsen,6/21/2005,1375,100,Ófleygur ungi,M,
+REYK,17967,Fálki,,216,Ólafur K. Nielsen,6/21/2005,1375,100,Ófleygur ungi,M,
+REYK,132452,Fálki,,216,Ólafur K. Nielsen,6/21/2005,1375,100,Ófleygur ungi,F,
+REYK,132453,Fálki,,216,Ólafur K. Nielsen,6/21/2005,1375,100,Ófleygur ungi,F,
+REYK,17968,Fálki,,216,Ólafur K. Nielsen,6/21/2005,1283,100,Ófleygur ungi,M,
+REYK,132454,Fálki,,216,Ólafur K. Nielsen,6/21/2005,1283,100,Ófleygur ungi,F,
+REYK,17963,Fálki,,216,Ólafur K. Nielsen,6/21/2005,1324,100,Ófleygur ungi,M,
+REYK,17964,Fálki,,216,Ólafur K. Nielsen,6/21/2005,1324,100,Ófleygur ungi,M,
+REYK,17969,Fálki,,216,Ólafur K. Nielsen,6/22/2005,1263,100,Ófleygur ungi,M,
+REYK,17970,Fálki,,216,Ólafur K. Nielsen,6/22/2005,1263,100,Ófleygur ungi,M,
+REYK,17971,Fálki,,216,Ólafur K. Nielsen,6/22/2005,1263,100,Ófleygur ungi,M,
+REYK,17972,Fálki,,216,Ólafur K. Nielsen,6/22/2005,1263,100,Ófleygur ungi,M,
+REYK,132455,Fálki,,216,Ólafur K. Nielsen,6/22/2005,3475,100,Ófleygur ungi,F,
+REYK,132456,Fálki,,216,Ólafur K. Nielsen,6/23/2005,3470,100,Ófleygur ungi,F,
+REYK,132457,Fálki,,216,Ólafur K. Nielsen,6/23/2005,3470,100,Ófleygur ungi,F,
+REYK,132458,Fálki,,216,Ólafur K. Nielsen,6/24/2005,2356,100,Ófleygur ungi,F,
+REYK,132459,Fálki,,216,Ólafur K. Nielsen,6/24/2005,2356,100,Ófleygur ungi,F,
+REYK,17973,Fálki,,216,Ólafur K. Nielsen,6/24/2005,2356,101,Ófleygur ungi í hreiðri,M,
+REYK,132461,Fálki,,216,Ólafur K. Nielsen,6/24/2005,1388,100,Ófleygur ungi,0,
+REYK,132462,Fálki,,216,Ólafur K. Nielsen,6/24/2005,1388,100,Ófleygur ungi,0,
+REYK,132463,Fálki,,216,Ólafur K. Nielsen,6/24/2005,1388,100,Ófleygur ungi,0,
+REYK,17974,Fálki,,216,Ólafur K. Nielsen,6/25/2005,1450,100,Ófleygur ungi,M,
+REYK,132464,Fálki,,216,Ólafur K. Nielsen,6/28/2005,934,100,Ófleygur ungi,F,
+REYK,132465,Fálki,,216,Ólafur K. Nielsen,6/28/2005,934,100,Ófleygur ungi,F,
+REYK,132467,Fálki,,216,Ólafur K. Nielsen,6/29/2005,931,100,Ófleygur ungi,F,
+REYK,17975,Fálki,,216,Ólafur K. Nielsen,6/29/2005,931,100,Ófleygur ungi,M,
+REYK,17976,Fálki,,216,Ólafur K. Nielsen,6/29/2005,931,100,Ófleygur ungi,M,
+REYK,132466,Fálki,,216,Ólafur K. Nielsen,6/29/2005,894,100,Ófleygur ungi,F,
+REYK,132468,Fálki,,216,Ólafur K. Nielsen,6/30/2005,1293,100,Ófleygur ungi,F,
+REYK,17977,Fálki,,216,Ólafur K. Nielsen,6/30/2005,1293,100,Ófleygur ungi,M,
+REYK,17978,Fálki,,216,Ólafur K. Nielsen,6/30/2005,1293,100,Ófleygur ungi,M,
+REYK,132469,Fálki,,216,Ólafur K. Nielsen,9/21/2005,3476,420,Fullvaxinn (2. ár),F,"Náð við Mávahlíð, Snæf., 11.6.2005. Hvítfálki (falco rust. candicans)"
+REYK,132470,Fálki,,216,Ólafur K. Nielsen,11/10/2005,1501,410,Fullvaxinn (1. ár),0,Kom á togara 150 sjóm. SA af landinu 4.11.2005.
+REYK,132487,Fálki,,216,Ólafur K. Nielsen,12/20/2005,1342,410,Fullvaxinn (1. ár),F,Náð við Húsavík 15.11.2005.
+REYK,132488,Fálki,,216,Ólafur K. Nielsen,6/20/2006,1263,100,Ófleygur ungi,0,
+REYK,132489,Fálki,,216,Ólafur K. Nielsen,6/20/2006,1263,100,Ófleygur ungi,0,
+REYK,132490,Fálki,,216,Ólafur K. Nielsen,6/20/2006,1263,100,Ófleygur ungi,F,
+REYK,132491,Fálki,,216,Ólafur K. Nielsen,6/21/2006,1363,100,Ófleygur ungi,F,
+REYK,132492,Fálki,,216,Ólafur K. Nielsen,6/21/2006,1363,100,Ófleygur ungi,F,
+REYK,17979,Fálki,,216,Ólafur K. Nielsen,6/21/2006,1363,100,Ófleygur ungi,M,
+REYK,132493,Fálki,,216,Ólafur K. Nielsen,6/25/2006,924,100,Ófleygur ungi,F,
+REYK,132494,Fálki,,216,Ólafur K. Nielsen,6/25/2006,924,100,Ófleygur ungi,F,
+REYK,17980,Fálki,,216,Ólafur K. Nielsen,6/25/2006,924,100,Ófleygur ungi,M,
+REYK,132495,Fálki,,216,Ólafur K. Nielsen,6/28/2006,931,100,Ófleygur ungi,0,
+REYK,17981,Fálki,,216,Ólafur K. Nielsen,10/31/2006,1118,410,Fullvaxinn (1. ár),M,"Fangaður aðframkominn á Húsafelli, 3.9.06, í haldi Húsdýrag."
+REYK,132701,Fálki,,216,Ólafur K. Nielsen,10/31/2006,1118,410,Fullvaxinn (1. ár),F,"Náð grútarblautum í Öxarfirði 10.06.2006. Í Húsdýragarði, þrifinn."
+REYK,17982,Fálki,,216,Ólafur K. Nielsen,12/14/2006,1118,410,Fullvaxinn (1. ár),M,"Náðist særður í Hrísey 14.11.06, endurhæfður í Húsdúragarðinum."
+REYK,132497,Fálki,,216,Ólafur K. Nielsen,4/27/2007,1118,492,"Fullvaxinn í haldi, sleppt annars staðar",F,Var í Húsdýragarði
+REYK,132702,Fálki,,216,Ólafur K. Nielsen,6/19/2007,1373,101,Ófleygur ungi í hreiðri,F,
+REYK,17987,Fálki,,216,Ólafur K. Nielsen,6/19/2007,1373,100,Ófleygur ungi,0,
+REYK,17983,Fálki,,216,Ólafur K. Nielsen,6/19/2007,1431,100,Ófleygur ungi,0,
+REYK,17984,Fálki,,216,Ólafur K. Nielsen,6/19/2007,1431,100,Ófleygur ungi,0,
+REYK,17985,Fálki,,216,Ólafur K. Nielsen,6/19/2007,1283,100,Ófleygur ungi,M,
+REYK,17986,Fálki,,216,Ólafur K. Nielsen,6/19/2007,1283,100,Ófleygur ungi,M,
+REYK,132498,Fálki,,216,Ólafur K. Nielsen,6/19/2007,1283,101,Ófleygur ungi í hreiðri,F,
+REYK,132499,Fálki,,216,Ólafur K. Nielsen,6/19/2007,1283,101,Ófleygur ungi í hreiðri,F,
+REYK,132703,Fálki,,216,Ólafur K. Nielsen,6/20/2007,2318,101,Ófleygur ungi í hreiðri,F,
+REYK,132704,Fálki,,216,Ólafur K. Nielsen,6/20/2007,2318,101,Ófleygur ungi í hreiðri,F,
+REYK,132705,Fálki,,216,Ólafur K. Nielsen,6/20/2007,2318,101,Ófleygur ungi í hreiðri,F,
+REYK,132706,Fálki,,216,Ólafur K. Nielsen,6/20/2007,2318,101,Ófleygur ungi í hreiðri,F,
+REYK,17988,Fálki,,216,Ólafur K. Nielsen,6/20/2007,3475,100,Ófleygur ungi,M,
+REYK,17989,Fálki,,216,Ólafur K. Nielsen,6/20/2007,3475,100,Ófleygur ungi,M,
+REYK,132707,Fálki,,216,Ólafur K. Nielsen,6/20/2007,3057,101,Ófleygur ungi í hreiðri,F,
+REYK,132708,Fálki,,216,Ólafur K. Nielsen,6/20/2007,3057,101,Ófleygur ungi í hreiðri,F,
+REYK,17990,Fálki,,216,Ólafur K. Nielsen,6/20/2007,3057,100,Ófleygur ungi,M,
+REYK,17991,Fálki,,216,Ólafur K. Nielsen,6/21/2007,1293,100,Ófleygur ungi,M,
+REYK,17992,Fálki,,216,Ólafur K. Nielsen,6/21/2007,1293,100,Ófleygur ungi,M,
+REYK,132709,Fálki,,216,Ólafur K. Nielsen,6/21/2007,1293,101,Ófleygur ungi í hreiðri,F,
+REYK,132710,Fálki,,216,Ólafur K. Nielsen,6/21/2007,1293,101,Ófleygur ungi í hreiðri,F,
+REYK,132711,Fálki,,216,Ólafur K. Nielsen,6/22/2007,1295,101,Ófleygur ungi í hreiðri,F,
+REYK,132712,Fálki,,216,Ólafur K. Nielsen,6/22/2007,1295,101,Ófleygur ungi í hreiðri,F,
+REYK,132713,Fálki,,216,Ólafur K. Nielsen,6/22/2007,1295,101,Ófleygur ungi í hreiðri,F,
+REYK,17993,Fálki,,216,Ólafur K. Nielsen,6/22/2007,1295,100,Ófleygur ungi,M,
+REYK,17994,Fálki,,216,Ólafur K. Nielsen,6/24/2007,934,100,Ófleygur ungi,M,
+REYK,17995,Fálki,,216,Ólafur K. Nielsen,6/24/2007,930,100,Ófleygur ungi,M,
+REYK,132714,Fálki,,216,Ólafur K. Nielsen,6/24/2007,934,101,Ófleygur ungi í hreiðri,F,
+REYK,132715,Fálki,,216,Ólafur K. Nielsen,6/24/2007,934,101,Ófleygur ungi í hreiðri,F,
+REYK,132716,Fálki,,216,Ólafur K. Nielsen,6/24/2007,934,101,Ófleygur ungi í hreiðri,F,
+REYK,132717,Fálki,,216,Ólafur K. Nielsen,6/24/2007,930,101,Ófleygur ungi í hreiðri,F,
+REYK,132718,Fálki,,216,Ólafur K. Nielsen,6/24/2007,930,101,Ófleygur ungi í hreiðri,F,
+REYK,132719,Fálki,,216,Ólafur K. Nielsen,6/24/2007,930,101,Ófleygur ungi í hreiðri,F,
+REYK,132720,Fálki,,216,Ólafur K. Nielsen,6/24/2007,894,101,Ófleygur ungi í hreiðri,F,
+REYK,132721,Fálki,,216,Ólafur K. Nielsen,6/24/2007,894,101,Ófleygur ungi í hreiðri,F,
+REYK,18000,Fálki,,216,Ólafur K. Nielsen,6/25/2007,924,100,Ófleygur ungi,M,
+REYK,132722,Fálki,,216,Ólafur K. Nielsen,6/25/2007,924,101,Ófleygur ungi í hreiðri,F,
+REYK,17996,Fálki,,216,Ólafur K. Nielsen,6/25/2007,3083,100,Ófleygur ungi,M,
+REYK,17997,Fálki,,216,Ólafur K. Nielsen,6/25/2007,3083,100,Ófleygur ungi,M,
+REYK,17998,Fálki,,216,Ólafur K. Nielsen,6/25/2007,3083,100,Ófleygur ungi,M,
+REYK,17999,Fálki,,216,Ólafur K. Nielsen,6/25/2007,3083,100,Ófleygur ungi,M,
+REYK,132723,Fálki,,216,Ólafur K. Nielsen,6/29/2007,1304,101,Ófleygur ungi í hreiðri,F,
+REYK,132724,Fálki,,216,Ólafur K. Nielsen,6/29/2007,1304,101,Ófleygur ungi í hreiðri,F,
+REYK,123952,Fálki,,216,Ólafur K. Nielsen,6/30/2007,1485,101,Ófleygur ungi í hreiðri,M,
+REYK,132725,Fálki,,216,Ólafur K. Nielsen,6/30/2007,3777,101,Ófleygur ungi í hreiðri,F,
+REYK,132726,Fálki,,216,Ólafur K. Nielsen,6/30/2007,3777,101,Ófleygur ungi í hreiðri,F,
+REYK,132727,Fálki,,216,Ólafur K. Nielsen,6/30/2007,3777,101,Ófleygur ungi í hreiðri,F,
+REYK,132728,Fálki,,216,Ólafur K. Nielsen,10/9/2007,1118,494,"Fullvaxinn (2. ár) í haldi, sleppt annars staðar",F,Var í Húsdýragarði.
+REYK,123954,Fálki,,216,Ólafur K. Nielsen,10/9/2007,1118,494,"Fullvaxinn (2. ár) í haldi, sleppt annars staðar",M,"Var í Húsdýragarðinum, Laugardal."
+REYK,132729,Fálki,,216,Ólafur K. Nielsen,11/9/2007,1118,494,"Fullvaxinn (2. ár) í haldi, sleppt annars staðar",F,Var í Húsdýragarði.
+REYK,132730,Fálki,,216,Ólafur K. Nielsen,6/16/2008,1413,101,Ófleygur ungi í hreiðri,F,
+REYK,132731,Fálki,,216,Ólafur K. Nielsen,6/16/2008,1413,101,Ófleygur ungi í hreiðri,F,
+REYK,123955,Fálki,,216,Ólafur K. Nielsen,6/16/2008,3057,101,Ófleygur ungi í hreiðri,M,
+REYK,123956,Fálki,,216,Ólafur K. Nielsen,6/16/2008,3057,101,Ófleygur ungi í hreiðri,M,
+REYK,123957,Fálki,,216,Ólafur K. Nielsen,6/16/2008,3057,101,Ófleygur ungi í hreiðri,M,
+REYK,132732,Fálki,,216,Ólafur K. Nielsen,6/18/2008,1293,101,Ófleygur ungi í hreiðri,F,
+REYK,132733,Fálki,,216,Ólafur K. Nielsen,6/18/2008,1293,101,Ófleygur ungi í hreiðri,0,
+REYK,123958,Fálki,,216,Ólafur K. Nielsen,6/18/2008,1263,101,Ófleygur ungi í hreiðri,M,
+REYK,123959,Fálki,,216,Ólafur K. Nielsen,6/18/2008,1263,101,Ófleygur ungi í hreiðri,M,
+REYK,123960,Fálki,,216,Ólafur K. Nielsen,6/18/2008,1263,101,Ófleygur ungi í hreiðri,M,
+REYK,123961,Fálki,,216,Ólafur K. Nielsen,6/18/2008,1263,101,Ófleygur ungi í hreiðri,M,
+REYK,132734,Fálki,,216,Ólafur K. Nielsen,6/21/2008,924,101,Ófleygur ungi í hreiðri,F,
+REYK,123964,Fálki,,216,Ólafur K. Nielsen,6/21/2008,930,101,Ófleygur ungi í hreiðri,M,
+REYK,123962,Fálki,,216,Ólafur K. Nielsen,6/21/2008,924,101,Ófleygur ungi í hreiðri,M,
+REYK,123963,Fálki,,216,Ólafur K. Nielsen,6/21/2008,924,101,Ófleygur ungi í hreiðri,M,
+REYK,123965,Fálki,,216,Ólafur K. Nielsen,6/21/2008,934,100,Ófleygur ungi,M,
+REYK,132735,Fálki,,216,Ólafur K. Nielsen,6/21/2008,3083,101,Ófleygur ungi í hreiðri,0,
+REYK,132736,Fálki,,216,Ólafur K. Nielsen,6/21/2008,3083,101,Ófleygur ungi í hreiðri,0,
+REYK,132737,Fálki,,216,Ólafur K. Nielsen,6/22/2008,980,101,Ófleygur ungi í hreiðri,F,
+REYK,132738,Fálki,,216,Ólafur K. Nielsen,6/23/2008,891,101,Ófleygur ungi í hreiðri,F,
+REYK,123966,Fálki,,216,Ólafur K. Nielsen,6/24/2008,1967,101,Ófleygur ungi í hreiðri,M,
+REYK,123967,Fálki,,216,Ólafur K. Nielsen,6/25/2008,1388,101,Ófleygur ungi í hreiðri,M,
+REYK,123968,Fálki,,216,Ólafur K. Nielsen,6/25/2008,1388,101,Ófleygur ungi í hreiðri,M,
+REYK,132741,Fálki,,216,Ólafur K. Nielsen,6/26/2008,1360,101,Ófleygur ungi í hreiðri,0,
+REYK,132742,Fálki,,216,Ólafur K. Nielsen,6/26/2008,1360,101,Ófleygur ungi í hreiðri,0,
+REYK,123969,Fálki,,216,Ólafur K. Nielsen,6/26/2008,1322,101,Ófleygur ungi í hreiðri,M,
+REYK,123970,Fálki,,216,Ólafur K. Nielsen,6/26/2008,1322,101,Ófleygur ungi í hreiðri,M,
+REYK,132739,Fálki,,216,Ólafur K. Nielsen,6/26/2008,1322,101,Ófleygur ungi í hreiðri,F,
+REYK,132740,Fálki,,216,Ólafur K. Nielsen,6/26/2008,1322,101,Ófleygur ungi í hreiðri,F,
+REYK,123975,Fálki,,216,Ólafur K. Nielsen,6/27/2008,1431,101,Ófleygur ungi í hreiðri,M,
+REYK,123976,Fálki,,216,Ólafur K. Nielsen,6/27/2008,1431,101,Ófleygur ungi í hreiðri,M,
+REYK,132743,Fálki,,216,Ólafur K. Nielsen,6/27/2008,2878,101,Ófleygur ungi í hreiðri,F,
+REYK,123973,Fálki,,216,Ólafur K. Nielsen,6/27/2008,2878,101,Ófleygur ungi í hreiðri,M,
+REYK,123974,Fálki,,216,Ólafur K. Nielsen,6/27/2008,2878,101,Ófleygur ungi í hreiðri,M,
+REYK,123971,Fálki,,216,Ólafur K. Nielsen,6/27/2008,3470,101,Ófleygur ungi í hreiðri,M,
+REYK,123972,Fálki,,216,Ólafur K. Nielsen,6/27/2008,3470,101,Ófleygur ungi í hreiðri,M,
+REYK,123977,Fálki,,216,Ólafur K. Nielsen,10/22/2008,1118,493,"Fullvaxinn (1. ár) í haldi, sleppt annars staðar",M,"Endurhæfður, náðist 5.9.08 í Skagafirði. Grútarblautur."
+REYK,123978,Fálki,,216,Ólafur K. Nielsen,6/16/2009,1967,101,Ófleygur ungi í hreiðri,0,
+REYK,123979,Fálki,,216,Ólafur K. Nielsen,6/20/2009,934,101,Ófleygur ungi í hreiðri,0,
+REYK,123980,Fálki,,216,Ólafur K. Nielsen,6/20/2009,934,101,Ófleygur ungi í hreiðri,M,
+REYK,123981,Fálki,,216,Ólafur K. Nielsen,6/20/2009,934,101,Ófleygur ungi í hreiðri,M,
+REYK,132744,Fálki,,216,Ólafur K. Nielsen,6/20/2009,934,101,Ófleygur ungi í hreiðri,0,
+REYK,132745,Fálki,,216,Ólafur K. Nielsen,6/20/2009,934,101,Ófleygur ungi í hreiðri,0,
+REYK,132746,Fálki,,216,Ólafur K. Nielsen,6/20/2009,934,101,Ófleygur ungi í hreiðri,0,
+REYK,132747,Fálki,,216,Ólafur K. Nielsen,6/20/2009,934,101,Ófleygur ungi í hreiðri,F,
+REYK,132748,Fálki,,216,Ólafur K. Nielsen,6/20/2009,934,101,Ófleygur ungi í hreiðri,F,
+REYK,132749,Fálki,,216,Ólafur K. Nielsen,6/21/2009,3083,101,Ófleygur ungi í hreiðri,F,
+REYK,123982,Fálki,,216,Ólafur K. Nielsen,6/21/2009,3083,101,Ófleygur ungi í hreiðri,M,
+REYK,123983,Fálki,,216,Ólafur K. Nielsen,6/21/2009,3083,101,Ófleygur ungi í hreiðri,M,
+REYK,123984,Fálki,,216,Ólafur K. Nielsen,6/22/2009,958,101,Ófleygur ungi í hreiðri,M,
+REYK,123985,Fálki,,216,Ólafur K. Nielsen,6/22/2009,958,101,Ófleygur ungi í hreiðri,M,
+REYK,123986,Fálki,,216,Ólafur K. Nielsen,6/22/2009,958,101,Ófleygur ungi í hreiðri,M,
+REYK,132750,Fálki,,216,Ólafur K. Nielsen,6/22/2009,958,101,Ófleygur ungi í hreiðri,F,
+REYK,134301,Fálki,,216,Ólafur K. Nielsen,6/23/2009,1375,101,Ófleygur ungi í hreiðri,F,
+REYK,123987,Fálki,,216,Ólafur K. Nielsen,6/23/2009,1375,101,Ófleygur ungi í hreiðri,M,
+REYK,123988,Fálki,,216,Ólafur K. Nielsen,6/23/2009,1375,101,Ófleygur ungi í hreiðri,M,
+REYK,123989,Fálki,,216,Ólafur K. Nielsen,6/23/2009,1375,101,Ófleygur ungi í hreiðri,M,
+REYK,123991,Fálki,,216,Ólafur K. Nielsen,6/23/2009,1324,101,Ófleygur ungi í hreiðri,M,
+REYK,123992,Fálki,,216,Ólafur K. Nielsen,6/23/2009,1293,101,Ófleygur ungi í hreiðri,M,
+REYK,123993,Fálki,,216,Ólafur K. Nielsen,6/23/2009,1293,101,Ófleygur ungi í hreiðri,M,
+REYK,134305,Fálki,,216,Ólafur K. Nielsen,6/23/2009,1293,101,Ófleygur ungi í hreiðri,F,
+REYK,123990,Fálki,,216,Ólafur K. Nielsen,6/23/2009,3057,101,Ófleygur ungi í hreiðri,M,
+REYK,134302,Fálki,,216,Ólafur K. Nielsen,6/23/2009,3057,101,Ófleygur ungi í hreiðri,F,
+REYK,134303,Fálki,,216,Ólafur K. Nielsen,6/23/2009,3057,101,Ófleygur ungi í hreiðri,F,
+REYK,134304,Fálki,,216,Ólafur K. Nielsen,6/23/2009,3057,101,Ófleygur ungi í hreiðri,F,
+REYK,123995,Fálki,,216,Ólafur K. Nielsen,6/24/2009,3470,101,Ófleygur ungi í hreiðri,M,
+REYK,123996,Fálki,,216,Ólafur K. Nielsen,6/24/2009,3470,101,Ófleygur ungi í hreiðri,M,
+REYK,123997,Fálki,,216,Ólafur K. Nielsen,6/24/2009,3470,101,Ófleygur ungi í hreiðri,M,
+REYK,123994,Fálki,,216,Ólafur K. Nielsen,6/24/2009,1431,101,Ófleygur ungi í hreiðri,M,
+REYK,134306,Fálki,,216,Ólafur K. Nielsen,6/24/2009,1431,101,Ófleygur ungi í hreiðri,F,
+REYK,123998,Fálki,,216,Ólafur K. Nielsen,6/26/2009,1330,101,Ófleygur ungi í hreiðri,M,
+REYK,134307,Fálki,,216,Ólafur K. Nielsen,6/26/2009,3391,101,Ófleygur ungi í hreiðri,F,
+REYK,134308,Fálki,,216,Ólafur K. Nielsen,6/26/2009,3391,101,Ófleygur ungi í hreiðri,F,
+REYK,123999,Fálki,,216,Ólafur K. Nielsen,6/26/2009,3391,101,Ófleygur ungi í hreiðri,M,
+REYK,124000,Fálki,,216,Ólafur K. Nielsen,6/26/2009,3391,101,Ófleygur ungi í hreiðri,M,
+REYK,134310,Fálki,,216,Ólafur K. Nielsen,6/27/2009,924,101,Ófleygur ungi í hreiðri,0,
+REYK,134311,Fálki,,216,Ólafur K. Nielsen,6/27/2009,924,101,Ófleygur ungi í hreiðri,0,
+REYK,134309,Fálki,,216,Ólafur K. Nielsen,6/27/2009,890,101,Ófleygur ungi í hreiðri,F,
+REYK,134312,Fálki,,216,Ólafur K. Nielsen,6/28/2009,891,101,Ófleygur ungi í hreiðri,0,
+REYK,134313,Fálki,,216,Ólafur K. Nielsen,6/28/2009,891,101,Ófleygur ungi í hreiðri,0,
+REYK,134314,Fálki,,216,Ólafur K. Nielsen,6/29/2009,1415,101,Ófleygur ungi í hreiðri,F,
+REYK,134315,Fálki,,216,Ólafur K. Nielsen,6/29/2009,1415,101,Ófleygur ungi í hreiðri,M,
+REYK,134316,Fálki,,216,Ólafur K. Nielsen,6/29/2009,1415,101,Ófleygur ungi í hreiðri,F,
+REYK,134317,Fálki,,216,Ólafur K. Nielsen,6/29/2009,1415,101,Ófleygur ungi í hreiðri,F,
+REYK,134318,Fálki,,216,Ólafur K. Nielsen,7/6/2009,1113,420,Fullvaxinn (2. ár),F,"Sleppt 15.9.09 vHafravatn, Mos. Náðist í Skagafirði 25.6.09."
+REYK,134319,Fálki,,216,Ólafur K. Nielsen,10/20/2009,1113,410,Fullvaxinn (1. ár),F,"Sleppt 20.10.09 vBláfjöll, Kóp. Náðist á Felli, Bakkafirði 21.9.09."
+REYK,134320,Fálki,,216,Ólafur K. Nielsen,11/16/2009,1113,410,Fullvaxinn (1. ár),F,"Sleppt 16.11.09 vBláfjöll, Kóp. Náðist í Hjaltast.þingha 2.11.09."
+REYK,134323,Fálki,,216,Ólafur K. Nielsen,6/16/2010,1478,101,Ófleygur ungi í hreiðri,0,
+REYK,134324,Fálki,,216,Ólafur K. Nielsen,6/16/2010,1478,101,Ófleygur ungi í hreiðri,0,
+REYK,124001,Fálki,,216,Ólafur K. Nielsen,6/16/2010,1478,101,Ófleygur ungi í hreiðri,0,
+REYK,124005,Fálki,,216,Ólafur K. Nielsen,6/16/2010,1324,101,Ófleygur ungi í hreiðri,0,
+REYK,134333,Fálki,,216,Ólafur K. Nielsen,6/16/2010,1324,101,Ófleygur ungi í hreiðri,F,
+REYK,134322,Fálki,,216,Ólafur K. Nielsen,6/16/2010,1263,101,Ófleygur ungi í hreiðri,0,
+REYK,124002,Fálki,,216,Ólafur K. Nielsen,6/16/2010,3057,101,Ófleygur ungi í hreiðri,0,
+REYK,124003,Fálki,,216,Ólafur K. Nielsen,6/16/2010,3057,101,Ófleygur ungi í hreiðri,0,
+REYK,124004,Fálki,,216,Ólafur K. Nielsen,6/16/2010,3057,101,Ófleygur ungi í hreiðri,0,
+REYK,124006,Fálki,,216,Ólafur K. Nielsen,6/17/2010,1229,101,Ófleygur ungi í hreiðri,0,
+REYK,124007,Fálki,,216,Ólafur K. Nielsen,6/17/2010,1229,101,Ófleygur ungi í hreiðri,0,
+REYK,124008,Fálki,,216,Ólafur K. Nielsen,6/17/2010,1229,101,Ófleygur ungi í hreiðri,0,
+REYK,134334,Fálki,,216,Ólafur K. Nielsen,6/17/2010,1229,101,Ófleygur ungi í hreiðri,0,
+REYK,134337,Fálki,,216,Ólafur K. Nielsen,6/18/2010,958,101,Ófleygur ungi í hreiðri,0,
+REYK,134338,Fálki,,216,Ólafur K. Nielsen,6/18/2010,958,101,Ófleygur ungi í hreiðri,0,
+REYK,134339,Fálki,,216,Ólafur K. Nielsen,6/18/2010,958,101,Ófleygur ungi í hreiðri,0,
+REYK,134340,Fálki,,216,Ólafur K. Nielsen,6/18/2010,958,101,Ófleygur ungi í hreiðri,0,
+REYK,134335,Fálki,,216,Ólafur K. Nielsen,6/18/2010,1415,101,Ófleygur ungi í hreiðri,0,
+REYK,134336,Fálki,,216,Ólafur K. Nielsen,6/18/2010,1415,101,Ófleygur ungi í hreiðri,0,
+REYK,124009,Fálki,,216,Ólafur K. Nielsen,6/18/2010,1415,101,Ófleygur ungi í hreiðri,0,
+REYK,124010,Fálki,,216,Ólafur K. Nielsen,6/19/2010,930,101,Ófleygur ungi í hreiðri,0,
+REYK,134341,Fálki,,216,Ólafur K. Nielsen,6/19/2010,930,101,Ófleygur ungi í hreiðri,0,
+REYK,134342,Fálki,,216,Ólafur K. Nielsen,6/19/2010,930,101,Ófleygur ungi í hreiðri,0,
+REYK,124011,Fálki,,216,Ólafur K. Nielsen,6/19/2010,3083,101,Ófleygur ungi í hreiðri,0,
+REYK,134343,Fálki,,216,Ólafur K. Nielsen,6/19/2010,3083,101,Ófleygur ungi í hreiðri,0,
+REYK,134344,Fálki,,216,Ólafur K. Nielsen,6/19/2010,3083,101,Ófleygur ungi í hreiðri,0,
+REYK,124014,Fálki,,216,Ólafur K. Nielsen,6/20/2010,2878,101,Ófleygur ungi í hreiðri,0,
+REYK,134325,Fálki,,216,Ólafur K. Nielsen,6/20/2010,2878,101,Ófleygur ungi í hreiðri,0,
+REYK,134326,Fálki,,216,Ólafur K. Nielsen,6/20/2010,2878,101,Ófleygur ungi í hreiðri,0,
+REYK,134327,Fálki,,216,Ólafur K. Nielsen,6/20/2010,2878,101,Ófleygur ungi í hreiðri,0,
+REYK,134345,Fálki,,216,Ólafur K. Nielsen,6/20/2010,971,101,Ófleygur ungi í hreiðri,0,
+REYK,124012,Fálki,,216,Ólafur K. Nielsen,6/20/2010,971,101,Ófleygur ungi í hreiðri,0,
+REYK,124013,Fálki,,216,Ólafur K. Nielsen,6/20/2010,971,101,Ófleygur ungi í hreiðri,0,
+REYK,134328,Fálki,,216,Ólafur K. Nielsen,6/21/2010,1293,101,Ófleygur ungi í hreiðri,0,
+REYK,134329,Fálki,,216,Ólafur K. Nielsen,6/21/2010,1293,101,Ófleygur ungi í hreiðri,0,
+REYK,134330,Fálki,,216,Ólafur K. Nielsen,6/21/2010,1293,101,Ófleygur ungi í hreiðri,0,
+REYK,124016,Fálki,,216,Ólafur K. Nielsen,6/21/2010,1293,101,Ófleygur ungi í hreiðri,0,
+REYK,134331,Fálki,,216,Ólafur K. Nielsen,6/21/2010,1324,101,Ófleygur ungi í hreiðri,0,
+REYK,134332,Fálki,,216,Ólafur K. Nielsen,6/21/2010,1324,101,Ófleygur ungi í hreiðri,0,
+REYK,124015,Fálki,,216,Ólafur K. Nielsen,6/21/2010,3475,101,Ófleygur ungi í hreiðri,0,
+REYK,134346,Fálki,,216,Ólafur K. Nielsen,6/22/2010,1295,101,Ófleygur ungi í hreiðri,0,
+REYK,134347,Fálki,,216,Ólafur K. Nielsen,6/22/2010,1295,101,Ófleygur ungi í hreiðri,0,
+REYK,134348,Fálki,,216,Ólafur K. Nielsen,6/22/2010,1295,101,Ófleygur ungi í hreiðri,0,
+REYK,134349,Fálki,,216,Ólafur K. Nielsen,6/22/2010,1295,101,Ófleygur ungi í hreiðri,0,
+REYK,133610,Fálki,,216,Ólafur K. Nielsen,6/23/2010,1330,101,Ófleygur ungi í hreiðri,0,
+REYK,124018,Fálki,,216,Ólafur K. Nielsen,6/23/2010,1330,101,Ófleygur ungi í hreiðri,0,
+REYK,124019,Fálki,,216,Ólafur K. Nielsen,6/23/2010,1330,101,Ófleygur ungi í hreiðri,0,
+REYK,124017,Fálki,,216,Ólafur K. Nielsen,6/23/2010,3317,101,Ófleygur ungi í hreiðri,0,
+REYK,134350,Fálki,,216,Ólafur K. Nielsen,6/23/2010,3317,101,Ófleygur ungi í hreiðri,0,
+REYK,133611,Fálki,,216,Ólafur K. Nielsen,6/25/2010,1360,101,Ófleygur ungi í hreiðri,0,
+REYK,133612,Fálki,,216,Ólafur K. Nielsen,6/25/2010,1360,101,Ófleygur ungi í hreiðri,0,
+REYK,124020,Fálki,,216,Ólafur K. Nielsen,6/25/2010,1360,101,Ófleygur ungi í hreiðri,0,
+REYK,133613,Fálki,,216,Ólafur K. Nielsen,7/15/2010,1113,420,Fullvaxinn (2. ár),F,"Merkt í húsdýragarðinum, sleppt síðar v/ Úlfarsfell"
+REYK,133614,Fálki,,216,Ólafur K. Nielsen,4/12/2011,491,410,Fullvaxinn (1. ár),F,Náðist í Svarfaðardal fyrr um veturinn.
+REYK,124022,Fálki,AE,216,Ólafur K. Nielsen,6/16/2011,1229,101,Ófleygur ungi í hreiðri,M,
+REYK,124023,Fálki,AJ,216,Ólafur K. Nielsen,6/16/2011,1229,101,Ófleygur ungi í hreiðri,M,
+REYK,124024,Fálki,AK,216,Ólafur K. Nielsen,6/16/2011,1229,101,Ófleygur ungi í hreiðri,M,
+REYK,133615,Fálki,AH,216,Ólafur K. Nielsen,6/16/2011,1229,101,Ófleygur ungi í hreiðri,F,
+REYK,124021,Fálki,AB,216,Ólafur K. Nielsen,6/16/2011,1405,101,Ófleygur ungi í hreiðri,M,
+REYK,133619,Fálki,AC,216,Ólafur K. Nielsen,6/16/2011,1405,101,Ófleygur ungi í hreiðri,F,
+REYK,133620,Fálki,AA,216,Ólafur K. Nielsen,6/16/2011,1405,101,Ófleygur ungi í hreiðri,0,
+REYK,124025,Fálki,AL,216,Ólafur K. Nielsen,6/17/2011,930,101,Ófleygur ungi í hreiðri,M,
+REYK,124026,Fálki,AP,216,Ólafur K. Nielsen,6/18/2011,971,101,Ófleygur ungi í hreiðri,M,
+REYK,133616,Fálki,AM,216,Ólafur K. Nielsen,6/18/2011,971,101,Ófleygur ungi í hreiðri,F,
+REYK,137151,Fálki,AX,216,Ólafur K. Nielsen,6/19/2011,1324,101,Ófleygur ungi í hreiðri,0,
+REYK,137160,Fálki,AU,216,Ólafur K. Nielsen,6/19/2011,1324,101,Ófleygur ungi í hreiðri,F,
+REYK,133618,Fálki,AT,216,Ólafur K. Nielsen,6/19/2011,1324,101,Ófleygur ungi í hreiðri,F,
+REYK,124027,Fálki,AS,216,Ólafur K. Nielsen,6/19/2011,1283,101,Ófleygur ungi í hreiðri,M,Líklega er fuglinn einungis með litmerkið.
+REYK,133617,Fálki,AR,216,Ólafur K. Nielsen,6/19/2011,1283,101,Ófleygur ungi í hreiðri,F,
+REYK,137152,Fálki,BA,216,Ólafur K. Nielsen,6/20/2011,1263,101,Ófleygur ungi í hreiðri,F,
+REYK,137153,Fálki,AY,216,Ólafur K. Nielsen,6/20/2011,1263,101,Ófleygur ungi í hreiðri,F,
+REYK,137154,Fálki,AZ,216,Ólafur K. Nielsen,6/20/2011,1263,101,Ófleygur ungi í hreiðri,F,
+REYK,124028,Fálki,BH,216,Ólafur K. Nielsen,6/21/2011,1371,101,Ófleygur ungi í hreiðri,M,
+REYK,124029,Fálki,BJ,216,Ólafur K. Nielsen,6/21/2011,1371,101,Ófleygur ungi í hreiðri,M,
+REYK,137157,Fálki,BE,216,Ólafur K. Nielsen,6/21/2011,1371,101,Ófleygur ungi í hreiðri,F,
+REYK,137155,Fálki,BB,216,Ólafur K. Nielsen,6/21/2011,2878,101,Ófleygur ungi í hreiðri,0,
+REYK,137156,Fálki,BC,216,Ólafur K. Nielsen,6/21/2011,2878,101,Ófleygur ungi í hreiðri,0,
+REYK,124030,Fálki,BK,216,Ólafur K. Nielsen,6/22/2011,1439,101,Ófleygur ungi í hreiðri,M,
+REYK,137158,Fálki,BL,216,Ólafur K. Nielsen,6/23/2011,2356,101,Ófleygur ungi í hreiðri,F,
+REYK,137159,Fálki,BM,216,Ólafur K. Nielsen,6/23/2011,2356,101,Ófleygur ungi í hreiðri,F,
+REYK,124031,Fálki,BP,216,Ólafur K. Nielsen,6/23/2011,2356,101,Ófleygur ungi í hreiðri,M,
+REYK,124032,Fálki,BR,216,Ólafur K. Nielsen,6/23/2011,2356,101,Ófleygur ungi í hreiðri,M,
+REYK,124033,Fálki,,216,Ólafur K. Nielsen,6/23/2011,2356,101,Ófleygur ungi í hreiðri,0,
+REYK,137161,Fálki,BU,216,Ólafur K. Nielsen,6/25/2011,3070,101,Ófleygur ungi í hreiðri,F,
+REYK,137162,Fálki,BX,216,Ólafur K. Nielsen,6/25/2011,3070,101,Ófleygur ungi í hreiðri,F,
+REYK,124034,Fálki,BS,216,Ólafur K. Nielsen,6/25/2011,3070,101,Ófleygur ungi í hreiðri,M,
+REYK,124035,Fálki,BT,216,Ólafur K. Nielsen,6/25/2011,3070,101,Ófleygur ungi í hreiðri,M,
+REYK,137164,Fálki,EC,216,Ólafur K. Nielsen,6/25/2011,934,101,Ófleygur ungi í hreiðri,F,
+REYK,124038,Fálki,EB,216,Ólafur K. Nielsen,6/25/2011,934,101,Ófleygur ungi í hreiðri,M,
+REYK,124039,Fálki,EE,216,Ólafur K. Nielsen,6/25/2011,934,101,Ófleygur ungi í hreiðri,M,
+REYK,137163,Fálki,EA,216,Ólafur K. Nielsen,6/25/2011,894,101,Ófleygur ungi í hreiðri,F,
+REYK,124036,Fálki,BY,216,Ólafur K. Nielsen,6/25/2011,894,101,Ófleygur ungi í hreiðri,M,
+REYK,124037,Fálki,BZ,216,Ólafur K. Nielsen,6/25/2011,894,101,Ófleygur ungi í hreiðri,M,
+REYK,137165,Fálki,,216,Ólafur K. Nielsen,2/15/2012,1103,480,Fullvaxinn (3. ára+),F,Varð fyrir bíl nærri Borgarnesi. Húsdýrag.
+REYK,137167,Fálki,,216,Ólafur K. Nielsen,6/2/2012,1103,420,Fullvaxinn (2. ár),F,Húsdýragarður
+REYK,137168,Fálki,CA,216,Ólafur K. Nielsen,6/17/2012,1340,101,Ófleygur ungi í hreiðri,F,
+REYK,124040,Fálki,EH,216,Ólafur K. Nielsen,6/17/2012,1340,101,Ófleygur ungi í hreiðri,M,
+REYK,124041,Fálki,EJ,216,Ólafur K. Nielsen,6/17/2012,1340,101,Ófleygur ungi í hreiðri,M,
+REYK,124042,Fálki,CH,216,Ólafur K. Nielsen,6/17/2012,2878,101,Ófleygur ungi í hreiðri,M,
+REYK,137169,Fálki,CC,216,Ólafur K. Nielsen,6/17/2012,2878,101,Ófleygur ungi í hreiðri,F,
+REYK,137170,Fálki,CE,216,Ólafur K. Nielsen,6/17/2012,2878,101,Ófleygur ungi í hreiðri,F,
+REYK,137171,Fálki,CB,216,Ólafur K. Nielsen,6/17/2012,2878,101,Ófleygur ungi í hreiðri,F,
+REYK,124043,Fálki,CK,216,Ólafur K. Nielsen,6/18/2012,1415,101,Ófleygur ungi í hreiðri,M,
+REYK,124044,Fálki,CL,216,Ólafur K. Nielsen,6/18/2012,1415,101,Ófleygur ungi í hreiðri,M,
+REYK,124045,Fálki,CM,216,Ólafur K. Nielsen,6/18/2012,1415,101,Ófleygur ungi í hreiðri,M,
+REYK,137172,Fálki,CJ,216,Ólafur K. Nielsen,6/18/2012,1415,101,Ófleygur ungi í hreiðri,F,
+REYK,124046,Fálki,CP,216,Ólafur K. Nielsen,6/18/2012,1229,101,Ófleygur ungi í hreiðri,M,
+REYK,124047,Fálki,CT,216,Ólafur K. Nielsen,6/18/2012,1229,101,Ófleygur ungi í hreiðri,M,
+REYK,137173,Fálki,CR,216,Ólafur K. Nielsen,6/18/2012,1229,101,Ófleygur ungi í hreiðri,F,
+REYK,137174,Fálki,CS,216,Ólafur K. Nielsen,6/18/2012,1229,101,Ófleygur ungi í hreiðri,F,
+REYK,137175,Fálki,CZ,216,Ólafur K. Nielsen,6/19/2012,1293,101,Ófleygur ungi í hreiðri,0,Ekki kyngr.
+REYK,137176,Fálki,CY,216,Ólafur K. Nielsen,6/19/2012,1293,101,Ófleygur ungi í hreiðri,0,Ekki kyngr.
+REYK,137177,Fálki,CX,216,Ólafur K. Nielsen,6/19/2012,1293,101,Ófleygur ungi í hreiðri,0,Ekki kyngr.
+REYK,124048,Fálki,EK,216,Ólafur K. Nielsen,6/20/2012,1263,101,Ófleygur ungi í hreiðri,M,
+REYK,137178,Fálki,CU,216,Ólafur K. Nielsen,6/20/2012,1263,101,Ófleygur ungi í hreiðri,F,
+REYK,137179,Fálki,EL,216,Ólafur K. Nielsen,6/20/2012,1263,101,Ófleygur ungi í hreiðri,F,
+REYK,137180,Fálki,EM,216,Ólafur K. Nielsen,6/20/2012,2106,101,Ófleygur ungi í hreiðri,F,
+REYK,133621,Fálki,EP,216,Ólafur K. Nielsen,6/20/2012,2106,101,Ófleygur ungi í hreiðri,F,
+REYK,124049,Fálki,ER,216,Ólafur K. Nielsen,6/20/2012,2106,101,Ófleygur ungi í hreiðri,M,
+REYK,133624,Fálki,EY,216,Ólafur K. Nielsen,6/21/2012,895,101,Ófleygur ungi í hreiðri,F,
+REYK,133625,Fálki,HA,216,Ólafur K. Nielsen,6/21/2012,895,101,Ófleygur ungi í hreiðri,F,
+REYK,133626,Fálki,EZ,216,Ólafur K. Nielsen,6/21/2012,895,101,Ófleygur ungi í hreiðri,F,
+REYK,133622,Fálki,ET,216,Ólafur K. Nielsen,6/21/2012,1373,101,Ófleygur ungi í hreiðri,F,
+REYK,133623,Fálki,EU,216,Ólafur K. Nielsen,6/21/2012,1373,101,Ófleygur ungi í hreiðri,F,
+REYK,124050,Fálki,ES,216,Ólafur K. Nielsen,6/21/2012,1373,101,Ófleygur ungi í hreiðri,M,
+REYK,124351,Fálki,EX,216,Ólafur K. Nielsen,6/21/2012,1373,101,Ófleygur ungi í hreiðri,M,
+REYK,124352,Fálki,HB,216,Ólafur K. Nielsen,6/22/2012,2422,101,Ófleygur ungi í hreiðri,M,
+REYK,133627,Fálki,HC,216,Ólafur K. Nielsen,6/22/2012,2422,101,Ófleygur ungi í hreiðri,F,
+REYK,133628,Fálki,HE,216,Ólafur K. Nielsen,6/22/2012,2422,101,Ófleygur ungi í hreiðri,F,
+REYK,137183,Fálki,HM,216,Ólafur K. Nielsen,6/22/2012,2417,101,Ófleygur ungi í hreiðri,0,Ekki kyngr.
+REYK,137184,Fálki,HP,216,Ólafur K. Nielsen,6/22/2012,2417,101,Ófleygur ungi í hreiðri,0,Ekki kyngr.
+REYK,137181,Fálki,HK,216,Ólafur K. Nielsen,6/22/2012,3083,101,Ófleygur ungi í hreiðri,0,Ekki kyngr.
+REYK,137182,Fálki,HL,216,Ólafur K. Nielsen,6/22/2012,3083,101,Ófleygur ungi í hreiðri,0,Ekki kyngr.
+REYK,133629,Fálki,HH,216,Ólafur K. Nielsen,6/22/2012,3083,101,Ófleygur ungi í hreiðri,0,Ekki kyngr.
+REYK,133630,Fálki,HJ,216,Ólafur K. Nielsen,6/22/2012,3083,101,Ófleygur ungi í hreiðri,F,Kyngr. við endurheimt.
+REYK,124353,Fálki,HR,216,Ólafur K. Nielsen,6/23/2012,1246,101,Ófleygur ungi í hreiðri,M,
+REYK,124354,Fálki,HS,216,Ólafur K. Nielsen,6/23/2012,1246,101,Ófleygur ungi í hreiðri,M,
+REYK,124355,Fálki,HT,216,Ólafur K. Nielsen,6/23/2012,1246,101,Ófleygur ungi í hreiðri,M,
+REYK,124356,Fálki,HU,216,Ólafur K. Nielsen,6/25/2012,1450,101,Ófleygur ungi í hreiðri,M,
+REYK,124357,Fálki,HX,216,Ólafur K. Nielsen,6/25/2012,1450,101,Ófleygur ungi í hreiðri,M,
+REYK,124358,Fálki,HY,216,Ólafur K. Nielsen,6/25/2012,1450,101,Ófleygur ungi í hreiðri,M,
+REYK,137185,Fálki,HZ,216,Ólafur K. Nielsen,6/26/2012,1254,101,Ófleygur ungi í hreiðri,F,
+REYK,137186,Fálki,MA,216,Ólafur K. Nielsen,6/26/2012,1254,101,Ófleygur ungi í hreiðri,F,
+REYK,124359,Fálki,MB,216,Ólafur K. Nielsen,6/26/2012,1254,101,Ófleygur ungi í hreiðri,M,
+REYK,137187,Fálki,MC,216,Ólafur K. Nielsen,6/28/2012,2417,101,Ófleygur ungi í hreiðri,0,Ekki kyngr.
+REYK,137188,Fálki,ME,216,Ólafur K. Nielsen,6/28/2012,2417,101,Ófleygur ungi í hreiðri,0,Ekki kyngr.
+REYK,137189,Fálki,MH,216,Ólafur K. Nielsen,6/28/2012,2417,101,Ófleygur ungi í hreiðri,0,Ekki kyngr.
+REYK,137190,Fálki,,216,Ólafur K. Nielsen,11/11/2012,1103,430,Fullvaxinn (3. ár),F,Náðist á Hvanneyri. Húsdýragarður
+REYK,133631,Fálki,MJ,216,Ólafur K. Nielsen,6/17/2013,2396,101,Ófleygur ungi í hreiðri,0,Rautt hvítir stafir
+REYK,133632,Fálki,MK,216,Ólafur K. Nielsen,6/17/2013,2396,101,Ófleygur ungi í hreiðri,0,Rautt hvítir stafir
+REYK,133633,Fálki,ML,216,Ólafur K. Nielsen,6/19/2013,1295,101,Ófleygur ungi í hreiðri,0,Rautt hvítir stafir
+REYK,133634,Fálki,MM,216,Ólafur K. Nielsen,6/19/2013,1295,101,Ófleygur ungi í hreiðri,0,Rautt hvítir stafir
+REYK,133635,Fálki,MN,216,Ólafur K. Nielsen,6/19/2013,1295,101,Ófleygur ungi í hreiðri,0,Rautt hvítir stafir
+REYK,133636,Fálki,MR,216,Ólafur K. Nielsen,6/21/2013,1348,101,Ófleygur ungi í hreiðri,F,Rautt hvítir stafir
+REYK,124360,Fálki,MS,216,Ólafur K. Nielsen,6/21/2013,1348,101,Ófleygur ungi í hreiðri,M,Rautt hvítir stafir
+REYK,124361,Fálki,MT,216,Ólafur K. Nielsen,6/21/2013,1348,101,Ófleygur ungi í hreiðri,M,Rautt hvítir stafir
+REYK,133637,Fálki,MU,216,Ólafur K. Nielsen,6/23/2013,958,101,Ófleygur ungi í hreiðri,F,Rautt hvítir stafir
+REYK,133638,Fálki,MY,216,Ólafur K. Nielsen,6/23/2013,3083,101,Ófleygur ungi í hreiðri,F,Rautt hvítir stafir
+REYK,133639,Fálki,MX,216,Ólafur K. Nielsen,6/23/2013,3083,101,Ófleygur ungi í hreiðri,F,Rautt hvítir stafir
+REYK,124362,Fálki,MZ,216,Ólafur K. Nielsen,6/23/2013,3083,101,Ófleygur ungi í hreiðri,M,Rautt hvítir stafir
+REYK,133640,Fálki,KA,216,Ólafur K. Nielsen,6/24/2013,3390,101,Ófleygur ungi í hreiðri,0,Rautt hvítir stafir
+REYK,124363,Fálki,,216,Ólafur K. Nielsen,6/24/2013,3390,101,Ófleygur ungi í hreiðri,0,
+REYK,133641,Fálki,KH,216,Ólafur K. Nielsen,6/29/2013,1375,101,Ófleygur ungi í hreiðri,0,Rautt hvítir stafir
+REYK,133642,Fálki,KE,216,Ólafur K. Nielsen,6/29/2013,1375,101,Ófleygur ungi í hreiðri,0,Rautt hvítir stafir
+REYK,133643,Fálki,KK,216,Ólafur K. Nielsen,6/29/2013,1375,101,Ófleygur ungi í hreiðri,0,Rautt hvítir stafir
+REYK,133644,Fálki,KJ,216,Ólafur K. Nielsen,6/29/2013,1375,101,Ófleygur ungi í hreiðri,0,Rautt hvítir stafir
+REYK,124364,Fálki,KB,216,Ólafur K. Nielsen,6/29/2013,1391,101,Ófleygur ungi í hreiðri,M,Rautt hvítir stafir
+REYK,124365,Fálki,KC,216,Ólafur K. Nielsen,6/29/2013,1391,101,Ófleygur ungi í hreiðri,M,Rautt hvítir stafir
+REYK,133645,Fálki,,216,Ólafur K. Nielsen,10/11/2013,4563,420,Fullvaxinn (2. ár),F,"Náðist á Kópaskeri í maí (grútarfugl), síðan í haldi í Húsdýragarði uns sleppt"
+REYK,133646,Fálki,,216,Ólafur K. Nielsen,10/21/2013,4563,490,Fullvaxinn (4. ára+),F,"Náðist í Skaftafelli í júní (grútarfugl), síðan í haldi í Húsdýragarði uns sleppt"
+REYK,133647,Fálki,,216,Ólafur K. Nielsen,10/25/2013,4533,410,Fullvaxinn (1. ár),F,"Náðist við Pétursey í október 2013 (grútarfugl), hefur verið í haldi á bænum síðan, ekki g"
+REYK,133648,Fálki,,216,Ólafur K. Nielsen,10/28/2013,4563,410,Fullvaxinn (1. ár),F,"Náðist við Krossanesbjarg á Snæfellsnesi fyrr í haust, síðan í haldi í Húsdýragarði uns sl"
+REYK,133649,Fálki,,216,Ólafur K. Nielsen,10/30/2013,491,420,Fullvaxinn (2. ár),F,"Náðist við Krossanesbjarg á Snæfellsnesi fyrr í haust, síðan í haldi í Húsdýragarði uns sl"
+REYK,133650,Fálki,,216,Ólafur K. Nielsen,12/10/2013,4563,410,Fullvaxinn (1. ár),F,"Náðist á Höfn í Hornafirði 1.11.2013, síðan í haldi í Húsdýragarði uns sleppt"
+REYK,137191,Fálki,KM,216,Ólafur K. Nielsen,6/14/2014,1446,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,124366,Fálki,KL,216,Ólafur K. Nielsen,6/14/2014,1446,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,124367,Fálki,KP,216,Ólafur K. Nielsen,6/14/2014,1446,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,124368,Fálki,,216,Ólafur K. Nielsen,6/14/2014,1446,101,Ófleygur ungi í hreiðri,M,Fékk ekki litmerki
+REYK,V_FaRu0001,Fálki,KS,216,Ólafur K. Nielsen,6/17/2014,1363,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0002,Fálki,KR,216,Ólafur K. Nielsen,6/17/2014,1363,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0003,Fálki,KT,216,Ólafur K. Nielsen,6/17/2014,1304,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0004,Fálki,KU,216,Ólafur K. Nielsen,6/17/2014,1304,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0005,Fálki,KX,216,Ólafur K. Nielsen,6/17/2014,1304,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0006,Fálki,KY,216,Ólafur K. Nielsen,6/17/2014,1304,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0007,Fálki,KZ,216,Ólafur K. Nielsen,6/17/2014,1936,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0008,Fálki,JA,216,Ólafur K. Nielsen,6/17/2014,1936,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0009,Fálki,JC,216,Ólafur K. Nielsen,6/17/2014,1936,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0010,Fálki,JB,216,Ólafur K. Nielsen,6/17/2014,1936,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0011,Fálki,JE,216,Ólafur K. Nielsen,6/18/2014,1295,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0012,Fálki,JH,216,Ólafur K. Nielsen,6/18/2014,1295,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0013,Fálki,JJ,216,Ólafur K. Nielsen,6/18/2014,1295,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0018,Fálki,JR,216,Ólafur K. Nielsen,6/18/2014,1415,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0019,Fálki,JS,216,Ólafur K. Nielsen,6/18/2014,1415,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0020,Fálki,JT,216,Ólafur K. Nielsen,6/18/2014,1415,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0014,Fálki,JK,216,Ólafur K. Nielsen,6/18/2014,1234,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0015,Fálki,JL,216,Ólafur K. Nielsen,6/18/2014,1234,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0016,Fálki,JM,216,Ólafur K. Nielsen,6/18/2014,1234,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0017,Fálki,JP,216,Ólafur K. Nielsen,6/18/2014,1234,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0021,Fálki,JU,216,Ólafur K. Nielsen,6/20/2014,890,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0022,Fálki,JX,216,Ólafur K. Nielsen,6/20/2014,890,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0023,Fálki,JY,216,Ólafur K. Nielsen,6/20/2014,890,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0024,Fálki,JZ,216,Ólafur K. Nielsen,6/20/2014,890,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0025,Fálki,LA,216,Ólafur K. Nielsen,6/20/2014,1370,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0026,Fálki,LB,216,Ólafur K. Nielsen,6/20/2014,1370,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0027,Fálki,LC,216,Ólafur K. Nielsen,6/20/2014,1370,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0028,Fálki,LE,216,Ólafur K. Nielsen,6/20/2014,1370,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0029,Fálki,LH,216,Ólafur K. Nielsen,6/20/2014,3390,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0030,Fálki,LJ,216,Ólafur K. Nielsen,6/20/2014,3390,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0031,Fálki,LK,216,Ólafur K. Nielsen,6/20/2014,3390,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0032,Fálki,LL,216,Ólafur K. Nielsen,6/20/2014,3390,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0037,Fálki,LT,216,Ólafur K. Nielsen,6/21/2014,3083,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0038,Fálki,LU,216,Ólafur K. Nielsen,6/21/2014,3083,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0039,Fálki,LX,216,Ólafur K. Nielsen,6/21/2014,3083,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0033,Fálki,LM,216,Ólafur K. Nielsen,6/21/2014,895,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0034,Fálki,LP,216,Ólafur K. Nielsen,6/21/2014,895,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0035,Fálki,LR,216,Ólafur K. Nielsen,6/21/2014,895,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0036,Fálki,LS,216,Ólafur K. Nielsen,6/21/2014,895,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0040,Fálki,LZ,216,Ólafur K. Nielsen,6/22/2014,977,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0041,Fálki,LY,216,Ólafur K. Nielsen,6/22/2014,977,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0042,Fálki,PA,216,Ólafur K. Nielsen,6/22/2014,977,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0043,Fálki,PB,216,Ólafur K. Nielsen,6/22/2014,3882,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0048,Fálki,PK,216,Ólafur K. Nielsen,6/23/2014,3475,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0049,Fálki,PL,216,Ólafur K. Nielsen,6/23/2014,3475,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0044,Fálki,PC,216,Ólafur K. Nielsen,6/23/2014,2878,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0045,Fálki,PE,216,Ólafur K. Nielsen,6/23/2014,2878,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0046,Fálki,PH,216,Ólafur K. Nielsen,6/23/2014,2878,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0047,Fálki,PJ,216,Ólafur K. Nielsen,6/23/2014,1371,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0052,Fálki,PR,216,Ólafur K. Nielsen,6/24/2014,1293,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0053,Fálki,PS,216,Ólafur K. Nielsen,6/24/2014,1293,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0050,Fálki,PM,216,Ólafur K. Nielsen,6/24/2014,2396,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0051,Fálki,PP,216,Ólafur K. Nielsen,6/24/2014,2396,101,Ófleygur ungi í hreiðri,M,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0054,Fálki,PT,216,Ólafur K. Nielsen,6/25/2014,1369,101,Ófleygur ungi í hreiðri,0,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0055,Fálki,PU,216,Ólafur K. Nielsen,6/25/2014,1369,101,Ófleygur ungi í hreiðri,0,"Ekki stál, rautt litm og hvítir stafir"
+REYK,V_FaRu0056,Fálki,PX,216,Ólafur K. Nielsen,6/27/2014,891,101,Ófleygur ungi í hreiðri,F,"Ekki stál, rautt litm og hvítir stafir"
+REYK,124369,Fálki,,216,Ólafur K. Nielsen,10/15/2014,4563,410,Fullvaxinn (1. ár),M,"Úr Húsdýragarði, kom frá Húsey á Héraði"
+REYK,V_FaRu0057,Fálki,PY,216,Ólafur K. Nielsen,6/14/2015,1446,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FaRu0059,Fálki,RA,216,Ólafur K. Nielsen,6/16/2015,1278,101,Ófleygur ungi í hreiðri,F,Rautt litm og hvítir stafir
+REYK,V_FaRu0060,Fálki,RB,216,Ólafur K. Nielsen,6/16/2015,1278,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FaRu0061,Fálki,RC,216,Ólafur K. Nielsen,6/16/2015,1278,101,Ófleygur ungi í hreiðri,F,Rautt litm og hvítir stafir
+REYK,V_FaRu0058,Fálki,PZ,216,Ólafur K. Nielsen,6/16/2015,3034,101,Ófleygur ungi í hreiðri,F,Rautt litm og hvítir stafir
+REYK,V_FaRu0062,Fálki,RE,216,Ólafur K. Nielsen,6/17/2015,1273,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FaRu0063,Fálki,RH,216,Ólafur K. Nielsen,6/17/2015,1273,101,Ófleygur ungi í hreiðri,F,Rautt litm og hvítir stafir
+REYK,V_FaRu0064,Fálki,RJ,216,Ólafur K. Nielsen,6/17/2015,1273,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FaRu0065,Fálki,RK,216,Ólafur K. Nielsen,6/19/2015,935,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FaRu0066,Fálki,RL,216,Ólafur K. Nielsen,6/19/2015,935,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FaRu0067,Fálki,RM,216,Ólafur K. Nielsen,6/19/2015,935,101,Ófleygur ungi í hreiðri,F,Rautt litm og hvítir stafir
+REYK,V_FaRu0068,Fálki,RP,216,Ólafur K. Nielsen,6/19/2015,935,101,Ófleygur ungi í hreiðri,F,Rautt litm og hvítir stafir
+REYK,V_FaRu0069,Fálki,RR,216,Ólafur K. Nielsen,6/19/2015,935,101,Ófleygur ungi í hreiðri,F,Rautt litm og hvítir stafir
+REYK,V_FaRu0070,Fálki,RS,216,Ólafur K. Nielsen,6/19/2015,935,101,Ófleygur ungi í hreiðri,F,Rautt litm og hvítir stafir
+REYK,V_FaRu0071,Fálki,RT,216,Ólafur K. Nielsen,6/19/2015,935,101,Ófleygur ungi í hreiðri,F,Rautt litm og hvítir stafir
+REYK,V_FaRu0072,Fálki,RU,216,Ólafur K. Nielsen,6/19/2015,935,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FaRu0073,Fálki,RX,216,Ólafur K. Nielsen,6/20/2015,899,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FaRu0074,Fálki,RY,216,Ólafur K. Nielsen,6/20/2015,899,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FaRu0075,Fálki,RZ,216,Ólafur K. Nielsen,6/20/2015,899,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FaRu0076,Fálki,SA,216,Ólafur K. Nielsen,6/20/2015,899,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FaRu0077,Fálki,SB,216,Ólafur K. Nielsen,6/21/2015,1340,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FaRu0078,Fálki,SC,216,Ólafur K. Nielsen,6/21/2015,1340,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FaRu0079,Fálki,SE,216,Ólafur K. Nielsen,6/21/2015,1340,101,Ófleygur ungi í hreiðri,F,Rautt litm og hvítir stafir
+REYK,V_FaRu0080,Fálki,SH,216,Ólafur K. Nielsen,6/22/2015,1293,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FaRu0081,Fálki,SJ,216,Ólafur K. Nielsen,6/22/2015,1293,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FaRu0082,Fálki,SK,216,Ólafur K. Nielsen,6/22/2015,1293,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FaRu0083,Fálki,SL,216,Ólafur K. Nielsen,6/22/2015,1293,101,Ófleygur ungi í hreiðri,F,Rautt litm og hvítir stafir
+REYK,V_FaRu0084,Fálki,SM,216,Ólafur K. Nielsen,6/26/2015,891,101,Ófleygur ungi í hreiðri,F,Rautt litm og hvítir stafir
+REYK,V_FaRu0085,Fálki,SP,216,Ólafur K. Nielsen,6/27/2015,1295,101,Ófleygur ungi í hreiðri,F,Rautt litm og hvítir stafir
+REYK,V_FaRu0086,Fálki,SR,216,Ólafur K. Nielsen,6/27/2015,1295,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FaRu0087,Fálki,SS,216,Ólafur K. Nielsen,6/29/2015,1448,101,Ófleygur ungi í hreiðri,M,Rautt litm og hvítir stafir
+REYK,V_FARU0088,Fálki,ST,216,Ólafur K. Nielsen,6/29/2015,1448,101,Ófleygur ungi í hreiðri,M,
+REYK,124370,Fálki,,216,Ólafur K. Nielsen,7/24/2015,1103,420,Fullvaxinn (2. ár),M,Endurhæfðir fuglar úr Húsdýragarði
+REYK,124371,Fálki,,216,Ólafur K. Nielsen,7/24/2015,1103,410,Fullvaxinn (1. ár),M,Endurhæfðir fuglar úr Húsdýragarði
+REYK,110101,Fálki,,222,Finnur L. Jóhannsson,6/7/1978,3312,100,Ófleygur ungi,0,
+REYK,110102,Fálki,,222,Finnur L. Jóhannsson,6/7/1978,3312,100,Ófleygur ungi,0,
+REYK,110103,Fálki,,222,Finnur L. Jóhannsson,6/9/1978,3313,100,Ófleygur ungi,0,
+REYK,110104,Fálki,,222,Finnur L. Jóhannsson,6/9/1978,3313,100,Ófleygur ungi,0,
+REYK,110105,Fálki,,222,Finnur L. Jóhannsson,7/1/1980,164,100,Ófleygur ungi,0,
+REYK,110106,Fálki,,222,Finnur L. Jóhannsson,7/1/1980,164,100,Ófleygur ungi,0,
+REYK,110137,Fálki,,222,Finnur L. Jóhannsson,6/25/2002,3304,100,Ófleygur ungi,F,"Systkini með 110138, 110139 og 110140."
+REYK,110138,Fálki,,222,Finnur L. Jóhannsson,6/25/2002,3304,100,Ófleygur ungi,M,"Systkini með 110137, 110139 og 110140."
+REYK,110139,Fálki,,222,Finnur L. Jóhannsson,6/25/2002,3304,100,Ófleygur ungi,M,"Systkini með 110137, 110138 og 110140."
+REYK,110140,Fálki,,222,Finnur L. Jóhannsson,6/25/2002,3304,100,Ófleygur ungi,M,"Systkini með 110137, 110138 og 110139."
+REYK,215963,Fálki,,223,Jóhann Óli Hilmarsson,6/9/1981,1262,100,Ófleygur ungi,0,
+REYK,232038,Fálki,,224,Trausti Tryggvason,6/19/1982,2346,100,Ófleygur ungi,0,
+REYK,232039,Fálki,,224,Trausti Tryggvason,6/19/1982,2346,100,Ófleygur ungi,0,
+REYK,16151,Fálki,,228,Þorvaldur Björnsson,6/14/1973,1775,100,Ófleygur ungi,0,
+REYK,16152,Fálki,,228,Þorvaldur Björnsson,6/14/1973,1775,101,Ófleygur ungi í hreiðri,0,
+REYK,16200,Fálki,,228,Þorvaldur Björnsson,6/29/1975,1775,100,Ófleygur ungi,0,
+REYK,115291,Fálki,,228,Þorvaldur Björnsson,9/21/2001,1119,492,"Fullvaxinn í haldi, sleppt annars staðar",0,"Fuglinn náðist v. Vík í Mýrdal, í haldi nokkra daga, sleppt í Viðey."
+REYK,115274,Fálki,,228,Þorvaldur Björnsson,11/11/2003,1118,403,Fullvaxinn á skipi,0,Kom á skipi til Eskifjarðar
+REYK,15568,Fálki,,235,Skarphéðinn Þórisson,6/26/1982,724,100,Ófleygur ungi,0,"Stál á hægri, rautt plast á vinstri."
+REYK,15569,Fálki,,235,Skarphéðinn Þórisson,6/26/1982,724,100,Ófleygur ungi,0,"Stál á hægri, rautt plast á vinstri."
+REYK,15570,Fálki,,235,Skarphéðinn Þórisson,6/26/1982,724,100,Ófleygur ungi,0,"Stál á hægri, rautt plast á vinstri."
+REYK,15567,Fálki,,235,Skarphéðinn Þórisson,6/26/1982,757,100,Ófleygur ungi,0,"Stál á hægri, hvítt plast á vinstri."
+REYK,15653,Fálki,,235,Skarphéðinn Þórisson,6/12/1985,798,100,Ófleygur ungi,0,
+REYK,15654,Fálki,,235,Skarphéðinn Þórisson,6/12/1985,798,100,Ófleygur ungi,0,
+REYK,15655,Fálki,,235,Skarphéðinn Þórisson,6/13/1985,830,100,Ófleygur ungi,0,
+REYK,15656,Fálki,,235,Skarphéðinn Þórisson,6/13/1985,830,100,Ófleygur ungi,0,
+REYK,15657,Fálki,,235,Skarphéðinn Þórisson,6/13/1985,830,100,Ófleygur ungi,0,
+REYK,15658,Fálki,,235,Skarphéðinn Þórisson,6/13/1985,830,100,Ófleygur ungi,0,
+REYK,15659,Fálki,,235,Skarphéðinn Þórisson,6/15/1985,2525,100,Ófleygur ungi,0,
+REYK,15660,Fálki,,235,Skarphéðinn Þórisson,6/15/1985,2525,100,Ófleygur ungi,0,
+REYK,15661,Fálki,,235,Skarphéðinn Þórisson,6/15/1985,2525,100,Ófleygur ungi,0,
+REYK,15672,Fálki,,235,Skarphéðinn Þórisson,6/18/1985,785,100,Ófleygur ungi,0,
+REYK,15673,Fálki,,235,Skarphéðinn Þórisson,6/18/1985,785,100,Ófleygur ungi,0,
+REYK,15666,Fálki,,235,Skarphéðinn Þórisson,6/22/1985,3474,100,Ófleygur ungi,0,
+REYK,15669,Fálki,,235,Skarphéðinn Þórisson,6/29/1985,2551,100,Ófleygur ungi,0,
+REYK,15670,Fálki,,235,Skarphéðinn Þórisson,6/29/1985,2551,100,Ófleygur ungi,0,
+REYK,15671,Fálki,,235,Skarphéðinn Þórisson,6/29/1985,2551,100,Ófleygur ungi,0,
+REYK,15667,Fálki,,235,Skarphéðinn Þórisson,6/29/1985,802,100,Ófleygur ungi,0,
+REYK,15668,Fálki,,235,Skarphéðinn Þórisson,6/29/1985,802,100,Ófleygur ungi,0,
+REYK,15674,Fálki,,235,Skarphéðinn Þórisson,6/24/1990,3521,101,Ófleygur ungi í hreiðri,0,"Systkini 15664, 15674-15675."
+REYK,15675,Fálki,,235,Skarphéðinn Þórisson,6/24/1990,3521,101,Ófleygur ungi í hreiðri,0,"Systkini 15664, 15674-15675."
+REYK,15664,Fálki,,235,Skarphéðinn Þórisson,6/24/1990,3521,101,Ófleygur ungi í hreiðri,0,"Systkini 15664, 15674-15675."
+REYK,16276,Fálki,,244,Nátt. (Ævar Petersen),7/30/1980,198,152,"Ófleygur ungi, í haldi, sleppt annars staðar",0,
+REYK,16279,Fálki,,244,Nátt. (Ævar Petersen),7/30/1980,198,152,"Ófleygur ungi, í haldi, sleppt annars staðar",0,
+REYK,16277,Fálki,,244,Nátt. (Ævar Petersen),8/14/1980,198,152,"Ófleygur ungi, í haldi, sleppt annars staðar",0,
+REYK,16278,Fálki,,244,Nátt. (Ævar Petersen),8/14/1980,198,152,"Ófleygur ungi, í haldi, sleppt annars staðar",0,
+REYK,16268,Fálki,,244,Nátt. (Ævar Petersen),10/22/1981,1103,493,"Fullvaxinn (1. ár) í haldi, sleppt annars staðar",0,"Náð á götu á  Akureyri 9.10.1981, þveginn í Rvk., sleppt í Heiðmörk."
+REYK,16275,Fálki,,244,Nátt. (Ævar Petersen),11/22/1981,1112,493,"Fullvaxinn (1. ár) í haldi, sleppt annars staðar",M,"Náð lifandi við Siglufjörð, hafður í haldi, þveginn, sleppt."
+REYK,16269,Fálki,,244,Nátt. (Ævar Petersen),9/28/1982,1115,494,"Fullvaxinn (2. ár) í haldi, sleppt annars staðar",M,"Flaug á glugga, vankaðist, hafður í haldi, sleppt á Laugarnesi."
+REYK,18506,Fálki,,244,Nátt. (Ævar Petersen),10/28/1983,1520,492,"Fullvaxinn í haldi, sleppt annars staðar",0,"Fannst á flögri við Hofsós 13.9.83, særður á væng."
+REYK,15651,Fálki,,244,Nátt. (Ævar Petersen),2/15/1984,542,493,"Fullvaxinn (1. ár) í haldi, sleppt annars staðar",F,"Fannst v/Húsatóftir, Gull, særður á fæti 19.1.1984."
+REYK,18510,Fálki,,244,Nátt. (Ævar Petersen),10/12/1984,3389,493,"Fullvaxinn (1. ár) í haldi, sleppt annars staðar",F,"Grænlenskur fálki, settist á bát milli Ísl. og Grænlands."
+REYK,15652,Fálki,,244,Nátt. (Ævar Petersen),8/29/1985,542,492,"Fullvaxinn í haldi, sleppt annars staðar",0,"Fannst grútarblautur v/Hvolsá 13.8.85, þveginn og sleppt."
+REYK,17951,Fálki,,244,Nátt. (Ævar Petersen),10/23/1985,3501,493,"Fullvaxinn (1. ár) í haldi, sleppt annars staðar",M,"Fannst að Ási, Örlygshöfn, V-Barð. 6.10.1985."
+REYK,17952,Fálki,,244,Nátt. (Ævar Petersen),10/23/1985,3501,493,"Fullvaxinn (1. ár) í haldi, sleppt annars staðar",F,"Fannst að Vattarnesi, Reyðarfirði, S-Múl. 29.9.1985."
+REYK,17953,Fálki,,244,Nátt. (Ævar Petersen),11/8/1985,540,493,"Fullvaxinn (1. ár) í haldi, sleppt annars staðar",M,"Fannst að Gröf, Breiðuvík, Snæf.20.9.1985."
+REYK,17954,Fálki,,244,Nátt. (Ævar Petersen),11/8/1985,540,493,"Fullvaxinn (1. ár) í haldi, sleppt annars staðar",F,"Fannst að Borðeyri, Hrútafjörður, Strand. 1.10.1985."
+REYK,17955,Fálki,,244,Nátt. (Ævar Petersen),12/11/1985,607,400,Fullvaxinn,M,"Fundinn í Kambanesskriðum, S-Múl. 22.11.1985."
+REYK,17956,Fálki,,244,Nátt. (Ævar Petersen),12/11/1985,607,400,Fullvaxinn,M,"Fundinn á Djúpavogi, S-Múl. 5.11.1985."
+REYK,18076,Fálki,,244,Nátt. (Ævar Petersen),4/20/1986,935,891,"Fullvaxinn í haldi, sleppt s.st.",0,
+REYK,17958,Fálki,,244,Nátt. (Ævar Petersen),7/25/1986,2004,492,"Fullvaxinn í haldi, sleppt annars staðar",0,"Fannst að Bæ, Höfðaströnd, Skag. 17.5.1986."
+REYK,17959,Fálki,,244,Nátt. (Ævar Petersen),10/31/1986,540,400,Fullvaxinn,F,"Fundinn við Breiðdalsvík, S-Múl. 28.9.1986, til Rvíkur 1.10."
+REYK,17960,Fálki,,244,Nátt. (Ævar Petersen),3/16/1988,3503,493,"Fullvaxinn (1. ár) í haldi, sleppt annars staðar",M,Grænlandsfálki (Falco rusticolus candicans)
+REYK,19792,Fálki,,244,Nátt. (Ævar Petersen),1/10/1990,573,494,"Fullvaxinn (2. ár) í haldi, sleppt annars staðar",F,"Fundinn lifandi v/Lambafell, Rang, ataður fýlalýsi, þveginn, sleppt."
+REYK,19793,Fálki,,244,Nátt. (Ævar Petersen),1/11/1990,573,494,"Fullvaxinn (2. ár) í haldi, sleppt annars staðar",F,"Fundinn lifandi v/Garða, V-Skaft., ataður fýlalýsi, þveginn, sleppt."
+REYK,19794,Fálki,,244,Nátt. (Ævar Petersen),4/15/1990,1116,493,"Fullvaxinn (1. ár) í haldi, sleppt annars staðar",F,"Settist örþreyttur á togarann Sjóla, út  af Breiðaf., hressist fljótt."
+REYK,17514,Fálki,,244,Nátt. (Ævar Petersen),10/13/1990,1102,493,"Fullvaxinn (1. ár) í haldi, sleppt annars staðar",M,"Fannst illa haldinn á Akureyri, hafður í haldi, hresstist vel, selppt."
+REYK,113191,Fálki,,244,Nátt. (Ævar Petersen),9/23/1991,20,410,Fullvaxinn (1. ár),0,
+REYK,17515,Fálki,,244,Nátt. (Ævar Petersen),3/31/1992,3467,470,Fullvaxinn (2. ára+),0,
+REYK,112678,Fálki,,244,Nátt. (Ævar Petersen),11/20/1992,1113,410,Fullvaxinn (1. ár),F,
+REYK,112679,Fálki,,244,Nátt. (Ævar Petersen),4/4/1993,1111,420,Fullvaxinn (2. ár),F,
+REYK,112680,Fálki,,244,Nátt. (Ævar Petersen),10/15/1993,1111,420,Fullvaxinn (2. ár),F,
+REYK,19797,Fálki,,244,Nátt. (Ævar Petersen),4/29/1994,1111,494,"Fullvaxinn (2. ár) í haldi, sleppt annars staðar",F,"Fannst v/Steintún, Bakkafirði, gat ekki flogið, þveginn í Húsdýragarði"
+REYK,226751,Fálki,,247,I.K. Petersen,6/26/1981,1254,100,Ófleygur ungi,0,
+REYK,226752,Fálki,,247,I.K. Petersen,6/26/1981,1254,100,Ófleygur ungi,0,
+REYK,113501,Fálki,,247,I.K. Petersen,6/20/1985,2412,101,Ófleygur ungi í hreiðri,F,
+REYK,15801,Fálki,,247,I.K. Petersen,6/20/1985,2412,100,Ófleygur ungi,M,
+REYK,15802,Fálki,,247,I.K. Petersen,6/20/1985,2412,100,Ófleygur ungi,M,
+REYK,15803,Fálki,,247,I.K. Petersen,6/21/1985,2413,100,Ófleygur ungi,M,
+REYK,15804,Fálki,,247,I.K. Petersen,6/21/1985,2413,100,Ófleygur ungi,M,
+REYK,113502,Fálki,,247,I.K. Petersen,6/21/1985,2413,101,Ófleygur ungi í hreiðri,F,
+REYK,113503,Fálki,,247,I.K. Petersen,6/22/1985,2414,101,Ófleygur ungi í hreiðri,F,
+REYK,113504,Fálki,,247,I.K. Petersen,6/22/1985,2414,101,Ófleygur ungi í hreiðri,F,
+REYK,15805,Fálki,,247,I.K. Petersen,6/25/1985,1513,100,Ófleygur ungi,M,
+REYK,113505,Fálki,,247,I.K. Petersen,6/26/1985,2415,101,Ófleygur ungi í hreiðri,F,
+REYK,15806,Fálki,,247,I.K. Petersen,6/28/1985,3473,100,Ófleygur ungi,M,
+REYK,15807,Fálki,,247,I.K. Petersen,6/28/1985,3473,100,Ófleygur ungi,M,
+REYK,15808,Fálki,,247,I.K. Petersen,6/28/1985,3473,100,Ófleygur ungi,M,
+REYK,15809,Fálki,,247,I.K. Petersen,6/28/1985,3473,100,Ófleygur ungi,M,
+REYK,113506,Fálki,,247,I.K. Petersen,6/29/1985,2441,102,Ófleygur ungi úr hreiðri,F,
+REYK,113507,Fálki,,247,I.K. Petersen,7/2/1985,74,101,Ófleygur ungi í hreiðri,F,
+REYK,113508,Fálki,,247,I.K. Petersen,7/2/1985,74,101,Ófleygur ungi í hreiðri,F,
+REYK,113509,Fálki,,247,I.K. Petersen,7/2/1985,74,101,Ófleygur ungi í hreiðri,F,
+REYK,113512,Fálki,,247,I.K. Petersen,6/10/1986,2430,101,Ófleygur ungi í hreiðri,F,
+REYK,113510,Fálki,,247,I.K. Petersen,6/10/1986,2430,101,Ófleygur ungi í hreiðri,F,
+REYK,113513,Fálki,,247,I.K. Petersen,6/11/1986,2431,101,Ófleygur ungi í hreiðri,F,
+REYK,15818,Fálki,,247,I.K. Petersen,6/11/1986,2431,100,Ófleygur ungi,M,
+REYK,113514,Fálki,,247,I.K. Petersen,6/12/1986,2432,101,Ófleygur ungi í hreiðri,F,
+REYK,113515,Fálki,,247,I.K. Petersen,6/12/1986,2432,101,Ófleygur ungi í hreiðri,F,
+REYK,15819,Fálki,,247,I.K. Petersen,6/12/1986,2844,100,Ófleygur ungi,M,
+REYK,113516,Fálki,,247,I.K. Petersen,6/22/1986,2433,101,Ófleygur ungi í hreiðri,F,
+REYK,15820,Fálki,,247,I.K. Petersen,6/22/1986,2433,100,Ófleygur ungi,M,
+REYK,15821,Fálki,,247,I.K. Petersen,6/24/1986,2434,100,Ófleygur ungi,M,
+REYK,113517,Fálki,,247,I.K. Petersen,6/24/1986,2434,101,Ófleygur ungi í hreiðri,F,
+REYK,113521,Fálki,,247,I.K. Petersen,6/26/1986,2435,101,Ófleygur ungi í hreiðri,F,
+REYK,15822,Fálki,,247,I.K. Petersen,6/26/1986,3397,100,Ófleygur ungi,M,
+REYK,15823,Fálki,,247,I.K. Petersen,6/26/1986,3397,100,Ófleygur ungi,M,
+REYK,16297,Fálki,,247,I.K. Petersen,6/15/1987,3393,100,Ófleygur ungi,M,
+REYK,16298,Fálki,,247,I.K. Petersen,6/15/1987,3393,100,Ófleygur ungi,M,
+REYK,113519,Fálki,,247,I.K. Petersen,6/17/1987,2404,101,Ófleygur ungi í hreiðri,F,
+REYK,113511,Fálki,,247,I.K. Petersen,6/17/1987,802,101,Ófleygur ungi í hreiðri,F,
+REYK,113518,Fálki,,247,I.K. Petersen,6/17/1987,814,101,Ófleygur ungi í hreiðri,F,
+REYK,16299,Fálki,,247,I.K. Petersen,6/17/1987,814,100,Ófleygur ungi,M,
+REYK,113520,Fálki,,247,I.K. Petersen,6/21/1987,2378,101,Ófleygur ungi í hreiðri,F,
+REYK,113531,Fálki,,247,I.K. Petersen,6/21/1987,2378,101,Ófleygur ungi í hreiðri,F,
+REYK,15824,Fálki,,247,I.K. Petersen,6/21/1987,2378,100,Ófleygur ungi,M,
+REYK,15825,Fálki,,247,I.K. Petersen,6/23/1987,807,100,Ófleygur ungi,M,
+REYK,15826,Fálki,,247,I.K. Petersen,6/23/1987,807,100,Ófleygur ungi,M,
+REYK,113532,Fálki,,247,I.K. Petersen,6/23/1987,835,101,Ófleygur ungi í hreiðri,F,
+REYK,113533,Fálki,,247,I.K. Petersen,6/23/1987,906,101,Ófleygur ungi í hreiðri,F,
+REYK,113534,Fálki,,247,I.K. Petersen,6/23/1987,906,101,Ófleygur ungi í hreiðri,F,
+REYK,15827,Fálki,,247,I.K. Petersen,6/26/1987,2437,100,Ófleygur ungi,M,
+REYK,15828,Fálki,,247,I.K. Petersen,6/26/1987,2437,100,Ófleygur ungi,M,
+REYK,15829,Fálki,,247,I.K. Petersen,6/26/1987,2437,100,Ófleygur ungi,M,
+REYK,113535,Fálki,,247,I.K. Petersen,6/26/1987,2437,101,Ófleygur ungi í hreiðri,F,
+REYK,113536,Fálki,,247,I.K. Petersen,6/26/1987,2438,101,Ófleygur ungi í hreiðri,F,
+REYK,15830,Fálki,,247,I.K. Petersen,6/26/1987,2438,100,Ófleygur ungi,M,
+REYK,15831,Fálki,,247,I.K. Petersen,6/26/1987,2438,100,Ófleygur ungi,M,
+REYK,15832,Fálki,,247,I.K. Petersen,6/28/1987,795,100,Ófleygur ungi,M,
+REYK,113537,Fálki,,247,I.K. Petersen,6/28/1987,795,101,Ófleygur ungi í hreiðri,F,
+REYK,113538,Fálki,,247,I.K. Petersen,6/28/1987,795,101,Ófleygur ungi í hreiðri,F,
+REYK,113539,Fálki,,247,I.K. Petersen,6/15/1991,2439,101,Ófleygur ungi í hreiðri,0,
+REYK,15834,Fálki,,247,I.K. Petersen,6/26/1991,2440,101,Ófleygur ungi í hreiðri,0,"Syst. 15835, 15836 & 113540"
+REYK,15835,Fálki,,247,I.K. Petersen,6/26/1991,2440,101,Ófleygur ungi í hreiðri,0,"Syst. 15834, 15836 & 113540"
+REYK,15836,Fálki,,247,I.K. Petersen,6/26/1991,2440,101,Ófleygur ungi í hreiðri,0,"Syst. 15834, 15835 & 113540"
+REYK,15833,Fálki,,247,I.K. Petersen,6/26/1991,3420,101,Ófleygur ungi í hreiðri,0,
+REYK,113540,Fálki,,247,I.K. Petersen,6/27/1991,2440,101,Ófleygur ungi í hreiðri,0,
+REYK,15837,Fálki,,247,I.K. Petersen,6/27/1991,2049,101,Ófleygur ungi í hreiðri,0,Syst. 113522
+REYK,113522,Fálki,,247,I.K. Petersen,6/27/1991,2049,101,Ófleygur ungi í hreiðri,0,
+REYK,113523,Fálki,,247,I.K. Petersen,6/30/1991,2436,101,Ófleygur ungi í hreiðri,0,
+REYK,113524,Fálki,,247,I.K. Petersen,6/30/1991,2436,101,Ófleygur ungi í hreiðri,0,
+REYK,15838,Fálki,,247,I.K. Petersen,6/30/1991,2436,101,Ófleygur ungi í hreiðri,0,"Syst.  15839, 113523 og 113524"
+REYK,15839,Fálki,,247,I.K. Petersen,6/30/1991,2436,101,Ófleygur ungi í hreiðri,0,"Syst.  15838, 113523 og 113524"
+REYK,15948,Fálki,,248,Sverrir Thorstensen,6/17/1986,1936,101,Ófleygur ungi í hreiðri,0,
+REYK,113252,Fálki,,248,Sverrir Thorstensen,6/17/1986,1936,101,Ófleygur ungi í hreiðri,0,
+REYK,17659,Fálki,,248,Sverrir Thorstensen,6/28/1988,1941,101,Ófleygur ungi í hreiðri,0,
+REYK,17660,Fálki,,248,Sverrir Thorstensen,6/28/1988,1941,101,Ófleygur ungi í hreiðri,0,
+REYK,17661,Fálki,,248,Sverrir Thorstensen,7/1/1992,1488,101,Ófleygur ungi í hreiðri,0,
+REYK,17662,Fálki,,248,Sverrir Thorstensen,7/1/1992,1488,101,Ófleygur ungi í hreiðri,0,
+REYK,17663,Fálki,,248,Sverrir Thorstensen,7/1/1992,1488,101,Ófleygur ungi í hreiðri,0,
+REYK,17664,Fálki,,248,Sverrir Thorstensen,5/3/1994,431,492,"Fullvaxinn í haldi, sleppt annars staðar",0,"Tekinn á Litla Árskógi 29.4.94, flaug á vegg, sleppt á Krossum 4.5.94."
+REYK,115501,Fálki,,248,Sverrir Thorstensen,6/19/1994,1273,101,Ófleygur ungi í hreiðri,F,
+REYK,115502,Fálki,,248,Sverrir Thorstensen,6/19/1994,1273,101,Ófleygur ungi í hreiðri,F,
+REYK,118511,Fálki,,248,Sverrir Thorstensen,6/19/1994,1273,101,Ófleygur ungi í hreiðri,M,
+REYK,118512,Fálki,,248,Sverrir Thorstensen,6/19/1994,1273,101,Ófleygur ungi í hreiðri,M,
+REYK,115503,Fálki,,248,Sverrir Thorstensen,10/31/2000,4050,470,Fullvaxinn (2. ára+),F,Í haldi 29.-31.10.
+REYK,118516,Fálki,,248,Sverrir Thorstensen,7/30/2009,973,894,"Fullvaxinn í haldi (1. ár), sleppt annars staðar",M,"Fannst mittfarinn í Ásbyrgi, ca. 2vikur í haldi. Sleppt 30.7."
+REYK,113357,Fálki,,264,Guðmundur H. Stefánsson,6/21/1983,802,100,Ófleygur ungi,0,
+REYK,113358,Fálki,,264,Guðmundur H. Stefánsson,6/21/1983,802,100,Ófleygur ungi,0,
+REYK,114372,Fálki,,291,Halldór W. Stefánsson,7/12/1993,798,100,Ófleygur ungi,0,
+REYK,114373,Fálki,,291,Halldór W. Stefánsson,7/12/1993,798,100,Ófleygur ungi,0,
+REYK,114381,Fálki,,291,Halldór W. Stefánsson,6/30/1994,805,100,Ófleygur ungi,0,
+REYK,19795,Fálki,,297,Brynjúlfur Brynjólfsson,11/18/1993,123,410,Fullvaxinn (1. ár),0,
+REYK,118501,Fálki,,311,Sigurður Ingvarsson,6/28/1993,2428,101,Ófleygur ungi í hreiðri,0,
+REYK,118502,Fálki,,311,Sigurður Ingvarsson,6/28/1993,2428,101,Ófleygur ungi í hreiðri,0,
+REYK,118504,Fálki,6JZ,311,Sigurður Ingvarsson,7/1/1998,846,101,Ófleygur ungi í hreiðri,0,Stærð unga stig 5 skv. F
+REYK,118505,Fálki,,311,Sigurður Ingvarsson,7/1/1998,846,101,Ófleygur ungi í hreiðri,0,
+REYK,17509,Fálki,,346,Nátt. (Kristinn H. Skarph),5/29/1987,1111,493,"Fullvaxinn (1. ár) í haldi, sleppt annars staðar",M,"Náðist grútblautur við Stafafell, Lóni, þveginn og sleppt."
+REYK,17510,Fálki,,346,Nátt. (Kristinn H. Skarph),7/22/1987,2529,493,"Fullvaxinn (1. ár) í haldi, sleppt annars staðar",F,"Náðist grútblautur við Snartarstapanúp, N-Þing., þveginn og sleppt."
+REYK,19798,Fálki,,353,Aðalsteinn Ö. Snæþórsson,4/28/1999,2089,500,Fullorðinn,M,1 ungi og 3 fúlegg
+REYK,19799,Fálki,,353,Aðalsteinn Ö. Snæþórsson,7/13/1999,958,101,Ófleygur ungi í hreiðri,0,
+REYK,19800,Fálki,,353,Aðalsteinn Ö. Snæþórsson,7/13/1999,958,101,Ófleygur ungi í hreiðri,0,
+REYK,2206,Fálki,,367,P.I.R. Maclaren,7/7/1939,699,101,Ófleygur ungi í hreiðri,0,
+REYK,2207,Fálki,,367,P.I.R. Maclaren,7/7/1939,699,101,Ófleygur ungi í hreiðri,0,
+REYK,2211,Fálki,,367,P.I.R. Maclaren,7/10/1939,703,101,Ófleygur ungi í hreiðri,0,
+REYK,268437,Fálki,,385,Fuglaathugunarstöð SA-lands,4/16/2012,4617,420,Fullvaxinn (2. ár),0,
+REYK,16274,Fálki,,389,Nátt. (Magnús Magnússon),7/21/1976,198,152,"Ófleygur ungi, í haldi, sleppt annars staðar",0,"5 ungar fundnir í tösku á Keflavíkurflugvelli, 2 drápust, 3 sleppt."
+REYK,16271,Fálki,,389,Nátt. (Magnús Magnússon),7/21/1976,1112,152,"Ófleygur ungi, í haldi, sleppt annars staðar",0,"5 ungar fundnir í tösku á Keflav.flugv. 2 drápust, 3 sleppt."
+REYK,16272,Fálki,,389,Nátt. (Magnús Magnússon),7/21/1976,1112,152,"Ófleygur ungi, í haldi, sleppt annars staðar",0,"5 ungar fundnir í tösku á Keflav.flugv. 2 drápust, 3 sleppt."
