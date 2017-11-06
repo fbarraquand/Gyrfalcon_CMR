@@ -1,0 +1,9 @@
+
+
+- Site ID missing for now in the Gyr_recovered table. 
+
+RingNo: Bird ID
+
+RecoveryCode: Explain in what state the bird was recovered. 
+
+RevoeryUncertainity (d): #days after which the bird was probably recovered ( = delay )
