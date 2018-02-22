@@ -3,9 +3,9 @@ title: "Preliminary analysis of the Icelandic Gyrfalcon CMR dataset - v2"
 author: "Frederic Barraquand, Olafur Nielsen"
 date: "February 22, 201_"
 output:
-  word_document: null
   pdf_document: default
   number_sections: yes
+  word_document: null
 header-includes:
 - \usepackage{setspace}
 - \doublespacing
@@ -38,11 +38,11 @@ length(unique(drecov$Ring_No)) #How many unique bird IDs in Gyrs_recovered.csv
 Let's now analyse the number of birds that have been ringed as a function of the year 
 
 ```{r,echo=FALSE} 
-dringed$Year=format(as.Date(dringed$RingingDate, format="%d/%m/%Y"),"%Y")
+dringed$Year=format(as.Date(dringed$Ringed_date, format="%d/%m/%Y"),"%Y")
 years_ringed=sort(unique(as.numeric(na.omit(dringed$Year))))
 ringed_birds_per_year=years_ringed # initializing
 for (k in 1:length(years_ringed)){
-  ringed_birds_per_year[k]=length(unique(dringed$RingNo[dringed$Year==years_ringed[k]]))
+  ringed_birds_per_year[k]=length(unique(dringed$Ring_No[dringed$Year==years_ringed[k]]))
 }
 plot(years_ringed,ringed_birds_per_year,type="h",lwd=5,col="red")
 #ggplot(data=,aes(x=years_ringed, y=ringed_birds_per_year)) + geom_bar(stat="identity")
@@ -51,14 +51,16 @@ plot(years_ringed,ringed_birds_per_year,type="h",lwd=5,col="red")
 We now analyse the patterns of recovery (and resighting)
 
 ```{r,echo=FALSE} 
-drecov$Year=format(as.Date(drecov$RecoveryDate, format="%d/%m/%Y"),"%Y")
+drecov$Year=format(as.Date(drecov$Date_recovered, format="%d/%m/%Y"),"%Y")
 years_of_recovery=sort(unique(as.numeric(na.omit(drecov$Year))))
 birds_recovered_per_year=years_of_recovery# initializing
 for (k in 1:length(years_of_recovery)){
-  birds_recovered_per_year[k]=length(unique(drecov$RingNo[drecov$Year==years_of_recovery[k]]))
+  birds_recovered_per_year[k]=length(unique(drecov$Ring_No[drecov$Year==years_of_recovery[k]]))
 }
 plot(years_of_recovery,birds_recovered_per_year,type="h",lwd=5,col="blue")
 ```
+
+--- Problem here with the definition of a year ---
 
 Now how many birds have been seen several times? We see below that very few birds have been recovered more than once (also this tends to be recent?). 
 
@@ -70,25 +72,89 @@ I can infer the earliest date at which a bird has been resighted a second time, 
 $~$
 
 ```{r,echo=FALSE} 
-bird_recovered_list=unique(drecov$RingNo)
+bird_recovered_list=unique(drecov$Ring_No)
 ntimes_recovered=rep(0,length(bird_recovered_list))
 for (k in 1:length(bird_recovered_list)){
-  ntimes_recovered[k]=sum(drecov$RingNo==bird_recovered_list[k])
+  ntimes_recovered[k]=sum(drecov$Ring_No==bird_recovered_list[k])
 }
 plot(bird_recovered_list,ntimes_recovered,type="o",lwd=1,col="black",xlab="Bird ID",ylab= "Ntimes recovered")
 table(ntimes_recovered)
 ```
+
+This is coherent with the info given by Oli -- 1 bird recovered 4 times, 3 birds 3 times, 11 birds two times and the rest 1 time. 
 
 Thus for all practical purposes, we can consider that such data consists mainly of individual that are either recovered or not recovered/resighted. We'll now turn to whether the individuals have been found live or dead, and how this varies in time. 
 
 Also whether the recoveries of dead birds are of young vs. adult birds (which may provide quick and dirty estimates of survival rates, at least for the youngs...)
 
 ```{r} 
-table(drecov$RecoveryCode) ## these are all the recovery codes that we have (top row), and how many of those we have in the dataset (bottom row). For instance, we can see 15 read colourmarks. We need to simplify this complexity to some extent by aggregating some values.  
+## these are all the recovery codes that we have (top row), and how many of those we have in the dataset (bottom row).
+
+table(drecov$Condition_Euring_code) 
+
+### [previous comment: For instance, we can see 15 read colourmarks. 
+### We need to simplify this complexity to some extent by aggregating some values. ]
 
 ```
 
-*Now we need some more info on the codes, I'm attempting below to fill this gap but may need some help*
+ *Now we need some more info on the codes*
+ 
+ These are defined according to The EURING EXCHANGE Code 2000+ 
+https://euring.org/files/documents/E2000PLUSExchangeCodeV117.pdf
+
+| Condition Code | Meaning                                            | 
+|--------------- |:--------------------------------------------------:|
+| 0              | Condition completely unknown                       |
+| 1              | Dead but no information on how recently died/killed|
+| 2              | Freshly dead – within about a week                 |
+| 3              | dead for > a week. If >>, use 9 in Accuracy of Date, and 3 here|
+| 4              | Found sick/wounded and released afterwards  |
+| 5              | Found sick/wounded and NOT released afterwards  |
+| 6              | Alive and probably healthy but taken into captivity. |
+| 7              | Alive and probably healthy and certainly released (ring seen without the bird having being caught). |
+| 8              | Alive and probably healthy and released by a ringer |
+| 9              | Alive and probably healthy but ultimate fate of bird is not known|
+
+Thus categories 4, 7 and 8 (respectively  8, 31 and 21 birds) correspond to cases where the bird is 'released' alive, i.e. effectively resighted rather than recovered (when dead). 
+
+
+```{r}
+drecov$Date_recovered[drecov$Condition_Euring_code %in% c(4,7,8)]
+
+drecov$Date_recovered[drecov$Condition_Euring_code %in% c(7,8)]
+
+```
+
+
+```{r}
+table(drecov$Accurancy_of_date_Euring_code) 
+```
+
+| Accuracy of date Code | Meaning                                            | 
+|---------------------- |:--------------------------------------------------:|
+| 0                     | Accurate to the day       |
+| 1                     | Accurate to within 1 day either side of date coded. |
+| 2                     | Accurate to within 3 days either side of date coded. |
+| 3                     | Accurate to within 1 week either side of date coded. |
+| 4                     | Accurate to within 2 weeks either side of date coded. |
+| 5                     | Accurate to within 6 weeks either side of date coded. |
+| 6                     | Accurate to within 3 months either side of date coded. |
+| 7                     | Accurate to within 6 months either side of date coded. |
+| 8                     | Accurate to within some years only |
+| 9                     | Date of earliest possible use of ring (EURING for details) |
+
+ 
+ For the circumstances, see the EURING pdf. Here are the numbers for the various categories
+ 
+```{r}
+table(drecov$Circumstances_Euring_code) 
+```
+
+ 
+ -------------------------------- Old codes --------------------------------------
+ 
+ 
+ I'm attempting below to fill this gap but may need some help
 
 
 | AGE Code      | Meaning                     | 
