@@ -118,7 +118,7 @@ https://euring.org/files/documents/E2000PLUSExchangeCodeV117.pdf
 Thus categories 4, 7 and 8 (respectively  8, 31 and 21 birds) correspond to cases where the bird is 'released' alive, i.e. effectively resighted rather than recovered (when dead). 
 
 
-```{r}
+```{r,echo=TRUE}
 drecov$Date_recovered[drecov$Condition_Euring_code %in% c(4,7,8)]
 
 drecov$Date_recovered[drecov$Condition_Euring_code %in% c(7,8)]
