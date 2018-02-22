@@ -1,7 +1,7 @@
 ---
-title: "Preliminary analysis of the Icelandic Gyrfalcon CMR dataset - v2"
+title: "Preliminary analysis of the Icelandic Gyrfalcon CMR dataset"
 author: "Frederic Barraquand, Olafur Nielsen"
-date: "February 22, 201_"
+date: "November 6, 2017"
 output:
   word_document: null
   pdf_document: default
@@ -22,17 +22,18 @@ Here I attempt to explore the CMR dataset, before we go to inferential models to
 How many birds have been ringed? 
 
 ```{r}
-dringed<-read.csv("data/Gyrs_ringed.csv")
+dringed<-read.csv("Gyrs_ringed.csv")
 head(dringed) # What's in the data table
-length(unique(dringed$Ring_No)) #How many unique bird IDs
+length(unique(dringed$RingNo)) #How many unique bird IDs
 ```
 
-OK, so we have 1653 unique IDs. Let's compare to how many gyrs have been recovered. 
+OK, so we have a little more than 1700 unique IDs. Isn't this much compared to the total population? 
+
+Let's compare to how many gyrs have been recovered. 
 
 ```{r}
-drecov<-read.csv("data/Gyrs_recovered.csv")
-head(drecov)
-length(unique(drecov$Ring_No)) #How many unique bird IDs in Gyrs_recovered.csv
+drecov<-read.csv("Gyrs_recovered.csv")
+length(unique(drecov$RingNo)) #How many unique bird IDs in Gyrs_recovered.csv
 ```
 
 Let's now analyse the number of birds that have been ringed as a function of the year 
