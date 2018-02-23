@@ -38,7 +38,8 @@ length(unique(drecov$Ring_No)) #How many unique bird IDs in Gyrs_recovered.csv
 Let's now analyse the number of birds that have been ringed as a function of the year 
 
 ```{r,echo=FALSE} 
-dringed$Year=format(as.Date(dringed$Ringed_date, format="%d/%m/%Y"),"%Y")
+#dringed$Year=format(as.Date(dringed$Ringed_date, format="%d/%m/%Y"),"%Y") seems to create NAs
+dringed$Year=format(as.Date(dringed$Ringed_date, format="%m/%d/%Y"),"%Y") ### Month was first in the data
 years_ringed=sort(unique(as.numeric(na.omit(dringed$Year))))
 ringed_birds_per_year=years_ringed # initializing
 for (k in 1:length(years_ringed)){
@@ -51,7 +52,7 @@ plot(years_ringed,ringed_birds_per_year,type="h",lwd=5,col="red")
 We now analyse the patterns of recovery (and resighting)
 
 ```{r,echo=FALSE} 
-drecov$Year=format(as.Date(drecov$Date_recovered, format="%d/%m/%Y"),"%Y")
+drecov$Year=format(as.Date(drecov$Date_recovered, format="%m/%d/%Y"),"%Y")
 years_of_recovery=sort(unique(as.numeric(na.omit(drecov$Year))))
 birds_recovered_per_year=years_of_recovery# initializing
 for (k in 1:length(years_of_recovery)){
@@ -59,8 +60,6 @@ for (k in 1:length(years_of_recovery)){
 }
 plot(years_of_recovery,birds_recovered_per_year,type="h",lwd=5,col="blue")
 ```
-
---- Problem here with the definition of a year ---
 
 Now how many birds have been seen several times? We see below that very few birds have been recovered more than once (also this tends to be recent?). 
 
@@ -121,7 +120,20 @@ Thus categories 4, 7 and 8 (respectively  8, 31 and 21 birds) correspond to case
 ```{r,echo=TRUE}
 drecov$Date_recovered[drecov$Condition_Euring_code %in% c(4,7,8)]
 
+drecov$Year[drecov$Condition_Euring_code %in% c(4,7,8)]
+
+vec_year_recovered_live = as.numeric(drecov$Year[drecov$Condition_Euring_code %in% c(4,7,8)])
+hist(vec_year_recovered_live,breaks=20,xlab = "Years of live recovery", main = "Live recaptures (Euring 4,7,8)")
+
 drecov$Date_recovered[drecov$Condition_Euring_code %in% c(7,8)]
+
+### Check not a problem of date recording
+drecov$Year[(drecov$Condition_Euring_code %in% c(4,7,8))&(drecov$Accurancy_of_date_Euring_code!=9)]
+
+drecov$Accurancy_of_date_Euring_code[drecov$Condition_Euring_code %in% c(4,7,8)]
+
+
+
 
 ```
 
