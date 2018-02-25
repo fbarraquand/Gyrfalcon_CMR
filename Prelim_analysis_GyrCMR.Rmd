@@ -127,12 +127,14 @@ hist(vec_year_recovered_live,breaks=20,xlab = "Years of live recovery", main = "
 
 drecov$Date_recovered[drecov$Condition_Euring_code %in% c(7,8)]
 
+drecov$Date_recovered[drecov$Condition_Euring_code ==7]
+
+drecov$Date_recovered[drecov$Condition_Euring_code ==8]
+
 ### Check not a problem of date recording
 drecov$Year[(drecov$Condition_Euring_code %in% c(4,7,8))&(drecov$Accurancy_of_date_Euring_code!=9)]
 
 drecov$Accurancy_of_date_Euring_code[drecov$Condition_Euring_code %in% c(4,7,8)]
-
-
 
 
 ```
@@ -140,6 +142,21 @@ drecov$Accurancy_of_date_Euring_code[drecov$Condition_Euring_code %in% c(4,7,8)]
 
 ```{r}
 table(drecov$Accurancy_of_date_Euring_code) 
+
+## Check the birds whose dying dates are poorly known 
+drecov$Year[(drecov$Accurancy_of_date_Euring_code %in% c(8,9))]
+drecov$Condition_Euring_code[(drecov$Accurancy_of_date_Euring_code %in% c(8,9))]
+
+## New dataframe for looking into those patterns
+long_dead_birds=drecov[(drecov$Accurancy_of_date_Euring_code %in% c(8,9)),]
+head(long_dead_birds)
+### Possible to correct the date using the When.dead column
+nrow(long_dead_birds)
+long_dead_birds$When.dead
+## For which do we have information?
+long_dead_birds$When.dead[grepl("D",long_dead_birds$When.dead)]
+long_dead_birds$Ring_No[grepl("D",long_dead_birds$When.dead)]
+
 ```
 
 | Accuracy of date Code | Meaning                                            | 
@@ -164,9 +181,6 @@ table(drecov$Circumstances_Euring_code)
 
  
  -------------------------------- Old codes --------------------------------------
- 
- 
- I'm attempting below to fill this gap but may need some help
 
 
 | AGE Code      | Meaning                     | 
