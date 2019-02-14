@@ -172,12 +172,22 @@ long_dead_birds$Ring_No[grepl("D",long_dead_birds$When.dead)]
 | 8                     | Accurate to within some years only |
 | 9                     | Date of earliest possible use of ring (EURING for details) |
 
- 
- For the circumstances, see the EURING pdf. Here are the numbers for the various categories
+
+```{r}
+#long_dead_birds[,c(2,5,10,11)]
+long_dead_birds[,c(5,10)]
+
+```
+
+The column "Year_recorded" should therefore suffice for the level of precision we need in early analyses. We can then try to create (by hand) a "Year_recorded_corrected" variable that corrects the year based on the when.dead variable. There does not seem to be an obvious pattern into how people decided which date to set, except when the year was set to the earliest possible date of the death (which is the most logical). 
+
+
+For the circumstances, see the EURING pdf. Here are the numbers for the various categories
  
 ```{r}
 table(drecov$Circumstances_Euring_code) 
 ```
+
 
  
  -------------------------------- Old codes --------------------------------------
