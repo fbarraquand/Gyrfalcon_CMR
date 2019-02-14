@@ -188,7 +188,20 @@ For the circumstances, see the EURING pdf. Here are the numbers for the various 
 table(drecov$Circumstances_Euring_code) 
 ```
 
+### At which age were the birds ringed? 
 
+```{r}
+table(dringed$EurAgeCode)
+```
+1 juvenile, 2 adults -> we need a structured model? 
+
+How many were recaptured as juveniles and as adults? 
+
+```{r}
+head(drecov)
+```
+
+No mention of adults or juveniles here but this could be reconstituted? 
  
  -------------------------------- Old codes --------------------------------------
 

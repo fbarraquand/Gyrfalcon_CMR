@@ -1,0 +1,59 @@
+---
+title: "Multistate capture-recapture and mark-recovery models"
+author: "Frederic Barraquand"
+date: "February 14, 2019"
+output:
+  pdf_document: default
+  number_sections: yes
+  word_document: null
+header-includes:
+- \usepackage{setspace}
+- \doublespacing
+- \usepackage{lineno}
+- \linenumbers
+csl: ecology.csl
+bibliography: /home/frederic/Dropbox/database/total.bib
+---
+
+## Intro
+
+We need a model combining both CMR and mark-recovery (dead individuals)
+
+## Create a matrix of capture histories
+
+```{r}
+dringed<-read.csv("data/Gyrs_ringed.csv")
+head(dringed) # What's in the data table
+length(unique(dringed$Ring_No)) #How many unique bird IDs
+```
+
+OK, so we have 1653 unique IDs. Let's compare to how many gyrs have been recovered. 
+
+```{r}
+drecov<-read.csv("data/Gyrs_recovered.csv")
+head(drecov)
+length(unique(drecov$Ring_No)) #How many unique bird IDs in Gyrs_recovered.csv
+```
+
+Actually we need a mixture of mark-recovery and CMR. p. 295 Kery and Schaub. 
+In our case, not all individuals in the recently dead state move to the "dead" state at t+1. This is because recently dead individuals can be recovered still after t+1 (although we should probably set a prior that makes this probability fairly high).  
+
+## Fit the CJS model
+
+---
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
