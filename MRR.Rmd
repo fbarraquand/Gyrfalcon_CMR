@@ -38,6 +38,92 @@ length(unique(drecov$Ring_No)) #How many unique bird IDs in Gyrs_recovered.csv
 Actually we need a mixture of mark-recovery and CMR. p. 295 Kery and Schaub. 
 In our case, not all individuals in the recently dead state move to the "dead" state at t+1. This is because recently dead individuals can be recovered still after t+1 (although we should probably set a prior that makes this probability fairly high).  
 
+Let's compute capture histories (without distinguish young and old for now?)
+
+```{r}
+Birds_ringed = unique(dringed$Ring_No)
+Birds_recov = unique(drecov$Ring_No)
+min_year = min(dringed$Ringed_year)
+max_year = max(dringed$Ringed_year)
+min_year
+max_year
+### check
+min(drecov$Year_recorded)
+max_year = max(drecov$Year_recorded) #because it's 2018
+timespan = min_year:max_year
+time_index = 1:length(timespan)
+time_index_max = length(timespan)
+CH = matrix(NA,nrow=nrow(dringed),ncol=time_index_max)
+
+for (i in 1:nrow(dringed))
+{
+    ## if it's ringed, we put a 1 on capture year
+    year_ringed = dringed$Ringed_year[i]-min_year+1
+    CH[i,year_ringed] = 1
+  if (dringed$Ring_No[i] %in% Birds_recov)
+  {
+    ## Keep in mind they can be recorded several times
+    dates_recov = drecov$Year_recorded[drecov$Ring_No == as.character(dringed$Ring_No[i])]
+    type_recov = drecov$Condition_Euring_code[drecov$Ring_No == as.character(dringed$Ring_No[i])]
+    
+    for (d in 1:length(dates_recov)){
+        year_recov = dates_recov[d]-min_year+1
+         if  (type_recov[d] %in% c(4,7,8)){ #live recovery
+           CH[i,year_recov] = 1
+         } 
+         else {CH[i,year_recov] = 2}
+      }#end of for loop on all dates where the bird was recorded
+
+  }#end of if condition on whether the bird was captured
+  else {
+    CH[i,year_ringed:time_index_max] = 3
+  }
+  
+}
+
+CH[is.na(CH)]=3
+library('RColorBrewer')
+library('fields')
+cols = brewer.pal(3,"RdBu")
+rf <- colorRampPalette(cols)   # make colors
+# voir aussi  http://www.sthda.com/french/wiki/couleurs-dans-r
+image.plot(1:nrow(dringed),timespan,CH,col=cols)
+
+#Verif of data by blocks
+time1=1
+time2=250
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=250
+time2=500
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=500
+time2=750
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+## A number of individuals are either recaptured dead the same year or there is a date problem
+
+
+
+time1=750
+time2=1000
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=1000
+time2=1250
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=1250
+time2=nrow(dringed)
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+write.csv(CH,file = "data/CaptureHistories.csv")
+
+```
+
+
+
+
 ## Fit the CJS model
 
 ---
