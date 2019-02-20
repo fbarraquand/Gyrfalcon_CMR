@@ -55,6 +55,10 @@ time_index = 1:length(timespan)
 time_index_max = length(timespan)
 CH = matrix(NA,nrow=nrow(dringed),ncol=time_index_max)
 
+dringed$First_recov_date = NA
+dringed$First_recov_year = NA
+dringed$First_recov_type = NA
+
 for (i in 1:nrow(dringed))
 {
     ## if it's ringed, we put a 1 on capture year
@@ -63,15 +67,24 @@ for (i in 1:nrow(dringed))
   if (dringed$Ring_No[i] %in% Birds_recov)
   {
     ## Keep in mind they can be recorded several times
-    dates_recov = drecov$Year_recorded[drecov$Ring_No == as.character(dringed$Ring_No[i])]
+    year_recov = drecov$Year_recorded[drecov$Ring_No == as.character(dringed$Ring_No[i])]
+    dates_recov = drecov$Date_recovered[drecov$Ring_No == as.character(dringed$Ring_No[i])]
     type_recov = drecov$Condition_Euring_code[drecov$Ring_No == as.character(dringed$Ring_No[i])]
     
-    for (d in 1:length(dates_recov)){
-        year_recov = dates_recov[d]-min_year+1
+    dringed[i,]$First_recov_year = year_recov[1]
+    dringed[i,]$First_recov_date = as.character(as.Date(dates_recov[1],format="%m/%d/%Y"))
+    dringed[i,]$First_recov_type = type_recov[1]
+    
+    for (d in 1:length(year_recov)){
+        year_recov_focal = year_recov[d]-min_year+1
+
          if  (type_recov[d] %in% c(4,7,8)){ #live recovery
-           CH[i,year_recov] = 1
+           CH[i,year_recov_focal] = 1
          } 
-         else {CH[i,year_recov] = 2}
+         else {
+           CH[i,year_recov_focal] = 2
+           
+           }
       }#end of for loop on all dates where the bird was recorded
 
   }#end of if condition on whether the bird was captured
@@ -125,7 +138,20 @@ Troubleshoot cases where the year of marking is also the year where the bird has
 
 ```{r}
 ### Create data structure where the recovery information is appended to ringed birds dataframe
+dringed_recovered = subset(dringed,(dringed$Ring_No %in% Birds_recov) & (dringed$Ringed_year==dringed$First_recov_year))
+dringed_pb = subset(dringed_recovered,dringed_recovered$First_recov_type==2)
+### Actually it's *more* of a Pb if the recovery type is 2 but it is also a problem if it is 
+dringed_pb = dringed_recovered
+head(dringed_pb)
+nrow(dringed_pb) #33
+dringed_pb
+write.csv(dringed_pb,file="RingedAndRecovered_sameYear.csv")
 
+### Are all the birds ringed in June-July? 
+table(dringed$Ringed_month)
+### Answer is May-June-July. We can say that they have been observed the next year to be dead if they are dead in the year of the ringing, but not if they are alive. 
+### It means that if they have been seen alive at 6 month, we don't know the status the next year. But on the other hand, only death is permanent. 
+### Sounds reasonable to write a 2 the next year in that case. 
 ```
 
 
