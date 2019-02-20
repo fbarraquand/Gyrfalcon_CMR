@@ -121,6 +121,12 @@ write.csv(CH,file = "data/CaptureHistories.csv")
 
 ```
 
+Troubleshoot cases where the year of marking is also the year where the bird has been recorded dead
+
+```{r}
+### Create data structure where the recovery information is appended to ringed birds dataframe
+
+```
 
 
 
