@@ -216,6 +216,14 @@ print(lifedead, digit = 3)
 # pD = 21.4 and DIC = 1749.5
 # DIC is an estimate of expected predictive error (lower deviance is better).
 
+#             mu.vect  2.5%     97.5%  Rhat n.eff
+# mean.eta     0.011   0.000    0.040 1.007   310
+# mean.p       0.039   0.028    0.052 1.013   180
+# mean.r       0.138   0.122    0.156 1.001  3000
+# mean.s[1]    0.291   0.257    0.326 1.138    20
+# mean.s[2]    0.803   0.761    0.843 1.039    57
+
+
 pdf(file="TraceDens_ni4000_juvad_gyr.pdf", width = 6, height = 8)
 plot(as.mcmc(lifedead))
 dev.off()
