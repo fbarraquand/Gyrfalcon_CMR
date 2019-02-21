@@ -198,4 +198,48 @@ nc <- 3
 lifedead <- jags(jags.data, inits, parameters, "MRR.jags", n.chains = nc, n.thin = nt, n.iter = ni, n.burnin = nb, working.directory = getwd())
 
 print(lifedead, digit = 3)
+# Inference for Bugs model at "MRR.jags", fit using jags,
+# 3 chains, each with 4000 iterations (first 1000 discarded), n.thin = 3
+# n.sims = 3000 iterations saved
+#             mu.vect sd.vect     2.5%      25%      50%      75%    97.5%  Rhat n.eff
+# mean.eta     0.011   0.011    0.000    0.003    0.007    0.015    0.040 1.007   310
+# mean.p       0.039   0.006    0.028    0.034    0.038    0.042    0.052 1.013   180
+# mean.r       0.138   0.009    0.122    0.132    0.138    0.144    0.156 1.001  3000
+# mean.s[1]    0.291   0.017    0.257    0.280    0.292    0.303    0.326 1.138    20
+# mean.s[2]    0.803   0.021    0.761    0.790    0.803    0.818    0.843 1.039    57
+# deviance  1728.141   6.982 1716.264 1722.931 1727.822 1732.926 1742.715 1.171    17
+# 
+# For each parameter, n.eff is a crude measure of effective sample size,
+# and Rhat is the potential scale reduction factor (at convergence, Rhat=1).
+# 
+# DIC info (using the rule, pD = var(deviance)/2)
+# pD = 21.4 and DIC = 1749.5
+# DIC is an estimate of expected predictive error (lower deviance is better).
+
+pdf(file="TraceDens_ni4000_juvad_gyr.pdf", width = 6, height = 8)
+plot(as.mcmc(lifedead))
+dev.off()
+
+postsamples=cbind(lifedead$BUGSoutput$sims.list$mean.eta,
+                  lifedead$BUGSoutput$sims.list$mean.p,
+                  lifedead$BUGSoutput$sims.list$mean.r,
+                  lifedead$BUGSoutput$sims.list$mean.s)
+png(file="PairPosteriorPlot_juvad_gyr.png", width = 1200, height = 1200,res=300)
+pairs(postsamples,c("eta","p","r","s_j","s_a"))
+dev.off()
+
+### Convergence does not seem exceptional with 4000, let's try more.. 
+
+
+# MCMC settings
+nc <- 3 #number of chains
+nb <- 4000 # “burn in”
+#ni <- 14000# “number of iterations” # that's for a symmetric distrib...
+ni<-10000
+nt <- 10 # “thinning”
+
+# Call JAGS from R (BRT 80 min)
+lifedead <- jags(jags.data, inits, parameters, "MRR.jags", n.chains = nc, n.thin = nt, n.iter = ni, n.burnin = nb, working.directory = getwd())
+print(lifedead, digit = 3)
+
 
