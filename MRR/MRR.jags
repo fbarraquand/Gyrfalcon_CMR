@@ -3,12 +3,15 @@ model {
 
     # Priors and constraints
     for (t in 1:(n.occasions-1)){
-    s[t] <- mean.s
+    s[t,1] <- mean.s[1]
+    s[t,2] <- mean.s[2]
     eta[t] <- mean.eta
     r[t] <- mean.r
     p[t] <- mean.p
     }
-    mean.s ~ dunif(0, 1)     # Prior for mean survival
+    mean.s[1] ~ dunif(0, 1)     # Prior for mean juvenile survival
+    mean.s[2] ~ dunif(0, 1)     # Prior for mean adult survival
+
     mean.eta ~ dunif(0,0.5)     # Prior for mean carcass survival prob
     mean.r ~ dunif(0, 0.5)     # Prior for mean recovery
     mean.p ~ dunif(0, 0.5)     # Prior for mean recapture
@@ -17,8 +20,8 @@ model {
     for (i in 1:nind){
     # Define probabilities of state S(t+1) given S(t)
     for (t in f[i]:(n.occasions-1)){
-    ps[1,i,t,1] <- s[t]
-    ps[1,i,t,2] <- (1-s[t])
+    ps[1,i,t,1] <- s[t,xj[i,t]]
+    ps[1,i,t,2] <- (1-s[t,xj[i,t]])
     ps[1,i,t,3] <- 0
     ps[2,i,t,1] <- 0
     ps[2,i,t,2] <- eta[t]
