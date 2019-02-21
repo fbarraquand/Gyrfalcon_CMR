@@ -89,12 +89,13 @@ for (i in 1:nrow(dringed))
 
   }#end of if condition on whether the bird was captured
   else {
-    CH[i,year_ringed:time_index_max] = 3
+    CH[i,(year_ringed+1):time_index_max] = 3
   }
   
 }
-
 CH[is.na(CH)]=3
+
+### Plotting the capture histories
 library('RColorBrewer')
 library('fields')
 cols = brewer.pal(3,"RdBu")
@@ -130,8 +131,6 @@ time1=1250
 time2=nrow(dringed)
 image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
 
-write.csv(CH,file = "data/CaptureHistories.csv")
-
 ```
 
 Troubleshoot cases where the year of marking is also the year where the bird has been recorded dead
@@ -152,26 +151,104 @@ table(dringed$Ringed_month)
 ### Answer is May-June-July. We can say that they have been observed the next year to be dead if they are dead in the year of the ringing, but not if they are alive. 
 ### It means that if they have been seen alive at 6 month, we don't know the status the next year. But on the other hand, only death is permanent. 
 ### Sounds reasonable to write a 2 the next year in that case. 
+### Let's do that
+
+CH = matrix(NA,nrow=nrow(dringed),ncol=time_index_max)
+
+for (i in 1:nrow(dringed))
+{
+    ## if it's ringed, we put a 1 on capture year
+    year_ringed = dringed$Ringed_year[i]-min_year+1
+    CH[i,year_ringed] = 1
+  if (dringed$Ring_No[i] %in% Birds_recov)
+  {
+    ## Keep in mind they can be recorded several times
+    year_recov = drecov$Year_recorded[drecov$Ring_No == as.character(dringed$Ring_No[i])]
+    dates_recov = drecov$Date_recovered[drecov$Ring_No == as.character(dringed$Ring_No[i])]
+    type_recov = drecov$Condition_Euring_code[drecov$Ring_No == as.character(dringed$Ring_No[i])]
+    
+    dringed[i,]$First_recov_year = year_recov[1]
+    dringed[i,]$First_recov_date = as.character(as.Date(dates_recov[1],format="%m/%d/%Y"))
+    dringed[i,]$First_recov_type = type_recov[1]
+    
+    for (d in 1:length(year_recov)){
+        year_recov_focal = year_recov[d]-min_year+1
+
+         if  (type_recov[d] %in% c(4,7,8)){ #live recovery
+           CH[i,year_recov_focal] = 1
+         } 
+         else {
+           # Asks whether the year of the ring is the year of recovery
+           if(dringed[i,]$Ringed_year==dringed[i,]$First_recov_year){#Yes
+             #Then keep the 1 and put 2 the next year, since the individual died through that year
+             CH[i,year_recov_focal] = 1
+             if ((year_recov_focal+1)<time_index_max){CH[i,year_recov_focal+1] = 2}
+           }
+           else { #the ring of the year is not that of the recovery
+             CH[i,year_recov_focal] = 2
+           }
+        
+           }
+      }#end of for loop on all dates where the bird was recorded
+
+  }#end of if condition on whether the bird was captured
+  else {
+    CH[i,(year_ringed+1):time_index_max] = 3
+  }
+  
+}
+
+CH[is.na(CH)]=3
+
 ```
 
-
-
-## Fit the CJS model
-
----
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Verification of the data by blocks of individuals
 
 ```{r}
-summary(cars)
+
+#Verif of data by blocks
+time1=1
+time2=250
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=250
+time2=500
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=500
+time2=750
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=750
+time2=1000
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=1000
+time2=1250
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=1250
+time2=nrow(dringed)
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+### All good. 
+write.csv(CH,file = "data/CaptureHistories.csv")
+
 ```
 
-You can also embed plots, for example:
+Now we need to write down the status of the individuals, what they are at the first stage. 
 
-```{r, echo=FALSE}
-plot(cars)
+```{r}
+table(dringed$EurAgeCode)
+table(dringed$EurAgeText)
+# So we output a vector 
+dringed$EurAgeCode[dringed$EurAgeCode==8]=2
+stagemarking = dringed$EurAgeCode
+write.csv(stagemarking,file = "data/stagemarking.csv")
+
+#We also need the year of first marking
+fmarking = dringed$First_recov_year
+write.csv(fmarking ,file = "data/fmarking.csv")
+
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
