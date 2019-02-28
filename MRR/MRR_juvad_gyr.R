@@ -238,7 +238,6 @@ dev.off()
 
 ### Convergence does not seem exceptional with 4000, let's try more.. 
 
-
 # MCMC settings
 nc <- 3 #number of chains
 nb <- 4000 # “burn in”
@@ -250,4 +249,234 @@ nt <- 10 # “thinning”
 lifedead <- jags(jags.data, inits, parameters, "MRR.jags", n.chains = nc, n.thin = nt, n.iter = ni, n.burnin = nb, working.directory = getwd())
 print(lifedead, digit = 3)
 
+# Inference for Bugs model at "MRR.jags", fit using jags,
+# 3 chains, each with 10000 iterations (first 4000 discarded), n.thin = 10
+# n.sims = 1800 iterations saved
+# mu.vect sd.vect     2.5%      25%      50%      75%    97.5%  Rhat n.eff
+# mean.eta     0.010   0.010    0.000    0.003    0.007    0.014    0.036 1.032    70
+# mean.p       0.033   0.005    0.024    0.029    0.033    0.037    0.045 1.149    18
+# mean.r       0.139   0.009    0.123    0.133    0.138    0.145    0.156 1.005   460
+# mean.s[1]    0.318   0.020    0.279    0.303    0.318    0.333    0.359 1.407     9
+# mean.s[2]    0.813   0.018    0.776    0.801    0.814    0.825    0.847 1.014   150
+# deviance  1740.633   7.481 1725.727 1735.359 1741.373 1745.606 1755.261 1.415     9
 
+
+pdf(file="TraceDens_ni10000_juvad_gyr.pdf", width = 6, height = 8)
+plot(as.mcmc(lifedead))
+dev.off()
+
+# MCMC settings
+nc <- 3 #number of chains
+nb <- 24000 # “burn in”
+ni<-34000
+nt <- 10 # “thinning”
+
+# Call JAGS from R (BRT 80 min)
+lifedead <- jags(jags.data, inits, parameters, "MRR.jags", n.chains = nc, n.thin = nt, n.iter = ni, n.burnin = nb, working.directory = getwd())
+print(lifedead, digit = 3)
+
+pdf(file="TraceDens_ni20000_juvad_gyr.pdf", width = 6, height = 8)
+plot(as.mcmc(lifedead))
+dev.off()
+
+# Inference for Bugs model at "MRR.jags", fit using jags,
+# 3 chains, each with 34000 iterations (first 24000 discarded), n.thin = 10
+# n.sims = 3000 iterations saved
+# mu.vect sd.vect     2.5%      25%      50%      75%    97.5%  Rhat n.eff
+# mean.eta     0.009   0.009    0.000    0.003    0.006    0.013    0.033 1.006  1300
+# mean.p       0.026   0.004    0.019    0.023    0.026    0.029    0.036 1.100    25
+# mean.r       0.140   0.009    0.123    0.134    0.140    0.146    0.158 1.003   790
+# mean.s[1]    0.362   0.019    0.324    0.349    0.363    0.376    0.397 1.546     7
+# mean.s[2]    0.825   0.015    0.796    0.815    0.826    0.835    0.853 1.052    50
+# deviance  1758.349   7.440 1745.239 1752.969 1758.524 1763.088 1773.663 1.422     8
+
+### I did not store the latent states... if I want to compare to true histories I need to do this
+### I would need to run this even longer perhaps (need to recode this in STAN?)
+
+# MCMC settings
+nc <- 3 #number of chains
+nb <- 34000 # “burn in”
+ni <- 54000
+nt <- 10 # “thinning”
+
+parameters <- c("mean.s", "mean.eta", "mean.r", "mean.p","z")
+#https://stackoverflow.com/questions/16723036/strange-jags-parallel-error-avoiding-lazy-evaluation-in-function-call
+#mrr <- do.call(jags.parallel, 
+#           list(jags.data, inits, parameters, "MRR.jags", n.chains = nc, n.thin = nt, n.iter = ni, n.burnin = nb, working.directory = getwd()))
+mrr <- jags(jags.data, inits, parameters, "MRR.jags", n.chains = nc, n.thin = nt, n.iter = ni, n.burnin = nb, working.directory = getwd())
+head(print(mrr, digit = 3))
+
+jags.sum<-mrr$BUGSoutput$summary
+write.table(x=jags.sum,file="JAGSsummary_MRR.txt")
+
+### check out autojags if need be. 
+# https://www.rdocumentation.org/packages/R2jags/versions/0.5-7/topics/autojags
+
+### plot densities
+library(mcmcplots)
+denplot(mrr, c("mean.s", "mean.eta", "mean.r", "mean.p"))
+### Trace plots
+traplot(mrr, c("mean.s", "mean.eta", "mean.r", "mean.p"))
+
+postsamples=cbind(mrr$BUGSoutput$sims.list$mean.eta,
+                  mrr$BUGSoutput$sims.list$mean.p,
+                  mrr$BUGSoutput$sims.list$mean.r,
+                  mrr$BUGSoutput$sims.list$mean.s)
+
+head(z)
+timespan=1:ncol(z)
+zmean=mrr$BUGSoutput$mean$z
+head(zmean)
+### Plotting the capture histories
+library('RColorBrewer')
+library('fields')
+cols = brewer.pal(6,"RdBu")
+rf <- colorRampPalette(cols)   # make colors
+# voir aussi  http://www.sthda.com/french/wiki/couleurs-dans-r
+image.plot(1:nrow(z),timespan,zmean,col=cols)
+
+### Let's take a couple of individuals
+
+CH[44,]
+CH[100,]
+
+z[44,]
+z[100,]
+
+zmean[44,]
+zmean[100,]
+
+## Perhaps have a look at the probability distributions even 
+C1 = mrr$BUGSoutput$sims.array[,1,'mean.r']
+C1 = mrr$BUGSoutput$sims.array[,1,'z'] # does not work
+# and denplot(mrr, c("z")) does not work either
+
+#First row of the array for the first chain
+mrr$BUGSoutput$sims.array[1,1,1:10]
+mrr$BUGSoutput$sims.array[1,1,100:110]
+### They do not seem to be in the right order!!
+
+### Recomputing properly the estimated latent state array
+ptm <- proc.time()
+zchain1 = array(NA,c(2000,nind,length(timespan)))
+chain1 = mrr$BUGSoutput$sims.array[,1,]
+mycolnames = colnames(chain1)
+for (i in 1:nind){
+  for (t in f[i]:length(timespan)){
+    zname = paste("z[",i,",",t,"]",sep="")
+    zindic<-grepl(zname,mycolnames,fixed=TRUE)
+    #sum(zindic) # 1 if one is true, for checking
+    zchain1[,i,t] = chain1[,zindic]
+  }
+} # long but at least we know it is correct...
+proc.time()-ptm #
+
+mstate1=apply(zchain1,2:3,function(x) mean(x,na.rm=TRUE))
+image.plot(1:nrow(z),timespan,mstate1,col=cols)
+
+#### Best to do that for the other chains too
+#### And average over all
+
+ptm <- proc.time()
+zchain2 = array(NA,c(2000,nind,length(timespan)))
+chain2 = mrr$BUGSoutput$sims.array[,2,]
+zchain3 = array(NA,c(2000,nind,length(timespan)))
+chain3 = mrr$BUGSoutput$sims.array[,3,]
+mycolnames2 = colnames(chain2)
+mycolnames3 = colnames(chain3)
+for (i in 1:nind){
+  for (t in f[i]:length(timespan)){
+    zname = paste("z[",i,",",t,"]",sep="")
+    zindic2<-grepl(zname,mycolnames2,fixed=TRUE)
+    zindic3<-grepl(zname,mycolnames3,fixed=TRUE)
+    #sum(zindic) # 1 if one is true, for checking
+    zchain2[,i,t] = chain2[,zindic2]
+    zchain3[,i,t] = chain3[,zindic3]
+  }
+} # long but at least we know it is correct...
+proc.time()-ptm #
+
+mstate2=apply(zchain2,2:3,function(x) mean(x,na.rm=TRUE))
+image.plot(1:nrow(z),timespan,mstate2,col=cols)
+
+mstate3=apply(zchain3,2:3,function(x) mean(x,na.rm=TRUE))
+image.plot(1:nrow(z),timespan,mstate3,col=cols)
+
+mstate=(mstate1+mstate2+mstate3)/3
+image.plot(1:nrow(z),timespan,mstate,col=cols)
+### I could also plot the states for which we know that Pr(1) = 0. 
+### That's another way to represent the uncertainty
+
+mstate_adults = mstate[stagemarking==2,]
+image.plot(1:nrow(mstate_adults),timespan,mstate_adults,col=cols)
+
+mstate_juvs = mstate[stagemarking==1,]
+image.plot(1:nrow(mstate_juvs),timespan,mstate_juvs,col=cols)
+
+### So that's quite nice, a number of juveniles keep on surviving in this model.
+
+#################################################
+### Let's do that for individual 44
+i=44
+for (t in f[i]:length(timespan)){
+  zname = paste("z[",i,",",t,"]",sep="")
+  zindic<-grepl(zname,colnames(chain1),fixed=TRUE)
+  #sum(zindic) # 1 if one is true, for checking
+  zchain1[,i,t] = chain1[,zindic]
+}
+# Examining the first chain for individual 44
+table(zchain1[,44,]) ## this does not fully work
+zchain1[1,44,23]
+zchain1[1,44,28] # just to check
+
+### Mean state recomputed
+apply(zchain1[,44,],2,mean)
+### Basic JAGS output for mean state
+zmean[44,]
+
+z[44,]
+### Following is not working...
+apply(zchain1[,44,],2, function(x) barplot(table(x)))
+#########################################################
+
+
+### stagemarking will give which individuals are taken as adults vs juveniles
+
+write.csv(mstate,"meanLatentStates.csv")
+
+cols = brewer.pal(15,"YlOrRd")
+rf <- colorRampPalette(cols)   # make colors
+# voir aussi  http://www.sthda.com/french/wiki/couleurs-dans-r
+
+freq1_chain1=apply(zchain1,2:3,function(x) sum(x==1)/length(x))
+image.plot(1:nrow(z),timespan,freq1_chain1,col=cols,xlab="Individuals",ylab="Time",main="Pr(alive)")
+
+freq1_chain2=apply(zchain2,2:3,function(x) sum(x==1)/length(x))
+image.plot(1:nrow(z),timespan,freq1_chain2,col=cols,xlab="Individuals",ylab="Time",main="Pr(alive)")
+
+freq1_chain3=apply(zchain3,2:3,function(x) sum(x==1)/length(x))
+image.plot(1:nrow(z),timespan,freq1_chain3,col=cols,xlab="Individuals",ylab="Time",main="Pr(alive)")
+
+
+freq1 = (freq1_chain1+freq1_chain2+freq1_chain3)/3
+image.plot(1:nrow(z),1973:2018,freq1,col=cols,xlab="Individuals",ylab="Time",main="Pr(alive)")
+
+write.csv(freq1,"PrAlive.csv")
+
+#######################################################
+### Ideas for faster code for latent states computing
+########################################################
+
+### 1. recup ttes les valeurs znames pour tout i pour tout t
+### 2. Sort sur i et t
+### 3. re-order dans la matrice
+
+strsplit(mycolnames,split=c("z[","]"),fixed=T)
+strsplit(mycolnames,split=c("z["),fixed=T)
+
+tmp1=strsplit(mycolnames,split="z[",fixed=T)
+tmp2=lapply(tmp1,function(x) strsplit(x[2],",",fixed=T))
+
+### Other ideas
+### 1. Parse column names (vector form)
+### 2. reorder
