@@ -330,6 +330,7 @@ pdf(file="TraceDens_ni20000_juvad_gyr.pdf", width = 6, height = 8)
 plot(as.mcmc(lifedead))
 dev.off()
 
+#################### Old results p constant ########################################################
 # Inference for Bugs model at "MRR.jags", fit using jags,
 # 3 chains, each with 34000 iterations (first 24000 discarded), n.thin = 10
 # n.sims = 3000 iterations saved
@@ -343,6 +344,21 @@ dev.off()
 
 ### I did not store the latent states... if I want to compare to true histories I need to do this
 ### I would need to run this even longer perhaps (need to recode this in STAN?)
+######################################################################################################
+
+################## New results p variable ############################################################
+# Inference for Bugs model at "MRR.jags", fit using jags,
+# 3 chains, each with 34000 iterations (first 24000 discarded), n.thin = 10
+# n.sims = 3000 iterations saved
+# mu.vect sd.vect     2.5%      25%      50%      75%    97.5%  Rhat n.eff
+# gamma        0.116   0.023    0.076    0.100    0.114    0.130    0.167 1.244    13
+# mean.eta     0.009   0.009    0.000    0.003    0.006    0.013    0.031 1.002  2200
+# mean.p       0.002   0.002    0.000    0.001    0.002    0.003    0.008 1.011   200
+# mean.r       0.139   0.009    0.122    0.134    0.139    0.145    0.157 1.001  2700
+# mean.s[1]    0.357   0.024    0.313    0.340    0.356    0.374    0.405 1.910     5
+# mean.s[2]    0.825   0.014    0.796    0.816    0.825    0.835    0.853 1.007   830
+# deviance  1711.315  10.295 1689.308 1704.927 1711.798 1718.271 1730.169 1.895     5
+######################################################################################################
 
 # MCMC settings
 nc <- 3 #number of chains
