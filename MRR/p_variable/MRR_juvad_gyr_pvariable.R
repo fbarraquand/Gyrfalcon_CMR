@@ -387,6 +387,7 @@ traplot(mrr, c("mean.s", "mean.eta", "mean.r", "mean.p"))
 
 postsamples=cbind(mrr$BUGSoutput$sims.list$mean.eta,
                   mrr$BUGSoutput$sims.list$mean.p,
+                  mrr$BUGSoutput$sims.list$gamma,
                   mrr$BUGSoutput$sims.list$mean.r,
                   mrr$BUGSoutput$sims.list$mean.s)
 
