@@ -1,0 +1,58 @@
+
+model {
+
+    # Priors and constraints
+    for (t in 1:(n.occasions-1)){
+    s[t,1] <- mean.s[1]
+    s[t,2] <- mean.s[2]
+    eta[t] <- mean.eta
+    r[t] <- mean.r
+    p[t] <- mean.p
+    }
+    mean.s[1] ~ dunif(0, 1)     # Prior for mean juvenile survival
+    mean.s[2] ~ dunif(0, 1)     # Prior for mean adult survival
+
+    mean.eta ~ dunif(0,0.5)     # Prior for mean carcass survival prob
+    mean.r ~ dunif(0, 0.5)     # Prior for mean recovery
+    mean.p ~ dunif(0, 0.5)     # Prior for mean recapture
+    
+    # Define state-transition and observation matrices 	
+    for (i in 1:nind){
+    # Define probabilities of state S(t+1) given S(t)
+    for (t in f[i]:(n.occasions-1)){
+    ps[1,i,t,1] <- s[t,xj[i,t]]
+    ps[1,i,t,2] <- (1-s[t,xj[i,t]])
+    ps[1,i,t,3] <- 0
+    ps[2,i,t,1] <- 0
+    ps[2,i,t,2] <- eta[t]
+    ps[2,i,t,3] <- (1-eta[t])
+    ps[3,i,t,1] <- 0
+    ps[3,i,t,2] <- 0
+    ps[3,i,t,3] <- 1
+    
+    # Define probabilities of O(t) given S(t)
+    po[1,i,t,1] <- p[t]
+    po[1,i,t,2] <- 0
+    po[1,i,t,3] <- 1-p[t]
+    po[2,i,t,1] <- 0
+    po[2,i,t,2] <- r[t]
+    po[2,i,t,3] <- 1-r[t]
+    po[3,i,t,1] <- 0
+    po[3,i,t,2] <- 0
+    po[3,i,t,3] <- 1
+    } #t
+    } #i
+    
+    # Likelihood 
+    for (i in 1:nind){
+    # Define latent state at first capture
+    z[i,f[i]] <- y[i,f[i]]
+    for (t in (f[i]+1):n.occasions){
+    # State process: draw S(t) given S(t-1)
+    z[i,t] ~ dcat(ps[z[i,t-1], i, t-1,])
+    # Observation process: draw O(t) given S(t)
+    y[i,t] ~ dcat(po[z[i,t], i, t-1,])
+    } #t
+    } #i
+    }
+    
