@@ -1,0 +1,15 @@
+Inference for Stan model: lifedead.
+2 chains, each with iter=2000; warmup=1000; thin=1; 
+post-warmup draws per chain=1000, total post-warmup draws=2000.
+
+            mean se_mean    sd      2.5%       25%       50%       75%     97.5% n_eff  Rhat
+mean_s     0.820   0.002 0.054     0.719     0.783     0.819     0.854     0.934   580 1.001
+mean_f     0.572   0.002 0.043     0.491     0.543     0.570     0.600     0.661   655 1.000
+mean_r     0.128   0.003 0.054     0.083     0.103     0.117     0.137     0.249   261 1.004
+mean_p     0.492   0.001 0.030     0.435     0.470     0.491     0.512     0.551   991 0.999
+lp__   -1247.870   0.066 1.458 -1251.421 -1248.667 -1247.550 -1246.780 -1246.004   483 1.001
+
+Samples were drawn using NUTS(diag_e) at Sun Mar 22 19:29:56 2020.
+For each parameter, n_eff is a crude measure of effective sample size,
+and Rhat is the potential scale reduction factor on split chains (at 
+convergence, Rhat=1).

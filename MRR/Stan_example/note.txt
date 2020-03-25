@@ -1,0 +1,7 @@
+Stan translations was done by Hiroki Itô abies.firma@gmail.com. I thank Dr. Kéry and Dr. Schaub for permitting to publish Stan translated models. I also thank Dr. Keiichi Fukaya for helpful advice, and Dr. Bob Carpenter for reviewing the code.
+
+https://github.com/stan-dev/example-models/tree/master/BPA/Ch.09
+
+
+
+
