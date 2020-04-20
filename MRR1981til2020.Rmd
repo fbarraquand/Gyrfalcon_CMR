@@ -1,0 +1,283 @@
+---
+title: "Multistate capture-recapture and mark-recovery models"
+author: "Frederic Barraquand"
+date: "February 14, 2019"
+output:
+  pdf_document: default
+  number_sections: yes
+  word_document: null
+header-includes:
+- \usepackage{setspace}
+- \doublespacing
+- \usepackage{lineno}
+- \linenumbers
+csl: ecology.csl
+bibliography: /home/frederic/Dropbox/database/total.bib
+---
+
+## Intro
+
+We need a model combining both CMR and mark-recovery (dead individuals). This versions starts in 1981 because we have the covariates starting that year. 
+
+## Create a matrix of capture histories
+
+```{r}
+dringed<-read.csv("data/Gyrs_ringed.csv")
+dringed20<-read.csv("data/RingingDataAdditionJan2020.csv")
+dringed<-rbind(dringed,dringed20)
+head(dringed) # What's in the data table
+length(unique(dringed$Ring_No)) #How many unique bird IDs - 1816 (vs 1653 previously)
+
+### Removing below 1981
+nrow(dringed[dringed$Ringed_year<1981,]) #25 entries, that's a pity. 
+birds_ID_before81 = dringed$Ring_No[dringed$Ringed_year<1981]
+dringed=dringed[!(dringed$Ringed_year<1981),]
+#check they disappeared. 
+dringed[dringed$Ringed_year<1981,]
+#OK
+nrow(dringed)
+```
+
+OK, so we have 1791 unique IDs (with the removal). Let's compare to how many gyrs have been recovered. 
+
+```{r}
+drecov<-read.csv("data/Gyrs_recovered.csv")
+drecov20<-read.csv("data/EncounterDataAdditionJan2020.csv")
+drecov<-rbind(drecov,drecov20)
+head(drecov)
+length(unique(drecov$Ring_No)) #How many unique bird IDs in Gyrs_recovered.csv (293 vs 270 previously)
+
+## removing now the birds before 1981
+drecov[drecov$Ring_No %in%birds_ID_before81,] #7 recoveries
+drecov=drecov[!(drecov$Ring_No %in%birds_ID_before81 ),]
+drecov[drecov$Ring_No %in%birds_ID_before81,] #sucessfully removed. 
+sort(unique(drecov$Year_recorded))
+sort(unique(dringed$Ringed_year)) #all good. 
+```
+
+Actually we need a mixture of mark-recovery and CMR. p. 295 Kery and Schaub. 
+In our case, not all individuals in the recently dead state move to the "dead" state at t+1. This is because recently dead individuals can be recovered still after t+1 (although we should probably set a prior that makes this probability fairly high).  
+
+Let's compute capture histories (without distinguish young and old for now?)
+
+```{r}
+Birds_ringed = unique(dringed$Ring_No)
+Birds_recov = unique(drecov$Ring_No)
+min_year = min(dringed$Ringed_year)
+max_year = max(dringed$Ringed_year)
+min_year
+max_year
+### check
+min(drecov$Year_recorded)
+max_year = max(drecov$Year_recorded) #because it's 2019
+timespan = min_year:max_year
+time_index = 1:length(timespan)
+time_index_max = length(timespan)
+CH = matrix(NA,nrow=nrow(dringed),ncol=time_index_max)
+
+dringed$First_recov_date = NA
+dringed$First_recov_year = NA
+dringed$First_recov_type = NA
+
+for (i in 1:nrow(dringed))
+{
+    ## if it's ringed, we put a 1 on capture year
+    year_ringed = dringed$Ringed_year[i]-min_year+1
+    CH[i,year_ringed] = 1
+  if (dringed$Ring_No[i] %in% Birds_recov)
+  {
+    ## Keep in mind they can be recorded several times
+    year_recov = drecov$Year_recorded[drecov$Ring_No == as.character(dringed$Ring_No[i])]
+    dates_recov = drecov$Date_recovered[drecov$Ring_No == as.character(dringed$Ring_No[i])]
+    type_recov = drecov$Condition_Euring_code[drecov$Ring_No == as.character(dringed$Ring_No[i])]
+    
+    dringed[i,]$First_recov_year = year_recov[1]
+    dringed[i,]$First_recov_date = as.character(as.Date(dates_recov[1],format="%m/%d/%Y"))
+    dringed[i,]$First_recov_type = type_recov[1]
+    
+    for (d in 1:length(year_recov)){
+        year_recov_focal = year_recov[d]-min_year+1
+
+         if  (type_recov[d] %in% c(4,7,8)){ #live recovery
+           CH[i,year_recov_focal] = 1
+         } 
+         else {
+           CH[i,year_recov_focal] = 2
+           
+           }
+      }#end of for loop on all dates where the bird was recorded
+
+  }#end of if condition on whether the bird was captured
+  else {
+    if (year_ringed<time_index_max)
+        {
+          CH[i,(year_ringed+1):time_index_max] = 3
+        }
+    #else nothing, since we do not have to add what happens afterwards
+  }
+  
+}
+CH[is.na(CH)]=3
+
+### Plotting the capture histories
+library('RColorBrewer')
+library('fields')
+cols = brewer.pal(3,"RdBu")
+rf <- colorRampPalette(cols)   # make colors
+# voir aussi  http://www.sthda.com/french/wiki/couleurs-dans-r
+image.plot(1:nrow(dringed),timespan,CH,col=cols)
+
+#Verif of data by blocks
+time1=1
+time2=250
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=250
+time2=500
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=500
+time2=750
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+## A number of individuals are either recaptured dead the same year or there is a date problem
+
+
+
+time1=750
+time2=1000
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=1000
+time2=1250
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=1250
+time2=nrow(dringed)
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+```
+
+Troubleshoot cases where the year of marking is also the year where the bird has been recorded dead
+
+```{r}
+### Create data structure where the recovery information is appended to ringed birds dataframe
+dringed_recovered = subset(dringed,(dringed$Ring_No %in% Birds_recov) & (dringed$Ringed_year==dringed$First_recov_year))
+dringed_pb = subset(dringed_recovered,dringed_recovered$First_recov_type==2)
+### Actually it's *more* of a Pb if the recovery type is 2 but it is also a problem if it is 
+dringed_pb = dringed_recovered
+head(dringed_pb)
+nrow(dringed_pb) #33 before -- 112 now!
+dringed_pb
+write.csv(dringed_pb,file="RingedAndRecovered_sameYear_jan2020.csv")
+
+### Are all the birds ringed in June-July? 
+table(dringed$Ringed_month)
+### Answer is May-June-July. We can say that they have been observed the next year to be dead if they are dead in the year of the ringing, but not if they are alive. 
+### It means that if they have been seen alive at 6 month, we don't know the status the next year. But on the other hand, only death is permanent. 
+### Sounds reasonable to write a 2 the next year in that case. 
+### Let's do that
+
+CH = matrix(NA,nrow=nrow(dringed),ncol=time_index_max)
+
+for (i in 1:nrow(dringed))
+{
+    ## if it's ringed, we put a 1 on capture year
+    year_ringed = dringed$Ringed_year[i]-min_year+1
+    CH[i,year_ringed] = 1
+  if (dringed$Ring_No[i] %in% Birds_recov)
+  {
+    ## Keep in mind they can be recorded several times
+    year_recov = drecov$Year_recorded[drecov$Ring_No == as.character(dringed$Ring_No[i])]
+    dates_recov = drecov$Date_recovered[drecov$Ring_No == as.character(dringed$Ring_No[i])]
+    type_recov = drecov$Condition_Euring_code[drecov$Ring_No == as.character(dringed$Ring_No[i])]
+    
+    dringed[i,]$First_recov_year = year_recov[1]
+    dringed[i,]$First_recov_date = as.character(as.Date(dates_recov[1],format="%m/%d/%Y"))
+    dringed[i,]$First_recov_type = type_recov[1]
+    
+    for (d in 1:length(year_recov)){
+        year_recov_focal = year_recov[d]-min_year+1
+
+         if  (type_recov[d] %in% c(4,7,8)){ #live recovery
+           CH[i,year_recov_focal] = 1
+         } 
+         else {
+           # Asks whether the year of the ring is the year of recovery
+           if(dringed[i,]$Ringed_year==dringed[i,]$First_recov_year){#Yes
+             #Then keep the 1 and put 2 the next year, since the individual died through that year
+             CH[i,year_recov_focal] = 1
+             if ((year_recov_focal+1)<time_index_max){CH[i,year_recov_focal+1] = 2}
+           }
+           else { #the ring of the year is not that of the recovery
+             CH[i,year_recov_focal] = 2
+           }
+        
+           }
+      }#end of for loop on all dates where the bird was recorded
+
+  }#end of if condition on whether the bird was captured
+  else {
+    #birds that are never captured again
+    if (year_ringed<time_index_max)
+        {
+          CH[i,(year_ringed+1):time_index_max] = 3
+        }
+    #else nothing, since we do not have to add what happens afterwards
+  }
+  
+}
+
+CH[is.na(CH)]=3
+
+```
+
+Verification of the data by blocks of individuals
+
+```{r}
+
+#Verif of data by blocks
+time1=1
+time2=250
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=250
+time2=500
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=500
+time2=750
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=750
+time2=1000
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=1000
+time2=1250
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+time1=1250
+time2=nrow(dringed)
+image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
+
+### All good. 
+write.csv(CH,file = "data/CaptureHistories1981til2020.csv")
+
+```
+
+Now we need to write down the status of the individuals, what they are at the first stage. 
+
+```{r}
+table(dringed$EurAgeCode)
+table(dringed$EurAgeText)
+# So we output a vector 
+dringed$EurAgeCode[dringed$EurAgeCode==8]=2
+stagemarking = dringed$EurAgeCode
+write.csv(stagemarking,file = "data/stagemarking1981til2020.csv")
+
+#We also need the year of first marking
+fmarking = dringed$First_recov_year
+write.csv(fmarking ,file = "data/fmarking1981til2020.csv")
+
+```
+
