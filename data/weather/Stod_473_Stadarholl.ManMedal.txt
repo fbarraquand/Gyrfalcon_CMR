@@ -1,4 +1,4 @@
-Mánaðarmeðaltöl fyrir stöð 473 - Staðarhóll
+#Mánaðarmeðaltöl fyrir stöð 473 - Staðarhóll
 stöð	 ár	mán	  t	  tx	  txx	txxD1	  tn	 tnn	tnnD1	 rh	 r	 rx	rxD1	 p	 n	sun	 f
 473	1961	11	  0.2	  4.2	 13.4	14	 -4.0	-13.3	28	NA	126.4	 32.3	24	NA	6.4	NA	 3.2
 473	1961	12	 -4.4	 -1.5	  7.7	17	 -8.0	-17.2	7	NA	 95.4	 17.4	4	NA	6.7	NA	 2.4

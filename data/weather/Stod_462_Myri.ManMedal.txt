@@ -1,4 +1,4 @@
-Mánaðarmeðaltöl fyrir stöð 462 - Mýri
+#Mánaðarmeðaltöl fyrir stöð 462 - Mýri
 stöð	 ár	mán	  t	  tx	  txx	txxD1	  tn	 tnn	tnnD1	 rh	 r	 rx	rxD1	 p	 n	sun	 f
 462	1956	8	NA	NA	NA	NA	NA	NA	NA	NA	 32.2	  9.7	3	NA	NA	NA	NA
 462	1956	9	NA	NA	NA	NA	NA	NA	NA	NA	 46.5	 10.9	21	NA	NA	NA	NA

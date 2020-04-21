@@ -1,4 +1,4 @@
-Mánaðarmeðaltöl fyrir stöð 448 - Lerkihlíð
+#Mánaðarmeðaltöl fyrir stöð 448 - Lerkihlíð
 stöð	 ár	mán	  t	  tx	  txx	txxD1	  tn	 tnn	tnnD1	 rh	 r	 rx	rxD1	 p	 n	sun	 f
 448	1979	9	  2.1	  4.8	  9.6	30	 -0.3	 -7.5	21	NA	114.7	 24.6	16	NA	6.6	NA	 2.1
 448	1979	10	  3.1	  5.6	 13.2	1	  0.1	-11.8	21	NA	 42.9	 11.5	31	NA	5.9	NA	 3.0

@@ -1,4 +1,4 @@
-Mánaðarmeðaltöl fyrir stöð 479 - Mánárbakki
+#Mánaðarmeðaltöl fyrir stöð 479 - Mánárbakki
 stöð	 ár	mán	  t	  tx	  txx	txxD1	  tn	 tnn	tnnD1	 rh	 r	 rx	rxD1	 p	 n	sun	 f
 479	1956	8	  6.8	NA	NA	NA	NA	NA	NA	NA	 35.0	  9.3	13	NA	6.1	NA	 2.6
 479	1956	9	  7.4	NA	NA	NA	NA	NA	NA	NA	 71.9	 34.1	21	NA	6.7	NA	 3.7

@@ -1,4 +1,4 @@
-Mánaðarmeðaltöl fyrir stöð 495 - Grímsstaðir
+#Mánaðarmeðaltöl fyrir stöð 495 - Grímsstaðir
 stöð	 ár	mán	  t	  tx	  txx	txxD1	  tn	 tnn	tnnD1	 rh	 r	 rx	rxD1	 p	 n	sun	 f
 495	1949	1	 -7.0	 -3.5	  4.2	9	NA	NA	NA	NA	 13.5	  2.5	6	NA	6.1	NA	 9.7
 495	1949	2	 -4.2	 -1.0	  5.2	1	NA	NA	NA	NA	  6.8	  3.0	7	NA	5.8	NA	 8.6

@@ -1,4 +1,4 @@
-Mánaðarmeðaltöl fyrir stöð 468 - Reykjahlíð
+#Mánaðarmeðaltöl fyrir stöð 468 - Reykjahlíð
 stöð	 ár	mán	  t	  tx	  txx	txxD1	  tn	 tnn	tnnD1	 rh	 r	 rx	rxD1	 p	 n	sun	 f
 468	1961	1	 -3.8	 -0.7	  7.7	15	 -6.3	-23.0	9	NA	 17.3	  5.7	19	NA	4.9	NA	 4.6
 468	1961	2	 -2.7	 -0.2	 10.5	22	 -6.3	-20.0	3	NA	 29.1	  7.8	24	NA	5.4	NA	 2.3
