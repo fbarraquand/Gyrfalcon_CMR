@@ -17,7 +17,7 @@ parameters {
   real<lower=0,upper=1> mean_eta;  // Mean fidelity
   real<lower=0,upper=1> mean_r;    // Mean recovery
   real<lower=0,upper=1> mean_p;    // Mean recapture
-  real<lower=0> gamma_prey;      // slope logistic
+  real gamma_prey;      // slope logistic -- not necessarily positive
   real<lower=0> mu_prey;         // Mean for the logistic
 }
 
@@ -81,8 +81,8 @@ model {
      mean_r ~ uniform(0, 0.5);   // Prior for mean recovery
      mean_p ~ uniform(0, 0.5);   //Prior for mean recapture
     // Logistic model on juvenile survival probability
-    gamma_prey ~ normal(0,1);
-    mu_prey ~ normal(6,1);
+     gamma_prey ~ normal(0,1);
+     mu_prey ~ normal(6,2.5); // more vague prior
 
 
      // Likelihood

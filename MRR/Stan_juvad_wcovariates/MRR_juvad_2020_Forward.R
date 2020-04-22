@@ -81,7 +81,7 @@ inits <- function(){list(mean_s2 = runif(1, 0.2, 1), mean_eta = runif(1, 0.05, 0
 params <- c("mean_s2", "mean_eta", "mean_r", "mean_p","gamma_prey","mu_prey")
 
 ## MCMC settings
-ni <- 2000
+ni <- 3000
 nt <- 1
 nb <- 1000
 nc <- 2

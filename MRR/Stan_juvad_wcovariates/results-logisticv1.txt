@@ -1,0 +1,17 @@
+Inference for Stan model: mrr.
+2 chains, each with iter=3000; warmup=1000; thin=1; 
+post-warmup draws per chain=2000, total post-warmup draws=4000.
+
+                mean se_mean    sd      2.5%       25%       50%       75%     97.5% n_eff  Rhat
+mean_s2        0.829   0.000 0.020     0.788     0.816     0.830     0.843     0.868  3197 1.000
+mean_eta       0.008   0.000 0.008     0.000     0.002     0.005     0.011     0.031  4043 1.000
+mean_r         0.138   0.000 0.009     0.122     0.132     0.138     0.144     0.155  3394 1.000
+mean_p         0.017   0.000 0.004     0.011     0.015     0.017     0.020     0.026  2651 1.001
+gamma_prey     0.060   0.007 0.056    -0.080     0.051     0.074     0.095     0.135    65 1.023
+mu_prey        9.276   0.420 3.255     0.961     8.852    10.120    11.231    13.502    60 1.025
+lp__       -1346.709   0.221 2.302 -1352.165 -1348.089 -1346.166 -1344.908 -1343.715   109 1.012
+
+Samples were drawn using NUTS(diag_e) at Tue Apr 21 23:04:44 2020.
+For each parameter, n_eff is a crude measure of effective sample size,
+and Rhat is the potential scale reduction factor on split chains (at 
+convergence, Rhat=1).
