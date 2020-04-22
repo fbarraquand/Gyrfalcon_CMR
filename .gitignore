@@ -6,7 +6,7 @@
 .RData
 
 # Session Data files
-.rds #heavy stan compilation files
+*.rds #heavy stan compilation files
 
 # Example code in package build process
 *-Ex.R
