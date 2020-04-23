@@ -29,7 +29,7 @@ head(dringed) # What's in the data table
 length(unique(dringed$Ring_No)) #How many unique bird IDs - 1816 (vs 1653 previously)
 ```
 
-OK, so we have 1653 unique IDs. Let's compare to how many gyrs have been recovered. 
+OK, so we have 1816 unique IDs. Let's compare to how many gyrs have been recovered. 
 
 ```{r}
 drecov<-read.csv("data/Gyrs_recovered.csv")
@@ -246,6 +246,24 @@ image.plot(time1:time2,timespan,CH[time1:time2,],col=cols)
 
 ### All good. 
 write.csv(CH,file = "data/CaptureHistories2020.csv")
+
+
+## Sort the capture histories by first capture
+x=sort(dringed$Ringed_year,index.return = TRUE)
+x$ix #index of rank
+CHordered = CH[x$ix,]
+
+## Better colors
+old_cols = cols
+cols[1] = cols[3]
+cols[2] = "#000000"
+cols[3] = "#FFFFFF"
+
+pdf(file = "ObservedStates.pdf",width=10,height=4)
+image.plot(1:nrow(dringed),timespan,CHordered ,col=cols,xlab="Individual ID",ylab = "Time")
+dev.off()
+
+cols=old_cols
 
 ```
 
