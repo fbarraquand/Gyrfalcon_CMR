@@ -1,3 +1,5 @@
+Without a constraint on gamma_prey being positive. Bad convergence on this one. 
+
 Inference for Stan model: mrr.
 2 chains, each with iter=3000; warmup=1000; thin=1; 
 post-warmup draws per chain=2000, total post-warmup draws=4000.

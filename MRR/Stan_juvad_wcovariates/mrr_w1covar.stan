@@ -5,7 +5,9 @@ data {
   int<lower=1,upper=3> y[nind, n_occasions];
   int<lower=0> f[nind];
   int<lower=1,upper=2> xj[nind,n_occasions-1]; //stage matrix, 1 if juvenile 2 if adult
-  real<lower=0> prey_abund[n_occasions]; 
+  real prey_abund[n_occasions]; // all covariates standardized here
+  //real temp[n_occasions]; 
+  //real lograin[n_occasions]; 
 }
 
 transformed data {
@@ -17,9 +19,8 @@ parameters {
   real<lower=0,upper=1> mean_eta;  // Mean fidelity
   real<lower=0,upper=1> mean_r;    // Mean recovery
   real<lower=0,upper=1> mean_p;    // Mean recapture
-  real<lower=0> gamma_prey;      // slope logistic -- not necessarily positive, but shouldn't we assume so biologically? 
-  //For this parameterization (gamma,mu) the non-positive version does not converge well -> positive constraint. 
-  real<lower=0> mu_prey;         // Mean for the logistic
+  real mu_juvsurv;    // Mean for the logistic
+  real beta; //beta[3];      // slope logistic -- other option vector[3] beta?
 }
 
 transformed parameters {
@@ -33,7 +34,8 @@ transformed parameters {
 
   // Constraints
   for (t in 1:n_occ_minus_1) {
-    s[t,1] = inv_logit(gamma_prey*(prey_abund[t]-mu_prey));   //previously mean_s[1], variable here;
+    s[t,1] = inv_logit(mu_juvsurv + beta*prey_abund[t]); //+ beta[2]*temp[t]);   // + beta[3]*lograin[t]
+    //previously mean_s[1], variable here -- check that all variables are standardized;
     s[t,2] = mean_s2;
     eta[t] = mean_eta;
     r[t] = mean_r;
@@ -82,8 +84,10 @@ model {
      mean_r ~ uniform(0, 0.5);   // Prior for mean recovery
      mean_p ~ uniform(0, 0.5);   //Prior for mean recapture
     // Logistic model on juvenile survival probability
-     gamma_prey ~ exponential(100); //better for >0 constraint that previous normal(0,1); mean = 0.01
-     mu_prey ~ normal(6,2); // more vague prior
+    mu_juvsurv ~ normal(0,5);
+    beta ~ normal(0,5);
+    //beta[2] ~ normal(0,1);
+    //beta[3] ~ normal(0,1);
 
      // Likelihood
      // Forward algorithm derived from Stan Modeling Language

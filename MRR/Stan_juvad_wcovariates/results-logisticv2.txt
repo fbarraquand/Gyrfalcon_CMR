@@ -15,3 +15,39 @@ Samples were drawn using NUTS(diag_e) at Tue Apr 21 15:09:31 2020.
 For each parameter, n_eff is a crude measure of effective sample size,
 and Rhat is the potential scale reduction factor on split chains (at 
 convergence, Rhat=1).
+
+Inference for Stan model: mrr_w1covar.
+3 chains, each with iter=2000; warmup=1000; thin=1; 
+post-warmup draws per chain=1000, total post-warmup draws=3000.
+
+                mean se_mean    sd      2.5%       25%       50%       75%     97.5% n_eff  Rhat
+mean_s2        0.828   0.000 0.020     0.789     0.815     0.828     0.842     0.867  4368 1.000
+mean_eta       0.009   0.000 0.009     0.000     0.002     0.006     0.012     0.032  4005 0.999
+mean_r         0.137   0.000 0.009     0.120     0.131     0.137     0.143     0.154  4280 1.000
+mean_p         0.021   0.000 0.005     0.013     0.018     0.020     0.023     0.031  2820 1.000
+beta           0.080   0.002 0.099    -0.112     0.012     0.080     0.144     0.279  3825 0.999
+mu_juvsurv    -0.486   0.002 0.124    -0.728    -0.569    -0.487    -0.401    -0.249  3244 1.001
+lp__       -1345.298   0.051 1.829 -1349.868 -1346.190 -1344.926 -1343.976 -1342.796  1302 1.000
+
+Samples were drawn using NUTS(diag_e) at Thu Apr 23 16:17:15 2020.
+For each parameter, n_eff is a crude measure of effective sample size,
+and Rhat is the potential scale reduction factor on split chains (at 
+convergence, Rhat=1).
+
+beta = 0.08 here
+
+ --- Cefficient from the previous parameterization (not directly comparable) ----
+
+Without positivity constraint (v1)
+0.060*9.276 = 0.55656 with non-standardized ptarmigan data. 
+
+With positivity constraint (v0)
+0.019*7.908 = 0.150252 with non-standardized ptarmigan data, exponential prior
+0.070*7.602 = 0.53214 with non-standardized ptarmigan data, gaussian prior
+
+---- With standardized ptarmigan data? --- 
+
+
+
+
+

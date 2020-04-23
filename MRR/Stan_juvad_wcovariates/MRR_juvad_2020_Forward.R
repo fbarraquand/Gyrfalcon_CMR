@@ -81,10 +81,10 @@ inits <- function(){list(mean_s2 = runif(1, 0.2, 1), mean_eta = runif(1, 0.05, 0
 params <- c("mean_s2", "mean_eta", "mean_r", "mean_p","gamma_prey","mu_prey")
 
 ## MCMC settings
-ni <- 3000
+ni <- 2000
 nt <- 1
 nb <- 1000
-nc <- 2
+nc <- 3
 
 ## Call Stan from R
 #mrr_juvad <- stan("mrr.stan",
@@ -113,26 +113,27 @@ print(mrr_juvad, digits = 3)
 params <- extract(mrr_juvad)
 save(params, file ="param_chains.RData")
 
+load("param_logisticv0exponential_chains.RData")
 ## Real prey data ptarmigan$Mean.density
 minp = 0 #min(ptarmigan$Mean.density)
 maxp = 15 #max(ptarmigan$Mean.density)
-prey_abund=seq(from = minp, to = maxp, length.out = 200)
+prey_abund_vec=seq(from = minp, to = maxp, length.out = 200)
 
 nsamples = length(params$gamma_prey)
-F=matrix(0,nrow  = nsamples,ncol=length(prey_abund))
-m=matrix(0,nrow = 1,ncol=length(prey_abund))
-q=matrix(0,nrow = 2,ncol=length(prey_abund))
+F=matrix(0,nrow  = nsamples,ncol=length(prey_abund_vec))
+m=matrix(0,nrow = 1,ncol=length(prey_abund_vec))
+q=matrix(0,nrow = 2,ncol=length(prey_abund_vec))
 
-for (p in 1:length(prey_abund)){
-  F[,p] = 1/(1+exp(-params$gamma_prey*(prey_abund[p] - params$mu_prey) ))
+for (p in 1:length(prey_abund_vec)){
+  F[,p] = 1/(1+exp(-params$gamma_prey*(prey_abund_vec[p] - params$mu_prey) ))
   m[p] = mean(F[,p])
   q[,p] = quantile(F[,p],c(0.05,0.95))
 }
-pdf(file = "FigLogisticPtarmigan.pdf",width = 5,height=8)
+pdf(file = "FigLogisticPtarmigan_v0_exponentialprior.pdf",width = 5,height=8)
 par(mfrow=c(2,1))
-plot(prey_abund,m,col="red",type="l",lwd=2,xlab="",ylab="Predator juvenile survival")
-lines(prey_abund,q[1,],col="black")
-lines(prey_abund,q[2,],col="black")
+plot(prey_abund_vec,m,col="red",type="l",lwd=2,xlab="",ylab="Predator juvenile survival",ylim=c(0.3,0.6))
+lines(prey_abund_vec,q[1,],col="black")
+lines(prey_abund_vec,q[2,],col="black")
 fig_label("A")
 ### This is a bit puzzling. On average all these values are above the estimate without the covariate. 
 d <- density(ptarmigan$Mean.density)
@@ -171,6 +172,7 @@ lograin = (lograin - mean(lograin))/sd(lograin)
 #stan.data.R <- list(y = CH, f = f,  xj=xj, n_occasions = dim(CH)[2],nind = dim(CH)[1], prey_abund = prey_abund, temp = temp,lograin=lograin)
 stan.data.R <- list(y = CH, f = f,  xj=xj, n_occasions = dim(CH)[2],nind = dim(CH)[1], prey_abund = prey_abund) #first check
 
+### First re-running the same model with a different parameterization. 
 
 ## Parameters monitored
 params <- c("mean_s2", "mean_eta", "mean_r", "mean_p","beta","mu_juvsurv")
@@ -179,14 +181,13 @@ params <- c("mean_s2", "mean_eta", "mean_r", "mean_p","beta","mu_juvsurv")
 ni <- 2000
 nt <- 1
 nb <- 1000
-nc <- 2
-
+nc <- 3
 
 inits <- function(){list(mean_s2 = runif(1, 0.2, 1), mean_eta = runif(1, 0.05, 0.4), 
                          mean_p = runif(1, 0.05, 0.4), mean_r = runif(1, 0.05, 0.4))}  #z = ld.init(CH, f)
 ## Looks like I don't need to initialize the states...
 
-mrr_juvad2 <- stan("mrr_w3covar.stan",
+mrr_juvad2 <- stan("mrr_w1covar.stan",
                   data = stan.data.R , init = inits, pars = params,
                   chains = nc, iter = ni, warmup = nb, thin = nt,
                   seed = 1)
@@ -212,7 +213,7 @@ for (p in 1:length(prey_abund_vec)){
 }
 pdf(file = "FigLogisticPtarmigan_v2.pdf",width = 5,height=8)
 par(mfrow=c(2,1))
-plot(prey_abund_vec,m,col="red",type="l",lwd=2,xlab="",ylab="Predator juvenile survival",xlim=c(minp,maxp),ylim=c(0,1))
+plot(prey_abund_vec,m,col="red",type="l",lwd=2,xlab="",ylab="Predator juvenile survival",xlim=c(minp,maxp),ylim=c(0.3,0.6))
 lines(prey_abund_vec,q[1,],col="black")
 lines(prey_abund_vec,q[2,],col="black")
 fig_label("A")
@@ -222,5 +223,31 @@ plot(d, xlab = "Ptarmigan abundance (stdized) ",ylab="Kernel density of abundanc
 polygon(d, col="red", border="black") 
 fig_label("B")
 dev.off()
+
+### Three covariates -- adding weather
+
+# Bundle data
+stan.data.R <- list(y = CH, f = f,  xj=xj, n_occasions = dim(CH)[2],nind = dim(CH)[1], prey_abund = prey_abund, temp = temp,lograin=lograin)
+
+## Parameters monitored
+params <- c("mean_s2", "mean_eta", "mean_r", "mean_p","beta","mu_juvsurv")
+
+## MCMC settings
+ni <- 2000
+nt <- 1
+nb <- 1000
+nc <- 3
+
+inits <- function(){list(mean_s2 = runif(1, 0.2, 1), mean_eta = runif(1, 0.05, 0.4), 
+                         mean_p = runif(1, 0.05, 0.4), mean_r = runif(1, 0.05, 0.4))} 
+
+mrr_juvad2 <- stan("mrr_w3covar.stan",
+                   data = stan.data.R , init = inits, pars = params,
+                   chains = nc, iter = ni, warmup = nb, thin = nt,
+                   seed = 1)
+print(mrr_juvad2, digits = 3)
+
+params2 <- extract(mrr_juvad2)
+save(params2, file ="param_logistic3covar_chains.RData")
 
 

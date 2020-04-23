@@ -6,8 +6,8 @@ data {
   int<lower=0> f[nind];
   int<lower=1,upper=2> xj[nind,n_occasions-1]; //stage matrix, 1 if juvenile 2 if adult
   real prey_abund[n_occasions]; // all covariates standardized here
-  //real temp[n_occasions]; 
-  //real lograin[n_occasions]; 
+  real temp[n_occasions]; 
+  real lograin[n_occasions]; 
 }
 
 transformed data {
@@ -20,7 +20,7 @@ parameters {
   real<lower=0,upper=1> mean_r;    // Mean recovery
   real<lower=0,upper=1> mean_p;    // Mean recapture
   real mu_juvsurv;    // Mean for the logistic
-  real beta; //beta[3];      // slope logistic -- other option vector[3] beta?
+  real beta[3];      // slope logistic -- other option vector[3] beta?
 }
 
 transformed parameters {
@@ -34,7 +34,7 @@ transformed parameters {
 
   // Constraints
   for (t in 1:n_occ_minus_1) {
-    s[t,1] = inv_logit(mu_juvsurv + beta*prey_abund[t]); //+ beta[2]*temp[t]);   // + beta[3]*lograin[t]
+    s[t,1] = inv_logit(mu_juvsurv + beta[1]*prey_abund[t] + beta[2]*temp[t]  + beta[3]*lograin[t]); 
     //previously mean_s[1], variable here -- check that all variables are standardized;
     s[t,2] = mean_s2;
     eta[t] = mean_eta;
@@ -85,9 +85,9 @@ model {
      mean_p ~ uniform(0, 0.5);   //Prior for mean recapture
     // Logistic model on juvenile survival probability
     mu_juvsurv ~ normal(0,5);
-    beta ~ normal(0,5);
-    //beta[2] ~ normal(0,1);
-    //beta[3] ~ normal(0,1);
+    beta ~ normal(0,1);
+    beta[2] ~ normal(0,1);
+    beta[3] ~ normal(0,1);
 
      // Likelihood
      // Forward algorithm derived from Stan Modeling Language
