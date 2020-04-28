@@ -85,7 +85,7 @@ model {
      mean_p ~ uniform(0, 0.5);   //Prior for mean recapture
     // Logistic model on juvenile survival probability
     mu_juvsurv ~ normal(0,5);
-    beta ~ normal(0,1);
+    beta[1] ~ normal(0,1);
     beta[2] ~ normal(0,1);
     beta[3] ~ normal(0,1);
 
@@ -107,7 +107,7 @@ model {
             acc[j] = gamma[t - 1, j] * ps[j, i, t-1, k]
                     * po[k, i, t-1, y[i, t]]; 
                     // beware of that mismatch in time -- means that p[t] is in fact one lag after t in time? So far as these are constant no pb though. 
-          gamma[t, k] = sum(acc)+ 0.000001;// add small number in case we have a numerical zero problem. 
+          gamma[t, k] = sum(acc);// add small number in case we have a numerical zero problem. 
          }
       }
       target += log(sum(gamma[n_occasions]));

@@ -17,3 +17,25 @@ Samples were drawn using NUTS(diag_e) at Thu Apr 23 18:11:29 2020.
 For each parameter, n_eff is a crude measure of effective sample size,
 and Rhat is the potential scale reduction factor on split chains (at 
 convergence, Rhat=1).
+
+---------------------------------------------------------------------------------------------------------
+
+Inference for Stan model: mrr_w3covar.
+3 chains, each with iter=2000; warmup=1000; thin=1; 
+post-warmup draws per chain=1000, total post-warmup draws=3000.
+
+                mean se_mean    sd      2.5%       25%       50%       75%     97.5% n_eff  Rhat
+mean_s2        0.834   0.000 0.018     0.798     0.823     0.835     0.846     0.867  2856 1.000
+mean_eta       0.009   0.000 0.009     0.000     0.003     0.006     0.013     0.033  3845 1.000
+mean_r         0.139   0.000 0.009     0.123     0.134     0.139     0.145     0.157  3178 1.001
+mean_p         0.030   0.000 0.005     0.021     0.026     0.029     0.033     0.040  2082 1.002
+beta[1]        0.276   0.003 0.134     0.019     0.185     0.277     0.366     0.536  1891 0.999
+beta[2]        0.230   0.003 0.120     0.002     0.146     0.232     0.313     0.458  2214 1.000
+beta[3]        0.265   0.003 0.125     0.028     0.179     0.264     0.350     0.512  1720 1.001
+mu_juvsurv    -0.519   0.002 0.115    -0.741    -0.596    -0.520    -0.440    -0.297  2253 1.001
+lp__       -1361.358   0.055 2.032 -1366.166 -1362.481 -1361.005 -1359.885 -1358.375  1351 1.001
+
+Samples were drawn using NUTS(diag_e) at Thu Apr 23 19:43:13 2020.
+For each parameter, n_eff is a crude measure of effective sample size,
+and Rhat is the potential scale reduction factor on split chains (at 
+convergence, Rhat=1).

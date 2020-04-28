@@ -167,6 +167,17 @@ for (year in 1981:2019){
 
 temp = (temp - mean(temp))/sd(temp)
 lograin = (lograin - mean(lograin))/sd(lograin)
+
+### Correlations? 
+covar = data.frame(prey_abund,temp,lograin)
+plot(covar)
+par(pch=20)
+tmax=nrow(covar)
+plot(1:tmax,prey_abund,type="o",ylim=c(-3,3))
+lines(1:tmax,temp,type="o",col="red")
+lines(1:tmax,lograin,type="o",col="blue")
+### No apparent correlation. 
+
   
 # Bundle data
 #stan.data.R <- list(y = CH, f = f,  xj=xj, n_occasions = dim(CH)[2],nind = dim(CH)[1], prey_abund = prey_abund, temp = temp,lograin=lograin)
