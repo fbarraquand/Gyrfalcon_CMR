@@ -86,13 +86,6 @@ nt <- 1
 nb <- 1000
 nc <- 3
 
-## Call Stan from R
-#mrr_juvad <- stan("mrr.stan",
-#                 data = stan.data.R , init = inits, pars = params,
-#                 chains = nc, iter = ni, warmup = nb, thin = nt,
-#                 seed = 1,
-#                 open_progress = TRUE) #does not work on my desktop PC for some reason. 
-#print(mrr_juvad, digits = 3)
 
 ## Call Stan from R -- that finally works. 
 mrr_juvad <- stan("mrr.stan",
@@ -101,19 +94,15 @@ mrr_juvad <- stan("mrr.stan",
                   seed = 1)
 print(mrr_juvad, digits = 3)
 #saveRDS(mrr_juvad, "fit1.rds") #save(mrr_juvad, file ="fit1.RData")
-
-
-
 ## Other way of calling it
 #mrr_juvad <-stan_model("mrr.stan",verbose=TRUE)
 #fit.mrr_juvad <- sampling(mrr_juvad, data = stan.data.R, iter = 1000, init = inits,chains = 2, cores = 2)
-#fit.mrr_juvad <- sampling(mrr_juvad, data = stan.data.R, iter = 1000, init = inits,chains = 2)
 
 ### plot Juvenile survival = f(ptarmigan density?)? 
 params <- extract(mrr_juvad)
-save(params, file ="param_chains.RData")
+save(params, file ="param_logisticv0exponential_chains.RData")
 
-load("param_logisticv0exponential_chains.RData")
+# load("param_logisticv0exponential_chains.RData") 
 ## Real prey data ptarmigan$Mean.density
 minp = 0 #min(ptarmigan$Mean.density)
 maxp = 15 #max(ptarmigan$Mean.density)
@@ -142,11 +131,13 @@ polygon(d, col="red", border="black")
 fig_label("B")
 dev.off()
 
-# or dlogis(ptarmigan$Mean.density,mu_prey,1/gamma_prey)); 
+# or use dlogis(ptarmigan$Mean.density,mu_prey,1/gamma_prey)); 
 
-## Doing it with three covariates -- adding in weather. 
+##########################################################
+## Collating other covariates -- adding in weather. 
+##########################################################
 
-#standardize previous variables
+#standardize previous variable for an easier comparison of coefficients
 
 prey_abund = (ptarmigan$Mean.density - mean(ptarmigan$Mean.density))/sd(ptarmigan$Mean.density)
 
@@ -183,7 +174,9 @@ lines(1:tmax,lograin,type="o",col="blue")
 #stan.data.R <- list(y = CH, f = f,  xj=xj, n_occasions = dim(CH)[2],nind = dim(CH)[1], prey_abund = prey_abund, temp = temp,lograin=lograin)
 stan.data.R <- list(y = CH, f = f,  xj=xj, n_occasions = dim(CH)[2],nind = dim(CH)[1], prey_abund = prey_abund) #first check
 
-### First re-running the same model with a different parameterization. 
+######################################################################################################
+### First re-running the model with the prey-only covariate (Model B) with improved parameterization
+######################################################################################################
 
 ## Parameters monitored
 params <- c("mean_s2", "mean_eta", "mean_r", "mean_p","beta","mu_juvsurv")
@@ -235,7 +228,9 @@ polygon(d, col="red", border="black")
 fig_label("B")
 dev.off()
 
-### Three covariates -- adding weather
+#################################################################################
+### Model C with 3 covariates -- adding weather (temperature and precipitation)
+#################################################################################
 
 # Bundle data
 stan.data.R <- list(y = CH, f = f,  xj=xj, n_occasions = dim(CH)[2],nind = dim(CH)[1], prey_abund = prey_abund, temp = temp,lograin=lograin)
@@ -252,13 +247,17 @@ nc <- 3
 inits <- function(){list(mean_s2 = runif(1, 0.2, 1), mean_eta = runif(1, 0.05, 0.4), 
                          mean_p = runif(1, 0.05, 0.4), mean_r = runif(1, 0.05, 0.4))} 
 
-mrr_juvad2 <- stan("mrr_w3covar.stan",
+mrr_juvad3 <- stan("mrr_w3covar.stan",
                    data = stan.data.R , init = inits, pars = params,
                    chains = nc, iter = ni, warmup = nb, thin = nt,
                    seed = 1)
-print(mrr_juvad2, digits = 3)
+print(mrr_juvad3, digits = 3)
 
-params2 <- extract(mrr_juvad2)
-save(params2, file ="param_logistic3covar_chains.RData")
+params3 <- extract(mrr_juvad3)
+save(params3, file ="param_logistic3covar_chains.RData")
+
+library(xtable)
+xtable(summary(mrr_juvad3)$summary,digits=3)
+
 
 

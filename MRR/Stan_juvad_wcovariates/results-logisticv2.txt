@@ -36,6 +36,24 @@ convergence, Rhat=1).
 
 beta = 0.08 here
 
+Inference for Stan model: mrr_w1covar.
+3 chains, each with iter=2000; warmup=1000; thin=1; 
+post-warmup draws per chain=1000, total post-warmup draws=3000.
+
+                mean se_mean    sd      2.5%       25%       50%       75%     97.5% n_eff  Rhat
+mean_s2        0.829   0.000 0.021     0.787     0.815     0.830     0.843     0.867  3433 1.000
+mean_eta       0.009   0.000 0.008     0.000     0.002     0.006     0.012     0.032  4005 1.000
+mean_r         0.137   0.000 0.009     0.120     0.131     0.137     0.143     0.155  3962 1.000
+mean_p         0.021   0.000 0.005     0.013     0.017     0.020     0.024     0.031  2846 1.001
+beta           0.079   0.002 0.096    -0.107     0.017     0.079     0.141     0.271  3584 0.999
+mu_juvsurv    -0.487   0.002 0.127    -0.743    -0.575    -0.482    -0.399    -0.249  2892 1.000
+lp__       -1345.303   0.048 1.822 -1349.850 -1346.313 -1344.973 -1343.961 -1342.856  1414 1.000
+
+Samples were drawn using NUTS(diag_e) at Fri Nov  6 09:58:31 2020.
+For each parameter, n_eff is a crude measure of effective sample size,
+and Rhat is the potential scale reduction factor on split chains (at 
+convergence, Rhat=1).
+
  --- Cefficient from the previous parameterization (not directly comparable) ----
 
 Without positivity constraint (v1)
