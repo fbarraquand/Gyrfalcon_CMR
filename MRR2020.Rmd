@@ -84,11 +84,11 @@ for (i in 1:nrow(dringed))
 
          if  (type_recov[d] %in% c(4,7,8)){ #live recovery
            CH[i,year_recov_focal] = 1
-         } 
-         else {
+           print(c("Delta years",year_recov[d]-dringed$Ringed_year[i],"Individual",as.character(dringed$Ring_No[i]),"Status",CH[i,year_recov_focal]))
+           } else {
            CH[i,year_recov_focal] = 2
-           
-           }
+            print(c("Delta years",year_recov[d]-dringed$Ringed_year[i],"Individual",as.character(dringed$Ring_No[i]),"Status",CH[i,year_recov_focal])) 
+            }
       }#end of for loop on all dates where the bird was recorded
 
   }#end of if condition on whether the bird was captured
