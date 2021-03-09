@@ -37,7 +37,27 @@ drecov20<-read.csv("data/EncounterDataAdditionJan2020.csv")
 drecov<-rbind(drecov,drecov20)
 head(drecov)
 length(unique(drecov$Ring_No)) #How many unique bird IDs in Gyrs_recovered.csv (293 vs 270 previously)
+
+table(drecov$Condition_Euring_code) ## 2 + 73 + 144 + 27 = 246, 8 + 46 + 21 = 75
+# check category 5 (most killed)
+drecov[drecov$Condition_Euring_code == 5,]
 ```
+
+These are defined according to The EURING EXCHANGE Code 2000+ 
+https://euring.org/files/documents/E2000PLUSExchangeCodeV117.pdf
+
+| Condition Code | Meaning                                            | 
+|--------------- |:--------------------------------------------------:|
+| 0              | Condition completely unknown                       |
+| 1              | Dead but no information on how recently died/killed|
+| 2              | Freshly dead – within about a week                 |
+| 3              | dead for > a week. If >>, use 9 in Accuracy of Date, and 3 here|
+| 4              | Found sick/wounded and released afterwards  |
+| 5              | Found sick/wounded and NOT released afterwards  |
+| 6              | Alive and probably healthy but taken into captivity. |
+| 7              | Alive and probably healthy and certainly released (ring seen without the bird having being caught). |
+| 8              | Alive and probably healthy and released by a ringer |
+| 9              | Alive and probably healthy but ultimate fate of bird is not known|
 
 Actually we need a mixture of mark-recovery and CMR. p. 295 Kery and Schaub. 
 In our case, not all individuals in the recently dead state move to the "dead" state at t+1. This is because recently dead individuals can be recovered still after t+1 (although we should probably set a prior that makes this probability fairly high).  

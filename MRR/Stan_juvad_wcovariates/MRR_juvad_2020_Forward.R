@@ -120,7 +120,7 @@ for (p in 1:length(prey_abund_vec)){
 }
 pdf(file = "FigLogisticPtarmigan_v0_exponentialprior.pdf",width = 5,height=8)
 par(mfrow=c(2,1))
-plot(prey_abund_vec,m,col="red",type="l",lwd=2,xlab="",ylab="Predator juvenile survival",ylim=c(0.3,0.6))
+plot(prey_abund_vec,m,col="red",type="l",lwd=2,xlab="",ylab="Predicted juvenile survival",ylim=c(0.3,0.6))
 lines(prey_abund_vec,q[1,],col="black")
 lines(prey_abund_vec,q[2,],col="black")
 fig_label("A")
@@ -189,7 +189,6 @@ nc <- 3
 
 inits <- function(){list(mean_s2 = runif(1, 0.2, 1), mean_eta = runif(1, 0.05, 0.4), 
                          mean_p = runif(1, 0.05, 0.4), mean_r = runif(1, 0.05, 0.4))}  #z = ld.init(CH, f)
-## Looks like I don't need to initialize the states...
 
 mrr_juvad2 <- stan("mrr_w1covar.stan",
                   data = stan.data.R , init = inits, pars = params,
@@ -201,8 +200,10 @@ params2 <- extract(mrr_juvad2)
 save(params2, file ="param_logisticv2_chains.RData")
 
 ## Real prey data ptarmigan$Mean.density
-minp = min(prey_abund)
-maxp = max(prey_abund)
+min(prey_abund) # -1.439433
+max(prey_abund) #  2.580465
+minp = min(prey_abund)-1
+maxp = max(prey_abund)+1
 prey_abund_vec=seq(from = minp, to = maxp, length.out = 200)
 
 nsamples = length(params2$beta)
@@ -217,13 +218,13 @@ for (p in 1:length(prey_abund_vec)){
 }
 pdf(file = "FigLogisticPtarmigan_v2.pdf",width = 5,height=8)
 par(mfrow=c(2,1))
-plot(prey_abund_vec,m,col="red",type="l",lwd=2,xlab="",ylab="Predator juvenile survival",xlim=c(minp,maxp),ylim=c(0.3,0.6))
+plot(prey_abund_vec,m,col="red",type="l",lwd=2,xlab="",ylab="Predicted juvenile survival",xlim=c(minp,maxp),ylim=c(0.15,0.6))
 lines(prey_abund_vec,q[1,],col="black")
 lines(prey_abund_vec,q[2,],col="black")
 fig_label("A")
 ### This is a bit puzzling. On average all these values are above the estimate without the covariate. 
 d <- density(prey_abund)
-plot(d, xlab = "Ptarmigan abundance (stdized) ",ylab="Kernel density of abundance",main="",xlim=c(minp,maxp),ylim=c(0,1))
+plot(d, xlab = "Ptarmigan abundance (stdized) ",ylab="Kernel density of abundance",main="",xlim=c(minp,maxp),ylim=c(0,0.75))
 polygon(d, col="red", border="black") 
 fig_label("B")
 dev.off()
@@ -256,8 +257,38 @@ print(mrr_juvad3, digits = 3)
 params3 <- extract(mrr_juvad3)
 save(params3, file ="param_logistic3covar_chains.RData")
 
+### For extraction of the results
 library(xtable)
 xtable(summary(mrr_juvad3)$summary,digits=3)
 
+#################################################
+### Violin plot of the coefficients for model C
+################################################# 
+## extracting data 
+beta=data.frame(params3$beta)
+colnames(beta)=c("beta1","beta2","beta3")
+library("tidyr")
+beta %>% pivot_longer(names_to = "coefficient", values_to = "value") ## putting into the right format for ggplot2
+library(ggplot2)
+# Violin plot basics
+# http://www.sthda.com/french/wiki/ggplot2-violin-plot-guide-de-demarrage-rapide-logiciel-r-et-visualisation-de-donnees
+# https://www.benjaminackerman.com/post/2019-03-08-equation_labels/
+# https://www.r-graph-gallery.com/95-violin-plot-with-ggplot2.html
+### (All this data-wrangling for so little is getting ridiculous)
 
+# Red for prey, orange for temp, blue for lograin
+betafactor = c(1,2,3) #c(expression(beta[1]),expression(beta[2]),expression(beta[3]))
+p <- ggplot(beta, aes(y=beta,x=colnames(beta))) +geom_violin()
 
+p + coord_flip() + geom_boxplot(width=0.1) + labs(x = c(expression(beta[1]),expression(beta[2]),expression(beta[3])))
+#############################################################################
+### Using bridgesampling to compare the two models through a Bayes factor
+#############################################################################
+### See e.g. https://www.r-bloggers.com/2019/05/bayesian-modeling-using-stan-a-case-study/
+### Also https://www.jstatsoft.org/article/view/v092i10 for the theory and implementation
+
+library(bridgesampling)
+bridge_juvad2 = bridge_sampler(mrr_juvad2, silent = TRUE)
+bridge_juvad3 = bridge_sampler(mrr_juvad3, silent = TRUE)
+BF = bf(bridge_juvad2,bridge_juvad3) # or bayes_factor()? 
+BF
