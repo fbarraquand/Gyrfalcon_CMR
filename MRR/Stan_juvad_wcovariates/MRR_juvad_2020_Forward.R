@@ -2,10 +2,13 @@
 ## FB 25/03/2020 -- edited for covariates 20/04/2020
 # .libPaths("/home/frederic/myRpackages/")
 
+library(ggplot2)
+library(xtable)
 library(rstan)
 rstan_options(auto_write = TRUE)
 options(mc.cores = parallel::detectCores())
 set.seed(123)
+library(bridgesampling)
 
 ## function
 source('../simul.R')
@@ -258,37 +261,120 @@ params3 <- extract(mrr_juvad3)
 save(params3, file ="param_logistic3covar_chains.RData")
 
 ### For extraction of the results
-library(xtable)
 xtable(summary(mrr_juvad3)$summary,digits=3)
 
-#################################################
-### Violin plot of the coefficients for model C
-################################################# 
+######################################################################
+### Violin plot of the coefficients for model C (if we need them)
+###################################################################### 
 ## extracting data 
-beta=data.frame(params3$beta)
-colnames(beta)=c("beta1","beta2","beta3")
-library("tidyr")
-beta %>% pivot_longer(names_to = "coefficient", values_to = "value") ## putting into the right format for ggplot2
-library(ggplot2)
+# beta=data.frame(params3$beta)
+# colnames(beta)=c("beta1","beta2","beta3")
+# library("tidyr")
+# beta %>% pivot_longer(names_to = "coefficient", values_to = "value") ## putting into the right format for ggplot2
 # Violin plot basics
 # http://www.sthda.com/french/wiki/ggplot2-violin-plot-guide-de-demarrage-rapide-logiciel-r-et-visualisation-de-donnees
 # https://www.benjaminackerman.com/post/2019-03-08-equation_labels/
 # https://www.r-graph-gallery.com/95-violin-plot-with-ggplot2.html
 ### (All this data-wrangling for so little is getting ridiculous)
-
 # Red for prey, orange for temp, blue for lograin
-betafactor = c(1,2,3) #c(expression(beta[1]),expression(beta[2]),expression(beta[3]))
-p <- ggplot(beta, aes(y=beta,x=colnames(beta))) +geom_violin()
+# Use for legend c(expression(beta[1]),expression(beta[2]),expression(beta[3]))
+# p <- ggplot(beta, aes(y=value,x=coefficient)) +geom_violin()
 
-p + coord_flip() + geom_boxplot(width=0.1) + labs(x = c(expression(beta[1]),expression(beta[2]),expression(beta[3])))
 #############################################################################
-### Using bridgesampling to compare the two models through a Bayes factor
+### Using bridgesampling to compare models through Bayes factors
 #############################################################################
 ### See e.g. https://www.r-bloggers.com/2019/05/bayesian-modeling-using-stan-a-case-study/
 ### Also https://www.jstatsoft.org/article/view/v092i10 for the theory and implementation
 
-library(bridgesampling)
-bridge_juvad2 = bridge_sampler(mrr_juvad2, silent = TRUE)
-bridge_juvad3 = bridge_sampler(mrr_juvad3, silent = TRUE)
+# Bayes factor for model B over model C
+bridge_juvad2 = bridge_sampler(mrr_juvad2)
+bridge_juvad3 = bridge_sampler(mrr_juvad3)
 BF = bf(bridge_juvad2,bridge_juvad3) # or bayes_factor()? 
-BF
+BF # Estimated Bayes factor in favor of bridge_juvad2 over bridge_juvad3: 78207831.72520 = 10^7.89  ### Well, that's a lot....
+# Check errors
+print(error_measures(bridge_juvad2)$percentage) #1%
+print(error_measures(bridge_juvad3)$percentage) #1%
+# compute posterior model probabilities (assuming equal prior model probabilities)
+post1 <- post_prob(bridge_juvad2,bridge_juvad3)
+print(post1)
+
+### Let's do this with different options to ensure robustness
+# Bayes factor for model B over model C
+bridge_juvadB = bridge_sampler(mrr_juvad2,method = "warp3")
+bridge_juvadC = bridge_sampler(mrr_juvad3,method = "warp3")
+BFbis = bf(bridge_juvadB,bridge_juvadC) # 
+BFbis # Estimated Bayes factor in favor of bridge_juvadB over bridge_juvadC: 78292864.92891 = 10^7.89 
+
+#### ---------------------------------------------------------------------------#####
+#### Comparison to "null" model - Model A with only juvenile vs adult survival 
+#### ---------------------------------------------------------------------------#####
+
+# Bundle data (needed again? probably not) 
+stan.data.R <- list(y = CH, f = f,  xj=xj, n_occasions = dim(CH)[2],nind = dim(CH)[1])
+inits <- function(){list(mean_s = runif(2, 0.2, 1), mean_eta = runif(1, 0.05, 0.4), 
+                         mean_p = runif(1, 0.05, 0.4), mean_r = runif(1, 0.05, 0.4))}  
+## Parameters monitored
+params <- c("mean_s", "mean_eta", "mean_r", "mean_p")
+## MCMC settings
+ni <- 2000
+nt <- 1
+nb <- 1000
+nc <- 3
+## Call Stan from R
+mrr_juvad0 <- stan("mrr0.stan",
+                  data = stan.data.R , init = inits, pars = params,
+                  chains = nc, iter = ni, warmup = nb, thin = nt,
+                  seed = 1)
+print(mrr_juvad0, digits = 3)
+# Inference for Stan model: mrr0. # Near-equal estimates than for non-truncated data btw. 
+# 3 chains, each with iter=2000; warmup=1000; thin=1; 
+# post-warmup draws per chain=1000, total post-warmup draws=3000.
+# 
+# mean se_mean    sd      2.5%       25%       50%       75%     97.5% n_eff  Rhat
+# mean_s[1]     0.386   0.001 0.029     0.330     0.366     0.385     0.404     0.443  2259 1.000
+# mean_s[2]     0.830   0.000 0.020     0.787     0.817     0.831     0.844     0.867  3113 1.002
+# mean_eta      0.009   0.000 0.009     0.000     0.003     0.006     0.013     0.034  3242 1.000
+# mean_r        0.137   0.000 0.009     0.121     0.131     0.137     0.143     0.155  3274 1.000
+# mean_p        0.021   0.000 0.005     0.013     0.018     0.021     0.024     0.031  2359 1.001
+# lp__      -1346.534   0.044 1.615 -1350.507 -1347.462 -1346.205 -1345.346 -1344.403  1319 1.002
+
+# Bayes factor of model B over model A
+bridge_juvad2 = bridge_sampler(mrr_juvad2) ## (we redo-it just to check)
+bridge_juvad0 = bridge_sampler(mrr_juvad0)
+BF20 = bf(bridge_juvad2,bridge_juvad0) 
+BF20 ### Estimated Bayes factor in favor of bridge_juvad2 over bridge_juvad0: 0.00911 = 10^{-2}
+
+# Bayes factor of model A over model B
+BF02 = bf(bridge_juvad0,bridge_juvad2) # just to check computation
+BF02 ## approx. 100 still decisive -- what about a combination to prior odds ? 
+
+################### Some thoughts on possible prior and posterior odds ###############################
+## Let say Pr(A)/Pr(B) = 0.1/0.9 = 0.11 a priori so that posterior odds = 0.11 x BF02 = 0.11 x 110 = 12. 
+## Only if the prior odds are > 1/100 do we have a more likely model B. Sounds unclear
+## (all this provided that the computations of marginal likelihoods are correct, which perhaps deserve scrutiny)
+## Perhaps try to check whether the computation holds over different priors? or with a different method for marginal computations? 
+
+######### A first reality check -- Model S
+# We consider a model where adult and juvenile survival is equal -- obviously, a stupid model
+
+## Parameters monitored
+params <- c("mean_s", "mean_eta", "mean_r", "mean_p")
+inits <- function(){list(mean_s = runif(1, 0.2, 1), mean_eta = runif(1, 0.05, 0.4), 
+                         mean_p = runif(1, 0.05, 0.4), mean_r = runif(1, 0.05, 0.4))}  
+## Call Stan from R
+mrr_0 <- stan("mrr00.stan",   ## it has only been changed so that mean_s is now a scalar not a vector. 
+                   data = stan.data.R , init = inits, pars = params,
+                   chains = nc, iter = ni, warmup = nb, thin = nt,
+                   seed = 1)
+print(mrr_0, digits = 3)
+
+bridge_juvadS = bridge_sampler(mrr_0)  # S for "stupid" model since we know that adult and juvenile survival probs are different
+BF0S = bf(bridge_juvad0,bridge_juvadS) # comparison to the null juvenile adult model
+BF0S
+### Estimated Bayes factor in favor of bridge_juvad0 over bridge_juvadS: 1721101988677036747924701184.00000 = 10^27 
+### (that is truly huge, perhaps in that case the warp3 estimates will differ ?) -> answer below: they don't. 
+bridge_juvadSbis = bridge_sampler(mrr_0,method = "warp3") 
+bridge_juvadA = bridge_sampler(mrr_juvad0,method = "warp3")
+BFAS = bf(bridge_juvadA,bridge_juvadSbis) # comparison to the null juvenile adult model
+BFAS # Estimated Bayes factor in favor of bridge_juvadA over bridge_juvadSbis: 1722583615838936021627568128.00000 = 10^27 
+
