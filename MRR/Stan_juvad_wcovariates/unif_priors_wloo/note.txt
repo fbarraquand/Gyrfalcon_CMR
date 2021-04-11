@@ -1,0 +1,1 @@
+removing the last year because the computation of loo (and Bayes factor it seems) does not handle well the presence of individuals that are captured the last year

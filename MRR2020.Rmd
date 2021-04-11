@@ -279,8 +279,19 @@ cols[1] = cols[3]
 cols[2] = "#000000"
 cols[3] = "#FFFFFF"
 
-pdf(file = "ObservedStates.pdf",width=10,height=4)
-image.plot(1:nrow(dringed),timespan,CHordered ,col=cols,xlab="Individual ID",ylab = "Time")
+
+pdf(file = "ObservedStates.pdf",width=10,height=8)
+#layout(matrix(c(1,2,3), 3, 1, byrow = TRUE))
+par(mfrow=c(3,1),mar=c(4.5,5,2,2),cex.lab = 1.5,cex.axis=1.25)#,mar=c(3,2,1,2), oma=c(0,0,0,0)
+time1=1
+time2=600
+image.plot(time1:time2,timespan,CHordered[time1:time2,],col=cols,xlab="",ylab = "",axis.args = list(at = 1:3, labels=c('1','2','3')))
+time1=601
+time2=1200
+image(time1:time2,timespan,CHordered[time1:time2,],col=cols,xlab="",ylab = "Time")
+time1=1201
+time2=nrow(dringed)
+image(time1:time2,timespan,CHordered[time1:time2,],col=cols,xlab="Individual ID",ylab = "")
 dev.off()
 
 cols=old_cols
